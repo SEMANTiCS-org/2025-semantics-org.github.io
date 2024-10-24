@@ -1,0 +1,6 @@
+conf_local.ini
+conf.ini
+.DS_Store
+__tmp
+~$*
+__*
