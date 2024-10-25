@@ -21,7 +21,7 @@ section{
 	padding-top: 50px;
 }
 footer{
-	vertical-align: middle!imporatnt;
+	vertical-align: middle !important;
 	padding: 2%;
 	background: var(--nav-bg-color-semantics);
 }
@@ -114,13 +114,13 @@ header .title .decoline{
 	margin: 20px;
 }
 header .container{
-	vertical-align: middle!imporatnt;
+	vertical-align: middle!important;
 	padding-top: 60px;
 }
 header.bg-light{
-	background-image: url("../img/bg5_amsterdam_org.jpg");
+	background-image: url("../img/bg1_Vienna.jpg");
 	/*background-image: url("../img/bg_leipzig_dark.jpg");*/
-	background-color: #white!important;
+	background-color: white!important;
 	background-repeat: no-repeat, repeat;
 	background-size: cover;
 	min-height: 650px;
@@ -404,7 +404,7 @@ header {
 		padding-top: 25px!important;
 	}
 
-	#section_intro{
+	#section_intro {
 		/*min-height: 400px;*/
 	}
 
@@ -470,3 +470,9 @@ header {
 		padding: 15px!important;
 	}
 }
+.disabled-link {
+	pointer-events: none;
+	background-color: gray;
+	color: #444444;
+	text-decoration: none;
+	}
