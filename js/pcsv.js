@@ -416,7 +416,7 @@ function populate_news_list_container(fcsv, page, container, baseurl) {
         });
 
         all_html_elems += `</div></div>`
-                            +`<div class="card-header" id="heading_news_2022"><a href="https://2023-eu.semantics.cc/page/news?page=2023-09-27">Check past news (from SEMANTiCS 2023)</a></div>`;
+                            +`<div class="card-header" id="heading_news_2022"><a href="https://2024-eu.semantics.cc/page/news?page=2024-10-30">Check past news (from SEMANTiCS 2024)</a></div>`;
 
         body_html = all_html_elems + `</div></div>`;
         body_html = `<div id="allnews"><div class="card">`+body_html+`</div></div>`;
