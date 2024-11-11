@@ -4,9 +4,8 @@
 
 | First name | Last name | Affiliation|
 |:------------:|:------------:|:------------:|
-| Angelo | Salatino | Knowledge Media Institute, The Open University|
-| Mehwish | Alam | Télécom Paris, Institut Polytechnique de Paris|
-| Femke | Ongenae | IDLab research group - Ghent University – imec|
+| Blerina | Spahiu | University of Milan - Bicocca |
+| Mehdi  | Ali | Fraunhofer IAIS & Lamarr Institute|
 
 
 ## Program Committee Members
