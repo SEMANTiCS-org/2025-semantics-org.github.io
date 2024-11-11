@@ -26,4 +26,4 @@ TBA
 </br>
 
 ## Tickets
-DBpedia members get free admission. Please contact your nearest DBpedia chapter for a promotion code, or contact the Head of Organisational Development of the DBpedia Association [Julia Holze](mailto:holze@infai.org). -->
+DBpedia members get free admission. Please contact your nearest DBpedia chapter for a promotion code, or contact the Head of Organisational Development of the DBpedia Association [Julia Holze](mailto:holze@infai.org).
