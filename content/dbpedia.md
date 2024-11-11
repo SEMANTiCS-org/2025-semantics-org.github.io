@@ -1,5 +1,5 @@
-# DBpedia Day 2024
-SEMANTiCS 2024 will host the **DBpedia Day** on September 17, 2024 in Amsterdam, Netherlands.
+# DBpedia Day 2025
+<!-- SEMANTiCS 2024 will host the **DBpedia Day** on September 17, 2024 in Amsterdam, Netherlands. -->
 
 ## Community Meeting
 [DBpedia](https://www.dbpedia.org/) is an international crowd-sourced community effort to extract structured information from Wikipedia, Wikidata and Wikimedia Commons and to make this information available on the Web as Linked Open Data. 
@@ -8,6 +8,7 @@ DBpedia provides tools that allow you to create, maintain, improve, integrate an
 
 DBpedia has become a high-impact, high-visibility project because of our foundation in excellent Knowledge Engineering as the pivot point between scientific methods, innovation and industrial-grade output. The drivers behind DBpedia are 4 out of the [TOP 10 Most Influential Scholars](https://www.aminer.org/ai2000/ke) in Knowledge Engineering and the C-level executives of our members.
 
+<!-- 
 ## Organisation
 * Julia Holze, InfAI, DBpedia Association
 * Milan Dojchinovski, InfAI, DBpedia Association, CTU
@@ -33,4 +34,4 @@ As a computer scientist, I investigate how decentralized knowledge graphs on the
 </br>
 
 ## Tickets
-DBpedia members get free admission. Please contact your nearest DBpedia chapter for a promotion code, or contact the Head of Organisational Development of the DBpedia Association [Julia Holze](mailto:holze@infai.org).
+DBpedia members get free admission. Please contact your nearest DBpedia chapter for a promotion code, or contact the Head of Organisational Development of the DBpedia Association [Julia Holze](mailto:holze@infai.org). -->

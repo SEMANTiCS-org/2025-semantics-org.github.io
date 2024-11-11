@@ -1,12 +1,14 @@
 # Sponsorship Packages
-<p style="text-align: justify;">The <b>SEMANTiCS 2024 conference offers</b> 
+
+<p style="text-align: justify;">The <b>SEMANTiCS 2025 conference offers</b> 
 sponsors a carefully selected and high level audience with which to interact. Leading-edge technologists mixing with brand names, research luminaries, market analysts and big business users from various application markets offer a unique networking experience. In addition, carefully placed speaking slots and dedicated session naming ensures brand exposure in a targeted environment. We propose 5 main sponsoring packs that will help you meet a range of visibility and lead-generation needs. Please do not hesitate to contact us to discuss these and customise our standard offering to your specific needs.</p>
 
-## Visibility and networking opportunities
-Target attendance is a 450+ mix of technology providers, users & integrators, business leaders, leadingedge developers, researchers, investors and analysts who will either participate physically or remotely. 
+<!-- ## Visibility and networking opportunities
+
+Target attendance is a 450+ mix of technology providers, users & integrators, business leaders, leadingedge developers, researchers, investors and analysts who will either participate physically or remotely.
 
 <div style="text-align: center;">
-<img src="../img/sponsors/sponsor.jpg" style="" width="65%" height="auto" alt="">  
+<img src="../img/sponsors/sponsor.jpg" style="" width="65%" height="auto" alt="">
 
 <br/>
 <br/>
@@ -20,8 +22,8 @@ Target attendance is a 450+ mix of technology providers, users & integrators, bu
 <br/>
 <br/>
 
-
 ## Sponsoring Bundles SEMANTiCS 2024
+
 <p style="text-align: justify;">Bundles available: 1 x Platinum, 7 x GOLD and 8 x Silver, unlimited Bronze and StartUp (as of limited space in programme and exhibition area)</p>
 <br/> <br/>
 <table border ="0" cellpadding="0" cellspacing="0" id="sheet0" class="sponsor-tab">
@@ -229,4 +231,4 @@ Target attendance is a 450+ mix of technology providers, users & integrators, bu
 <br/>
 <div style="text-align: center;">
 Alternative and additional sponsor opportunities on request, for example: room or topic sponsoring, lanyard sponsoring, coffee break sponsoring, conference dinner sponsoring, or any joint idea that fits to the conference of the 20th anniversary of SEMANTiCS conference series.
-</div>
+</div> -->

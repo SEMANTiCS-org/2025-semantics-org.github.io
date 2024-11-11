@@ -1,6 +1,7 @@
 <h1>SEMANTiCS Workshops and Tutorials</h1>
-    <p style="text-align: justify !important;">SEMANTiCS 2024 is a major venue for research and industrial innovation and features a workshop and tutorial program addressing the diverse practical interests of its audience. This program is intended to offer a rich diversity of topics to conference attendees and local participants seeking to pick up new skills and stay up-to-date regarding the latest developments in the community. We encourage submissions of proposals on all topics in the general areas of SEMANTiCS 2024 and proposals bridging or introducing new perspectives and/or challenges in these areas. Workshops and tutorials may incorporate panel discussions, lightning talks, meetings, networking or hands-on sessions, hackathons and other practical formats where applicable. Rooms for business or project meetings are available upon request as well.
+    <p style="text-align: justify !important;">SEMANTiCS 2025 is a major venue for research and industrial innovation and features a workshop and tutorial program addressing the diverse practical interests of its audience. This program is intended to offer a rich diversity of topics to conference attendees and local participants seeking to pick up new skills and stay up-to-date regarding the latest developments in the community. We encourage submissions of proposals on all topics in the general areas of SEMANTiCS 2025 and proposals bridging or introducing new perspectives and/or challenges in these areas. Workshops and tutorials may incorporate panel discussions, lightning talks, meetings, networking or hands-on sessions, hackathons and other practical formats where applicable. Rooms for business or project meetings are available upon request as well.
     </p>
+<!--     
     <h2>Important Dates</h2>
     <p>Important Dates for Workshops</p>
     <ul>
@@ -8,7 +9,8 @@
         <li><b>Notification of Acceptance:&nbsp;</b> <del>March 29</del> April 5th (extended), 2024 (11:59 pm, AoE)</li>
         <li><b>Workshop website is online:&nbsp;</b>April 15th, 2024</li>
     </ul>
-
+-->
+<!--
    <p>Suggested Dates for Workshop Organizers (with Call for Papers)</p>
    <ul>
        <li><b>Submission WS papers Deadline:&nbsp;</b>June 14, 2024 (11:59 pm, AoE)</li>
@@ -142,9 +144,9 @@
     </li>
 </ul>
     </li>
-</ul>
+</ul>-->
 
-<p style="text-align: justify !important;">We especially invite contributions that illustrate the applicability of the topics mentioned above for industrial purposes and/or illustrate the business relevance of their contribution for specific industries. Workshop proposals on emerging themes and open challenges for the topics listed above are encouraged.
+<!--<p style="text-align: justify !important;">We especially invite contributions that illustrate the applicability of the topics mentioned above for industrial purposes and/or illustrate the business relevance of their contribution for specific industries. Workshop proposals on emerging themes and open challenges for the topics listed above are encouraged.
 </p>
 <p style="text-align: justify !important;">In case you have additional questions concerning the submission process, please do not hesitate to contact us via Easychair.
 </p>
@@ -153,5 +155,5 @@
 <h2>Workshop & Tutorial Chairs: </h2>
 <ul>
     <li>Daniel Garijo, Universidad Politécnica de Madrid, Spain (email: daniel.garijo@upm.es)</li>
-    <li>Andrea Mannocci, CNR-ISTI, Italy (email: andrea.mannocci@isti.cnr.it)</li>    
-</ul>
+    <li>Andrea Mannocci, CNR-ISTI, Italy (email: andrea.mannocci@isti.cnr.it)</li>
+</ul> -->

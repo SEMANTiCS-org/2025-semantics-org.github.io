@@ -1,5 +1,6 @@
 <h1>Industry &amp; Use Case Presentations</h1>
 <p style="text-align: justify !important;">The Industry &amp; Use Case track at SEMANTiCS welcomes submissions that present use cases and industry adoption of semantic technology. Solutions that deal with semantic processing of data and/or information in areas like Linked Data, Knowledge Graphs, Artificial Intelligence, Machine Learning, Data Publishing, Thesaurus and/or Ontology management, and any related fields. All submissions have a strong focus on real world applications beyond the prototypical status and demonstrate the power of semantic systems!</p>
+<!-- 
 <h2>Important dates</h2>
 <ul>
     <li>
@@ -133,4 +134,4 @@
 <p style="text-align: justify !important;">
     <br>Marco Brattinga<br>Ioanna Lytra<br>Erwin Folmer</p>
 <h4>Industry &amp; Use Case Track Chairs</h4>
-
+ -->
