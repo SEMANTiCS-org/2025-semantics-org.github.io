@@ -1,78 +1,99 @@
-# Research and Innovation Track
- <p  style="text-align: justify !important;">
-The Research and Innovation track at SEMANTiCS 2025 welcomes papers on novel scientific research and innovations relevant to the Semantic Web, Semantic Technologies, and semantic-enabled AI. We also welcome submissions at the intersection between this field and other scientific disciplines. Submissions should be original and should not have been published elsewhere in any form or language. Papers must adhere to the instructions given in the submission guidelines, including references and optional appendices. Each submission will receive at least three independent reviews and will be evaluated based on their novelty, technical quality, reproducibility, and practical significance.
+# Call for Research & Innovation Papers
+<br>
+<style>  .topic {font-size:14px; color:gray; line-height: 0.5;}</style>    
+<p class="topic">SEMANTiCS 2025 EU</p>
+<p class="topic">21st International Conference on Semantic Systems</p>
+<p class="topic">Vienna, Austria</p>
+<p class="topic">September 3 - 5, 2025</p>
 
-<!-- 
+
 ## Important dates
-* **Abstract Submission Deadline**: ~~April 22, 2024~~ **May 6, 2024**
-* **Paper Submission Deadline**: ~~April 29, 2024~~ **May 13, 2024**
-* **Notification of Acceptance**: ~~June 11, 2024~~ **June 25, 2024**
-* **Camera-Ready Paper Deadline**: ~~July 09, 2024~~ **July 07, 2024**
+<!--
+* **Paper Submission Deadline**: ~~April 29, 2024~~ **May 13, 2024** -->
+* **Abstract Submission Deadline**:   April 25 , 2025
+* **Paper Submission Deadline**: May 2, 2025
+* **Notification of Acceptance**: June 13, 2025
+* **Camera-Ready Paper Deadline**: July 04, 2025
 
 All deadlines are set for 11:59 pm, Anywhere On Earth time (UTC-12)
 
-__Submission via Easychair on [https://easychair.org/my/conference?conf=sem24](https://easychair.org/my/conference?conf=sem24).__
+<!--__Submission via Easychair on [https://easychair.org/my/conference?conf=sem24](https://easychair.org/my/conference?conf=sem24).__
+-->
+<p>Submissions will be through Easychair and the submission link will be provided soon.</p>
 
-Proceedings of SEMANTiCS 2024 EU will be made available __open access__. The publisher will be IOS Press - Studies on Semantic Web Series.
+<p>Proceedings of SEMANTiCS 2025 EU will be made available <b>open access</b>.</p>
 
-We strongly encourage __early-career female AI researchers__, especially doctoral students, to attend this year's semantics conference, for which we are offering travel grants sponsored by the [Artificial Intelligence Journal](https://www.sciencedirect.com/journal/artificial-intelligence/) to support their participation.
+## Research and Innovation Track
+<p style=text-align:justify !important>
+The SEMANTiCS 2025 conference is excited to invite submissions for the Research and Innovation Track, welcoming groundbreaking research contributions, innovative solutions, and experimental studies relevant to the Semantic Web, Semantic Technologies, and AI-enabled semantics. We also encourage submissions at the intersections of these fields with other scientific and applied disciplines, fostering cross-disciplinary exchange and advancement. Papers should present original work that has not been published or is not under consideration elsewhere. All submissions must adhere to the submission guidelines, including reference formatting and any additional documentation as required. Each submission will undergo a rigorous review process, with at least three independent reviews, evaluating the novelty, technical quality, reproducibility, and practical relevance of the work.
+</p>
 
 ## Topics of Interest
-SEMANTiCS 2024 calls for submissions of excellent quality addressing the following topics in the Semantic Web area, from both theoretical and practical perspectives.
+<p style=text-align:justify !important>
+SEMANTiCS 2025 calls for submissions of high-quality research papers across a broad spectrum of topics in Semantic Web, Semantic Technologies, and AI. We are particularly interested in new and emerging trends, especially where semantic technologies intersect with evolving fields such as large language models, explainable AI, and trustworthy data infrastructures. Topics of interest include, but are not limited to:
+</p>
 
-Topics of interest include, but are not limited to:
 * Web Semantics & Linked (Open) Data 
 * Enterprise Knowledge Graphs, Graph Data Management
 * Machine Learning Techniques for/using Knowledge Graphs (e.g. reinforcement learning, deep learning, data mining and knowledge discovery)
-* Interplay between generative AI and Knowledge Graphs (e.g., RAG approach)
-* Knowledge Management (e.g.  acquisition, capture, extraction, authoring, integration, publication)
+* Generative AI and Knowledge Graphs (e.g., Retrieval-Augmented Generation (RAG) with knowledge graph integration, generative model grounding)
+* Reasoning, Rules, and Policies on RAG 
+* Knowledge Engineering and Management (e.g., knowledge acquisition, extraction, integration, and publication workflows)
 * Terminology, Thesaurus & Ontology Management, Ontology engineering
-* Reasoning, Rules, and Policies 
+Web agents
 * Natural Language Processing for/using Knowledge Graphs (e.g. entity linking and resolution using target knowledge such as Wikidata and DBpedia, foundation models)
 * Crowdsourcing for/using Knowledge Graphs
 * Data Quality Management and Assurance
-* Mathematical Foundation of Knowledge-aware AI 
-* Multimodal Knowledge Graphs
-* Semantics in Data Science 
-* Semantics in Blockchain environments
+* Mathematical and Logical Foundations of Knowledge-aware AI
+* Multimodal Knowledge Graphs (e.g., text, image, audio fusion in graph structures)
+* Semantic-Enhanced Data Science Pipelines and Processes
+* Semantics in Blockchain environments (e.g., traceability, decentralized knowledge representation)
 * Trust, Data Privacy, and Security with Semantic Technologies
-* IoT, Stream Processing, dealing with temporal data
-* Conversational AI and Dialogue Systems 
-* Provenance and Data Change Tracking
-* Semantic Interoperability (via mapping, crosswalks, standards, etc.)
+* Internet of Things (IoT), Stream Processing, and Temporal Data Management (e.g., real-time semantic processing and predictive analytics)
+* Conversational AI and Dialogue Systems powered by Knowledge Graphs
+* Provenance and Data Change Tracking (e.g., semantic versioning, data updates in distributed settings)
+* Semantic Interoperability (e.g., cross-domain standards, mapping frameworks, ontology alignment)
 * Linked Data storage, triple stores, graph databases
-* Robust and scalable management, querying and analysis of semantics and data
-* User interfaces for the Semantic Web & its management
+* Robust, Scalable, and Fault-Tolerant Semantic Data Systems (e.g., distributed querying, optimization)
+* User Interfaces and Usability of Semantic Technologies (e.g., visualizations, intelligent user interaction)
 * Explainable and Interoperable AI
-* Decentralised and Federated Knowledge Graphs (e.g., Federated querying, link traversal)
+* Decentralised and Federated Knowledge Graphs (e.g., federated querying, link traversal)
 
-Application of Semantically-Enriched and AI-Based Approaches, such as, but not limited to:
-* Knowledge Graphs in Bioinformatics, Medical AI and preventive healthcare
-* Clinical Use Case of semantic-enabled AI-based Approaches
-* AI for Environmental Challenges  
-* Semantics in Scholarly Communication and Scientific Knowledge Graphs
-* AI and LOD within GLAM (galleries, libraries, archives, and museums) institutions
-* Knowledge Graphs & hybrid AI for predictive maintenance and Industry 4.0/5.0
-* Digital Humanities and Cultural Heritage
-* LegalTech, AI Safety, EU AI Act
-* Economics of Data, Data Services, and Data Ecosystems
+Applied Semantic Technologies and AI in Real-World Scenarios, such as, but not limited to:
+* Biomedicine and Health (e.g., Knowledge Graphs for biomedical applications, AI-driven diagnostics, personalized health)
+* AI for Environmental and Climate Solutions (e.g., semantic modeling for environmental impact, biodiversity knowledge graphs) 
+* Scientific Knowledge Graphs and Open Science (e.g., FAIR data principles, enhanced scholarly communication)
+* Semantic Technologies in GLAM (Galleries, Libraries, Archives, and Museums)
+* Knowledge Graphs and Hybrid AI for Industry 4.0/5.0 and Predictive Maintenance
+* Digital Humanities and Cultural Heritage Preservation
+* Legal Technology, AI Ethics, and Regulatory Compliance (e.g., AI and legal frameworks, semantic-enabled compliance with the EU AI Act)
+* Economics and Governance of Data Ecosystems (e.g., data marketplaces, semantic service interoperability, data policy)
+
 
 
 ## Submission Guidelines
-* The Research and Innovation Track welcomes long and short papers. Long papers should have 12-15 pages of content (excluding references) and short papers of a maximum length of 6 pages of content (excluding references). Since references are excluded from page counting, it is fine to have one or more additional pages for references if they are relevant to the study submitted.
-* Submissions should follow the guidelines of IOS Press. Details are available at [https://www.iospress.com/book-article-instructions](https://www.iospress.com/book-article-instructions).
-* Authors need to use the [Word template](https://www.iospress.com/sites/default/files/media/files/2022-06/ECRC-Author-Instructions-and-tools-Word.zip) or [LaTeX template](https://vtex-soft.github.io/texsupport.IOS-Book-Article/) provided by IOS Press. Overleaf users can copy the project [from here](https://www.overleaf.com/read/gkkspcvjgwxv#563836) (follow instructions in the abstract).  
-* Abstract submission for all papers is a strict requirement. To facilitate bidding, we strongly suggest the authors submit structured abstracts (instructions on how to prepare a structured abstract are [available in the conference website](https://2024-eu.semantics.cc/page/cfp_abstract)).
+<p style="text-align: justify !important">The Research and Innovation Track at SEMANTiCS 2025 invites both <b>long</b> and <b>short paper submissions</b>.
+</p>
+
+* __Long papers__ should be __12-15 pages__ in length (excluding references). These submissions are expected to present comprehensive, mature research findings, including in-depth theoretical or practical insights.
+* __Short papers__ should be a __maximum of 6 pages__ (excluding references). These submissions can include preliminary findings, innovative ideas, or position papers that aim to spark discussion and exploration.
+
+<p style="text-align: justify !important">
+References are not included in the page count, so authors may add additional pages for relevant citations if needed. This flexibility allows authors to fully reference foundational and related work to strengthen the context and impact of their research.
+</p>
+
+* Submissions should follow the guidelines of IOS Press. Details are available at https://www.iospress.com/book-article-instructions.
+* Authors need to use the [Word template](https://www.iospress.com/sites/default/files/media/files/2022-06/ECRC-Author-Instructions-and-tools-Word.zip) or [LaTeX](https://vtex-soft.github.io/texsupport.IOS-Book-Article/) template provided by IOS Press. Overleaf users can copy the project [from here](https://www.overleaf.com/read/gkkspcvjgwxv#563836) (follow instructions in the abstract).
+* Abstract submission is mandatory for all papers. To aid the review and bidding process, we highly encourage authors to submit structured abstracts.
 * All papers and abstracts have to be submitted electronically via EasyChair.
 * Submissions must be in English.
-* Submissions must adhere to the fair use of Large Language Models. Please refer to the SEMANTiCS [full policy](https://2024-eu.semantics.cc/page/llm-policy) for more details.
+* Submissions must adhere to the fair use of Large Language Models. Please refer to the SEMANTiCS [full policy](https://2025-eu.semantics.cc/page/llm-policy) for more details.
 * Submissions must be anonymous; the reviewing process is double-blind, but reviewers will be able to disclose their identities if they wish, by signing their reviews.
 * Accepted papers will be published in open access proceedings by IOS Press, and the text of all the reviews (excluding the scores) of all the accepted papers will be posted on the conference website and will be archived on [Zenodo](https://zenodo.org/) as publicly available material.
 * At least one author of each accepted paper must present it in person and therefore register for the conference at the ONSITE rate.
-* All authors are strongly suggested to provide optional links to code, materials, and datasets during the submission process - we will have specific optional  fields in the EasyChair submission form - the review process will take these into account when provided. To anonymise resources for the reviewing process, authors can use services like [Anonymous GitHub](https://anonymous.4open.science/) or figshare/Zenodo as described [here](https://ineed.coffee/post/how-to-disclose-data-for-double-blind-review-and-make-it-archived-open-data-upon-acceptance#double-blind-data-submission-on-figshare).
+* All authors are strongly suggested to provide optional links to code, materials, and datasets during the submission process - we will have specific optional fields in the EasyChair submission form - the review process will take these into account when provided. To anonymise resources for the reviewing process, authors can use services like [Anonymous GitHub](https://anonymous.4open.science/) or figshare/Zenodo as described [here](https://ineed.coffee/post/how-to-disclose-data-for-double-blind-review-and-make-it-archived-open-data-upon-acceptance#double-blind-data-submission-on-figshare).
 * The Research and Innovation Track will not accept papers that, at the time of submission, are under review or have already been published in or accepted for publication in a journal or another conference.
-* All authors will have the opportunity to provide an ORKG comparison in the Open Research Knowledge Graph (https://orkg.org) during the submission process - we will have a specific optional field in the EasyChair submission form.
-
+* All authors will have the opportunity to provide an ORKG comparison in the Open Research Knowledge Graph (https://orkg.org) during the submission process - we will have a specific optional field in the EasyChair submission form. 
 
 ## Review and Evaluation Criteria
  <p  style="text-align: justify;">
@@ -96,14 +117,14 @@ __We look forward to receiving your contributions!__
 
 
 ## Research and Innovation Track Chairs
-Angelo Salatino (The Open University, UK) <br />
-Mehwish Alam (Institut Polytechnique de Paris, FR) <br />
-Femke Ongenae (Ghent University-imec, BE) <br />
+__Blerina Spahiu__ (University of Milano-Bicocca, IT)<br />
+__Mehdi Ali__ (Lamarr Institute & Fraunhofer IAIS, Germany)<br />
 
 
 ## About SEMANTiCS Conference
  <p  style="text-align: justify !important;">
-Since 2005, the annual SEMANTiCS conference has been the meeting place for researchers, industry experts, and business leaders to discuss the latest trends and application scenarios in the fields of Knowledge Graphs, Machine Learning, Data Science, Linked Data, Artificial Intelligence, and Natural Language Processing.
-SEMANTiCS tackles challenges faced by information managers, software engineers, IT-architects and various domain experts who are involved in the development, implementation and evaluation of semantic software systems. The SEMANTiCS program offers a diverse range of technical talks, panel discussions on relevant topics, and contributions from individuals actively engaged in practical implementation or scholarly research. Attendees can network with experts in a variety of fields. These relationships provide great value to organisations as they encounter subtle technical issues in any stage of implementation. The expertise gained by SEMANTiCS attendees has a long-term impact on their professional trajectories and organisational endeavours. These factors make SEMANTiCS the major outreach event on semantic technologies across Europe, America and beyond.
+Since its inception in 2005, the annual SEMANTiCS conference has established itself as a premier gathering for researchers, industry practitioners, and thought leaders eager to explore emerging trends and innovative applications in Knowledge Graphs, Machine Learning, Data Science, Linked Data, Artificial Intelligence, and Natural Language Processing. </p>
+<p  style="text-align: justify !important;">
+SEMANTiCS addresses the pressing needs of researchers, software developers, IT architects, and specialists across diverse sectors engaged in designing, deploying, and assessing semantic solutions. The program encompasses an array of technical presentations, dynamic panel discussions, and real-world case studies from both academic and industry experts. Participants gain valuable insights and have opportunities to connect with peers, and establish collaborations. The valuable connections and insights gained at SEMANTiCS continue to shape both individual careers and organizational strategies, solidifying its place as a leading international event for advancing semantic technologies across Europe, the Americas, and beyond.
 </p>
- -->
+
