@@ -1,5 +1,5 @@
 Conference Committee Group,Conference Committee,Name,Email,Status,Contacted,Easychair,country,affiliation,image
-GENERAL CHAIRS,General Chair,Sahar Vahdati,,,,,"Dresden, Germany",TU Dresden,Sahar_Vahdati.png
+GENERAL CHAIRS,General Chair,Sahar Vahdati,,,,,"Hannover, Germany",LUH/TIB - Leibniz Information Centre for Science and Technology,Sahar_Vahdati.png
 EVENT COORDINATOR,Event  Coordinator,Julia Holze,,,,,"Leipzig, Germany",Institute for Applied Informatics (InfAI),JuliaHolze.jpg
 EVENT COORDINATOR,Event  Coordinator,Angelo Salatino,,,,,"Milton Keynes, UK","KMi, The Open University",Salatino_Angelo.png
 RESEARCH AND INNOVATION CHAIRS,Research and Innovation Chair,Blerina Spahiu,,,,,"Milan, Italy",University of Milan - Bicocca,Blerina_Spahiu.jpeg
@@ -9,7 +9,7 @@ WORKSHOP AND TUTORIALS CHAIRS,Workshop and Tutorials Chair,David Chaves,,,,,"San
 POSTER AND DEMO CHAIRS,Poster and Demo Chair,Diego Colorano,,,,,"Sankt Agustin, Germany",Fraunhofer FIT,diego.jpeg
 POSTER AND DEMO CHAIRS,Poster and Demo Chair,Ivan Heibi,,,,,"Bologna, Italy",Bologna University,ivan_heibi.jpg
 INDUSTRY CHAIRS,Industry Chair,Marco Brattinga,,,,,Netherlands,Sopra Steria,Marco_Brattinga.jpg
-INDUSTRY CHAIRS,Industry Chair,Artem Revenko,,,,,"...",SWC,Artem_Revenko.jpeg
+INDUSTRY CHAIRS,Industry Chair,Artem Revenko,,,,,"Wien, Austria",SWC,Artem_Revenko.jpeg
 PROGRAM CHAIRS,Program Chair,Maribel Acosta,,,,,"Heilbronn, Germany",Technical University of Munich,Maribel_Acosta.jpg
 PROGRAM CHAIRS,Program Chair,Francesco Osborne,,,,,"Milton Keynes, UK","KMi, The Open University",Francesco_Osborne.jpeg
 INTERACTIVE SESSION CHAIRS,Interactive Session Chair,Christian Dirschl,,,,,"Munich, Germany",Wolters Kluwer,Christian_Dirschl.jpg
@@ -17,7 +17,6 @@ INTERACTIVE SESSION CHAIRS,Interactive Session Chair,Ute John,,,,,"Wendland, Ger
 SPONSORING CHAIR,Sponsoring  Chair,Martin Kaltenböck,,,,,"Vienna, Austria",Semantic Web Company,Martin_Kaltenbock.jpg
 PROCEEDINGS CHAIRS,Proceedings Chair,Tassilo Pellegrini,,,,,Austria,UAS St. Pölten,Tassilo_Pellegrini.jpeg
 PROCEEDINGS CHAIRS,Proceedings Chair,Giray Havur,,,,,Austria,UAS St. Pölten,giray.jpeg
-PROCEEDINGS CHAIRS,Proceedings Assistant,Shufan Jiang,,,,,....,FIZ Karlsruhe,any.png
 PUBLICITY CHAIRS,Publicity Chair,Kossi Amouzouvi,,,,,.....,....,Kossi-Amouzouvi.jpg
 PUBLICITY CHAIRS,Publicity Chair,Patricia Martin Chozas,,,,,.....,....,Patricia_Martin_Chozas.jpeg
 PUBLICITY CHAIRS,Publicity Chair,Beyza Yaman,,,,,"Dublin, Ireland",Trinity College Dublin,Beyza_Yaman.jpg
@@ -27,5 +26,5 @@ WEB CONTENT CHAIRS,Web Content Chair ,Sanaz Alipour,,,,,"Tabriz, Iran",,SanazAlp
 WEB CONTENT CHAIRS,Web Content Chair,Allard Oelen,,,,,"Hannover, Germany",TIB - Leibniz Information Centre for Science and Technology,Allard.jpg
 KNOWLEDGE GRAPH CHAIR,Knowledge Graph  Chair,Ana Iglesias-Molina,,,,,"Madrid, Spain",Universidad Politécnica de Madrid,Ana_Iglesias.jpeg
 DIGITAL CONTENT CHAIR,Digital Content  Chair,Mélisa Machuret,,,,,"Bogotá, Colombia",Prompt-That,Melisa_Machuret.png
-LOCAL ORGANIZER,Local Organizer,Amin Anjomshoaa,,,,,"....",...,Amin_Anjomshoaa.jpg
-LOCAL ORGANIZER,Local Organizer,Axel Polleres,,,,,"....",...,Axel.jpg
+LOCAL ORGANIZER,Local Organizer,Amin Anjomshoaa,,,,,"Wien, Austria",Wien University,Amin_Anjomshoaa.jpg
+LOCAL ORGANIZER,Local Organizer,Axel Polleres,,,,,"Wien, Austria",Wien University,Axel.jpg
