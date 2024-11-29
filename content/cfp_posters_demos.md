@@ -17,7 +17,7 @@ Proceedings of SEMANTiCS 2025 EU will be made available open access by CEUR-WS.o
 ## Topics of Interest
 
 We welcome contributions in the context of semantic-based research and systems,
-which address – but are not limited to – the topics of the <a href="__baseurl__page/cfp_rev_rep">Research Track</a>. Additionally, we encourage submissions of visionary ideas, position statements, negative results, and unconventional ideas.
+which address – but are not limited to – the topics of the <a href="/page/cfp_rev_rep">Research Track</a>. Additionally, we encourage submissions of visionary ideas, position statements, negative results, and unconventional ideas.
 
 Demos should showcase innovative implementations and technologies both, from academia and industry. We also very much encourage submissions from industry, but they should be focused on presenting a novel solution to a specific problem and not be in the nature of an advertisement or commercial product description.
 
