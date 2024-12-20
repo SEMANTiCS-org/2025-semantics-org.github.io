@@ -3,7 +3,7 @@
 <p style="text-align: justify !important;">
 The <a href="https://orkg.org/" target="_blank">Open Research Knowledge Graph</a>  (ORKG) and the organizing committee of SEMANTiCS 2025 are collaborating to empower the authors and peer reviewers alike. Peer-review is a critical checkpoint for validating the integrity and novelty of scientific contributions. However, the process of peer-review suffers from challenges such as reviewer fatigue and the difficulty in distinguishing true advancements in a field. The ORKG aims to make a transformative impact to refine the peer-review process and enrich the ecosystem of scientific communication, through its structured comparisons. These comparisons organize research contributions in a tabular format, offering a clear overview of the field and can be enhanced with visualizations like bar charts or scatter plots for a more intuitive grasp of the data. 
 </p>
-<img src="../img/news/2025_04_17.jpg" style="" width="100%" height="auto" alt="">
+<img src="../img/news/2024_04_17.jpg" style="" width="100%" height="auto" alt="">
 <p style="text-align: justify !important;">
 Open Research Knowledge Graph: A lighthouse in the publication flood
 </p>
