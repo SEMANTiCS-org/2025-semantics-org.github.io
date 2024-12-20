@@ -13,5 +13,5 @@ The ORKG facilitates a more efficient and insightful peer-review process by offe
  For more information on how to accompany your paper submission with an ORKG Comparison please visit: <a href="https://orkg.org/help-center/article/38/Accompany_your_paper_submission_with_an_ORKG_comparison" target="_blank"> here</a>
 </p>
 <p style="text-align: justify !important;">
-Author(s) of SEMANTiCS 2025 will have the opportunity to provide an ORKG Comparison during the submission process through the EasyChair submission form. The author(s) of the most outstanding ORKG Comparison will receive a "Best ORKG Comparison Award". To learn more about how to create an ORKG Comparison and features of the interface, please visit: <a href="https://orkg.org/help-center/article/17/How-to_and_demonstration_videos" target="_blank">here</a>
+Author(s) of SEMANTiCS 2025 will have the opportunity to provide an ORKG Comparison during the submission process through the EasyChair submission form. The author(s) of the most outstanding ORKG Comparison will receive a "Best ORKG Comparison Award" with Cash prize. To learn more about how to create an ORKG Comparison and features of the interface, please visit: <a href="https://orkg.org/help-center/article/17/How-to_and_demonstration_videos" target="_blank">here</a>
 </p>
