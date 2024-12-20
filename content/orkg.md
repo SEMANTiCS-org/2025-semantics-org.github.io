@@ -3,7 +3,7 @@
 <p style="text-align: justify !important;">
 The <a href="https://orkg.org/" target="_blank">Open Research Knowledge Graph</a>  (ORKG) and the organizing committee of SEMANTiCS 2025 are collaborating to empower the authors and peer reviewers alike. Peer-review is a critical checkpoint for validating the integrity and novelty of scientific contributions. However, the process of peer-review suffers from challenges such as reviewer fatigue and the difficulty in distinguishing true advancements in a field. The ORKG aims to make a transformative impact to refine the peer-review process and enrich the ecosystem of scientific communication, through its structured comparisons. These comparisons organize research contributions in a tabular format, offering a clear overview of the field and can be enhanced with visualizations like bar charts or scatter plots for a more intuitive grasp of the data. 
 </p>
-<img src="../img/news/2024_04_17.jpg" style="" width="100%" height="auto" alt="">
+<img src="../img/news/2025_04_17.jpg" style="" width="100%" height="auto" alt="">
 <p style="text-align: justify !important;">
 Open Research Knowledge Graph: A lighthouse in the publication flood
 </p>
@@ -13,5 +13,5 @@ The ORKG facilitates a more efficient and insightful peer-review process by offe
  For more information on how to accompany your paper submission with an ORKG Comparison please visit: <a href="https://orkg.org/help-center/article/38/Accompany_your_paper_submission_with_an_ORKG_comparison" target="_blank">here</a>
 </p>
 <p style="text-align: justify !important;">
-Author(s) of SEMANTiCS 2024 will have the opportunity to provide an ORKG Comparison during the submission process through the EasyChair submission form. The author(s) of the most outstanding ORKG Comparison will receive a "Best ORKG Comparison Award" with 300 Euro. To learn more about how to create an ORKG Comparison and features of the interface, please visit: <a href="https://orkg.org/help-center/article/17/How-to_and_demonstration_videos" target="_blank">here</a>
+Author(s) of SEMANTiCS 2025 will have the opportunity to provide an ORKG Comparison during the submission process through the EasyChair submission form. The author(s) of the most outstanding ORKG Comparison will receive a "Best ORKG Comparison Award". To learn more about how to create an ORKG Comparison and features of the interface, please visit<a href="https://orkg.org/help-center/article/17/How-to_and_demonstration_videos" target="_blank">here</a>
 </p>
