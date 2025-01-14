@@ -1,11 +1,8 @@
 # Call for Posters and Demos
 
-<p style=text-align:justify !important>
 The Posters & Demos Track provides a platform for researchers to showcase their latest findings, ongoing projects, and cutting-edge work in progress. These include submissions on innovative applications, latest results, unpublished ideas, prototypes of semantic technologies and their use in various domains as well as applications, use cases, or pieces of code that may attract developers and potential research or business partners. This also concerns new datasets made publicly available.
-</p>
-<p style=text-align:justify !important>
+
 The Posters & Demos Track offers an informal setting that promotes engagement and dialogue between presenters and attendees. These discussions can provide valuable feedback for presenters' future work while allowing participants to gain insight into emerging research trends and network with other researchers.
-</p>
 
 ## Important dates
 
@@ -18,13 +15,11 @@ Submissions will be through Easychair and the submission link will be provided s
 Proceedings of SEMANTiCS 2025 EU will be made available open access by CEUR-WS.org.
 
 ## Topics of Interest
-<p style=text-align:justify !important>
+
 We welcome contributions in the context of semantic-based research and systems,
 which address – but are not limited to – the topics of the <a href="/page/cfp_rev_rep">Research Track</a>. Additionally, we encourage submissions of visionary ideas, position statements, negative results, and unconventional ideas.
-</p>
-<p style=text-align:justify !important>
+
 Demos should showcase innovative implementations and technologies both, from academia and industry. We also very much encourage submissions from industry, but they should be focused on presenting a novel solution to a specific problem and not be in the nature of an advertisement or commercial product description.
-</p>
 
 ## Author Guidelines and Submission
 
@@ -40,5 +35,5 @@ Poster and demo submissions should consist of a paper that describes the work, i
 
 ## Poster and Demo Chairs
 
--   __Ivan Heibi__
--   __Diego Colorano__
+-   **Ivan Heibi**
+-   **Diego Colorano**

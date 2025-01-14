@@ -325,7 +325,7 @@ function populate_quotes_container(fcsv, page, container, baseurl) {
               <div class="carousel-item `+is_active+`">
                 <div class="row">
                   <div class="col-lg-5 mx-auto text-center align-self-center">`+person_body+`</div>
-                  <div class="col-lg-7 mx-auto text-justify align-self-center person-quote"><i>"`+quote+`"</i></div>
+                  <div class="col-lg-7 mx-auto align-self-center person-quote"><i>"`+quote+`"</i></div>
                 </div>
           </div>`;
           all_html_ol += `<li data-target="#carousel_container" data-slide-to="`+count_slide.toString()+`" class="`+is_active+`"></li>`;
@@ -362,7 +362,7 @@ function populate_news_container(fcsv, page, container, baseurl) {
             }
 
             var html_img = '<div class="container-img-news"><img typeof="foaf:Image" src="'+image+'" class="news-img" alt=""></div>';
-            all_html_elems += `<div class="col-lg-3 mx-auto text-justify news-box">`
+            all_html_elems += `<div class="col-lg-3 mx-auto news-box">`
                     + html_img
                     + `<h5>`+title + `</h5>`
                     + `<div class="news-abs">`

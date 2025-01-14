@@ -5,3 +5,5 @@ __tmp
 ~$*
 __*
 conf.ini
+_site
+.jekyll-cache
