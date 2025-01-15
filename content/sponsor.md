@@ -1,7 +1,6 @@
 # Sponsorship Packages
 
-<p style="text-align: justify;">The <b>SEMANTiCS 2025 conference offers</b> 
-sponsors a carefully selected and high level audience with which to interact. Leading-edge technologists mixing with brand names, research luminaries, market analysts and big business users from various application markets offer a unique networking experience. In addition, carefully placed speaking slots and dedicated session naming ensures brand exposure in a targeted environment. We propose 5 main sponsoring packs that will help you meet a range of visibility and lead-generation needs. Please do not hesitate to contact us to discuss these and customise our standard offering to your specific needs.</p>
+The **SEMANTiCS 2025 conference offers** sponsors a carefully selected and high level audience with which to interact. Leading-edge technologists mixing with brand names, research luminaries, market analysts and big business users from various application markets offer a unique networking experience. In addition, carefully placed speaking slots and dedicated session naming ensures brand exposure in a targeted environment. We propose 5 main sponsoring packs that will help you meet a range of visibility and lead-generation needs. Please do not hesitate to contact us to discuss these and customise our standard offering to your specific needs.
 
 ## Visibility and networking opportunities
 
@@ -24,8 +23,10 @@ Target attendance is a 450+ mix of technology providers, users & integrators, bu
 
 ## Sponsoring Bundles SEMANTiCS 2025
 
-<p style="text-align: justify;">Bundles available: 7 x GOLD and 8 x Silver, unlimited Bronze and StartUp (as of limited space in programme and exhibition area)</p>
+Bundles available: 7 x GOLD and 8 x Silver, unlimited Bronze and StartUp (as of limited space in programme and exhibition area)
+
 <br/> <br/>
+
 <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sponsor-tab">
         <col class="col0">
         <col class="col1">
@@ -208,6 +209,5 @@ Target attendance is a 450+ mix of technology providers, users & integrators, bu
     </table>
 <br/>
 <br/>
-<div style="text-align: justify;">
+
 Alternative and additional sponsor opportunities are possible on request, for example: room or topic sponsoring, lanyard sponsoring, coffee break sponsoring, conference dinner sponsoring.
-</div>
