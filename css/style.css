@@ -135,11 +135,6 @@ header .logo img{
 #section_intro{
 	padding-bottom: 0px;
 }
-#home_about{
-  text-align: justify;
-  text-justify: inter-word;
-	/*min-height: 300px;*/
-}
 #intro{
 	margin-top: 20px;
 	margin-bottom: 50px;
