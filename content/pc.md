@@ -8,7 +8,7 @@
 | Mehdi  | Ali | Fraunhofer IAIS & Lamarr Institute|
 
 
-## Program Committee Members
+<!-- ## Program Committee Members
 
 The SEMANTiCS Programme Committee comprised 103 international researchers and practitioners, representing diverse areas of the Semantic Web community. Here are listed in alphabetical order of last name.
 
@@ -134,4 +134,4 @@ Special mention goes to our emergency reviewers who generously volunteered their
 | Bram | Steenwinckel | Ghent University| 
 | Michael | Weyns | Ghent University| 
 
-
+ -->
