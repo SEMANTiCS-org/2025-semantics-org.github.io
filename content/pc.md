@@ -63,7 +63,6 @@ The SEMANTiCS Programme Committee comprised 103 international researchers and pr
 |Maxime |Jakubowski |Hasselt University|
 |Tobias |Käfer |Karlsruhe Institute of Technology|
 |Neha |Keshan |Rensselaer Polytechnic Institute|
-|Lukas |Kinder |Karlsruhe Institute of Technology|
 |Julius |Köpke |Universität Klagenfurt, Institute for Informatics Systems|
 |Anelia |Kurteva |TU Delft|
 |Jasmin |Lampert |Austrian Institute of Technology|
