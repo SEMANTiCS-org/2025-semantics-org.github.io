@@ -1,7 +1,7 @@
 # Venue
 
 <div class="d-flex justify-content-between bd-highlight mb-3">
- <img src="../img/venue.png" style="max-width:32%; min-width:200px" width="60%" height="auto" alt="">
+ <img src="../img/venue.jpg" style="max-width:32%; min-width:200px" width="60%" height="auto" alt="">
  <img src="../img/venue_socialRoom.jpg" style="max-width:32%; min-width:200px" width="60%" height="auto" alt="">  
  <img src="../img/venue_meetingRoom.jpg" style="max-width:32%; min-width:200px" width="60%" height="auto" alt="">  
 </div>
