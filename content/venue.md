@@ -41,7 +41,7 @@ The bus station is directly in front of the airport arrival hall. The bus VAL3 l
 
 [Bus schedule](https://www.viennaairport.com/jart/prj3/va/uploads/data-uploads/Passagier/Parken/VIE_VAL3_de_en.pdf) (German)
 
-### Texi
+### Taxi
 
 The taxi stand at the airport is in front of the arrival hall. It takes about half an hour to get to the city centre (approx. 30 Euro). To go from the city to the airport, either ask your hotel to book an airport taxi or call one of the following taxi companies (all of them offer special fares to the airport): 31300, 40100, 60160, 81400 or 1716. You can also book online, e.g. [Airport Driver](https://airportdriver.at/en/).
 
