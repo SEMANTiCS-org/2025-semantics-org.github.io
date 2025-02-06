@@ -2,83 +2,61 @@
 
 <div class="d-flex justify-content-between bd-highlight mb-3">
  <img src="../img/venue.png" style="max-width:32%; min-width:200px" width="60%" height="auto" alt="">
- <img src="../img/venue_outside.jpg" style="max-width:32%; min-width:200px" width="60%" height="auto" alt="">  
- <img src="../img/venue_lobby.jpg" style="max-width:32%; min-width:200px" width="60%" height="auto" alt="">  
+ <img src="../img/venue_socialRoom.jpg" style="max-width:32%; min-width:200px" width="60%" height="auto" alt="">  
+ <img src="../img/venue_meetingRoom.jpg" style="max-width:32%; min-width:200px" width="60%" height="auto" alt="">  
 </div>
 </br>
 
-***SEMANTiCS 2024 is hosted by the Vrije Universiteit Amsterdam. The SEMANTiCS conference will take place at the Meervaart Theatre in Amsterdam.***
+***SEMANTiCS 2025 is hosted by the Semantic Web Company and Vienna University of Business and Economics. The SEMANTiCS conference will take place at the Hilton Hotel Waterfront in Vienna.***
 
-Meervaart, Meer en Vaart 300, 1068 LE Amsterdam, Netherlands
+Handelskai 269, 1020 Wien, Austria
 
-The Meervaart is one of the best known venues in the Netherlands and offers facilities for groups from 12 to 800 people. The Meervaart is a conference centre and theatre that hosts over 100 conferences per year. It is uniquely located on the banks of a city lake, the Sloterplas. Almost exactly in the middle between Schiphol airport and the Amsterdam city centre, the venue is easily accessible to visitors from near and far. Multiple public transport options are available on the doorstep, as well as ample, low-cost parking. The National Congress and Meeting Classification classifies the Meervaart as a venue with a luxury business atmosphere, that measures up to the strictest technical requirements for meetings and conferences.  
-
-<div class="venue-sec-title"><img style="vertical-align:middle" src="../img/icons/house-fill.svg" width="30" height="30"></span><span> Recommended Hotels</span></div>
-
-<table>
-  <tr>
-    <th>Hotel</th>
-    <th>Address</th>
-    <!--<th>Get a reduced rate until</th>-->
-  </tr>
-
-  <tr>
-    <td><a href="https://www.bastionhotels.com/en-gb/hotels/hotel-amsterdam-zuidwest?gad_source=1&gclid=Cj0KCQjw4MSzBhC8ARIsAPFOuyU6bbN81Cucr1iVzsTs2y_3nEIlsZcRUDYCAEmFu5QyJMgaYIiZu8MaAg-QEALw_wcB&gclsrc=aw.ds">Bastion Hotel Amsterdam Zuidwest</a></td>
-    <td>Hendrikje Stoffelstraat 60<br>1058 GC Amsterdam<br><br>+31 (0)20 669 1621<br></td>
-    <!--<td>10.09.2023<br>Please write an email to <a href="mailto:semantics@infai.org ">semantics@infai.org</a></td>-->
-  </tr>
-
-  <tr>
-    <td><a href="https://methotelamsterdam.com/">Met Hotel Amsterdam</a></td>
-    <td>Marius Bauerstraat 401<br>1062 AP Amsterdam<br><br>+31 (0)20 218 4244<br><a href="mailto:reservations@methotelamsterdam.com">reservations@methotelamsterdam.com</a></td>
-    <!--<td>10.09.2023<br>Please write an email to <a href="mailto:semantics@infai.org ">semantics@infai.org</a></td>-->
-  </tr>
-
-  <tr>
-    <td><a href="https://www.citiezhotelamsterdam.com/">Citiez Hotel Amsterdam</a></td>
-    <td>Osdorpplein 372-A<br>1068 EV Amsterdam<br><br>+31 (0)20 224 6280<br><a href="mailto:welcome@citiezhotelamsterdam.com">welcome@citiezhotelamsterdam.com</a></td>
-    <!--<td>10.09.2023<br>Please write an email to <a href="mailto:semantics@infai.org ">semantics@infai.org</a></td>-->
-  </tr>
-
-  <tr>
-    <td><a href="https://conscioushotels.com/stay/amsterdam-city">Conscious Hotel Amsterdam City (The Tire Station)</a></td>
-    <td>Amstelveenseweg 5<br>1054 MB Amsterdam<br><br>+31 (0)20 820 3333<br></td>
-    <!--<td>10.09.2023<br>Please write an email to <a href="mailto:semantics@infai.org ">semantics@infai.org</a></td>-->
-  </tr>
-
-  <tr>
-    <td><a href="https://conscioushotels.com/stay/vondelpark">Conscious Hotel Vondelpark</a></td>
-    <td>Overtoom 519<br>1054 LH Amsterdam<br></td>
-    <!--<td>10.09.2023<br>Please write an email to <a href="mailto:semantics@infai.org ">semantics@infai.org</a></td>-->
-  </tr>
-
-  <tr>
-    <td><a href="https://www.dutchdesignhotelvondelpark.com/">Dutch Design Hotel Vondelpark</a></td>
-    <td>Waldeck Pyrmontlaan 9<br>1075 BT Amsterdam<br><br>+31 (0)20 714 2010<br><a href="mailto:info@dutchdesignhotelvondelpark.com">info@dutchdesignhotelvondelpark.com</a></td>
-    <!--<td>10.09.2023<br>Please write an email to <a href="mailto:semantics@infai.org ">semantics@infai.org</a></td>-->
-  </tr>
-
-  <tr>
-    <td><a href="https://www.mercure-hotel-amsterdam-west.nl/en/">Mercure Hotel Amsterdam West</a></td>
-    <td>Oude Haagseweg 20<br>1066 BW Amsterdam<br><br>+31 (0)20 512 6767<br><a href="mailto:frontoffice@mercureamsterdam.com">frontoffice@mercureamsterdam.com</a></td>
-    <!--<td>10.09.2023<br>Please write an email to <a href="mailto:semantics@infai.org ">semantics@infai.org</a></td>-->
-  </tr>
-
-  <tr>
-    <td><a href="https://www.artemisamsterdam.com/">Dutch Design Hotel Artemis</a></td>
-    <td>John M. Keynesplein 2<br>1066 EP Amsterdam<br><br>+31 (0)20 714 1000<br><a href="mailto:reservations@artemisamsterdam.com">reservations@artemisamsterdam.com</a></td>
-    <!--<td>10.09.2023<br>Please write an email to <a href="mailto:semantics@infai.org ">semantics@infai.org</a></td>-->
-  </tr>
-</table>
-<br>
-
-We have secured contingents in a few hotels in Amsterdam. After you have purchased your Semantics ticket, you will automatically receive an email from the registration system ConfTool containing this list.
-
-### Travel
+## Getting there by plane
 
 <div class="venue-sec-title"><img style="vertical-align:middle" src="../img/icons/airplane-fill.svg" width="30" height="30"></span><span> Fly in by plane</span></div> 
 
-From Schiphol airport it takes about 15-25 minutes to reach the venue by public transport or even faster by taking a taxi. By public transport you can easily plan the route via [here](https://www.google.com/maps/dir/Avis+Budget+Autoverhuur+Amsterdam+Schiphol,+Aankomstpassage+5,+1118+AX+Schiphol,+Netherlands/Meervaart,+Meer+en+Vaart+300,+1068+LE+Amsterdam,+Netherlands/@52.3338805,4.7489029,13z/data=!4m13!4m12!1m5!1m1!1s0x47c5e129cd42a477:0xa9dfb4f481a89983!2m2!1d4.76146!2d52.30967!1m5!1m1!1s0x47c5e3d2049c0b57:0x1c80bfab51a1315f!2m2!1d4.8073711!2d52.3590932?entry=ttu).
+Vienna International Airport is about 20 km from the city centre of Vienna, which can easily be reached by Airport Bus Shuttle, CAT (City Airport Train), train (S-Bahn), airport bus shuttle or taxi.
 
-## Parking spaces in Amsterdam
-Check all [car parks](https://www.meervaart.nl/theater/english/uw-bezoek/bereikbaarheid-en-parkeren) in Amsterdam.
+### City Airport Train (CAT)
+
+The CAT takes you to the City Air Terminal (Wien-Mitte/Landstrasse, undergrounds U3 and U4) in 16 minutes. From Wien-Mitte/Landstrasse, take the underground U4 direction Heiligenstadt and take a stop at Schottenring. At Schottenring, change to underground U2, direction Seestadt or Aspernstrasse. Get off at Stop Stadion, 5 stops from Praterstern. From there, it's just an 8-minute walk to the conference venue.
+
+CATs leave the airport every half hour from 6:07 am to 11:37 pm. Several airlines offer check-in services at the City Air Terminal.
+
+[Ticket Pricing](https://www.cityairporttrain.com/en/prices) (Tickets are only valid for the CAT, not for public transport in Vienna!)
+
+[CAT schedule](https://www.cityairporttrain.com/en/info-service/timetable)
+
+### Train
+
+To get to the airport train, follow the sign “S-Bahn” in the airport arrival hall. Take line S7, travel time: around 25 minutes. At stop Praterstern, change to underground U2, direction Seestadt or Aspernstrasse. Get off at Stop Stadion, 5 stops from Praterstern.  You can buy the ticket at the ticket machine in the train station or online (single ticket: 2,40 Euro). Careful: Viennese public transport is segmented in different zones. While most of the city lies in Zone 1, you'll cross an additional zone when travelling to and from the airport, which means that you'll need 2 tickets instead of just one. 
+
+[Train schedule](https://www.schnellbahn-wien.at/web/flughafen_wien-schwechat.html) (German)
+
+If you plan to use public transport extensively, you may want to install the [Wiener Linien-App](https://www.wienerlinien.at/wienmobil-app) for tickets and navigation.
+
+### Airport Bus Shuttle
+
+The bus station is directly in front of the airport arrival hall. The bus VAL3 line stopping near the conference venue (Stop Stadion) leaves every 60 minutes, but not at night times, although buses to the city center will operate 24 hours. The bus trip is around 20 minutes and  from Stop Stadin, it's just an 8-minute walk to the conference venue.  Tickets (8 Euro) can be bought on the bus, from the ticket machine or online. Tickets are only valid for the shuttle bus, not for public transport in Vienna!
+
+[Bus schedule](https://www.viennaairport.com/jart/prj3/va/uploads/data-uploads/Passagier/Parken/VIE_VAL3_de_en.pdf) (German)
+
+### Texi
+
+The taxi stand at the airport is in front of the arrival hall. It takes about half an hour to get to the city centre (approx. 30 Euro). To go from the city to the airport, either ask your hotel to book an airport taxi or call one of the following taxi companies (all of them offer special fares to the airport): 31300, 40100, 60160, 81400 or 1716. You can also book online, e.g. [Airport Driver](https://airportdriver.at/en/).
+
+## Getting to there by Railway
+
+If you arrive in Vienna by railway, you will be landing in one of the stations listed below and then you need to use Vienna public transport to get to the conference venue. If you plan to use public transport extensively, you may want to install the [Wiener Linien-App](https://www.wienerlinien.at/wienmobil-app). for tickets and navigation. You can buy the ticket for the Vienna public transport at the ticket machine in the train station or online (single ticket: 2,40 Euro). 
+
+### Wien Hauptbahnhof (Vienna Central Train Station)
+
+Take underground U1, direction Leopoldau. At stop Praterstern change to underground U2, direction Seestadt or Aspernstrasse. Get off at Stop Stadion. From there, it's just an 8-minute walk to the conference venue. 
+
+### Wien Westbahnhof (Vienna West Train Station)
+
+Take underground U3, direction Simmering. At stop Volkstheater change to underground U2, direction Seestadt or Aspernstrasse. Get off at Stop Stadion. From there, it's just an 8-minute walk to the conference venue.
+
+### Wien Bahnhof Meidling (Vienna Station Meidling)
+
+Take underground U6, direction Floridsdorf. At stop Längenfeldgasse change to underground U4, direction Heiligenstadt. At stop Schottenring change to underground U2, direction Seestadt or Aspernstrasse. Get off at Stop Stadion. From there, it's just an 8-minute walk to the conference venue.
