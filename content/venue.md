@@ -7,7 +7,7 @@
 </div>
 </br>
 
-***SEMANTiCS 2025 is hosted by the Semantic Web Company and Vienna University of Business and Economics. The SEMANTiCS conference will take place at the Hilton Hotel Waterfront in Vienna.***
+***SEMANTiCS 2025 will take place from September 3–5, with the Vienna University of Business and Economics serving as the local organizer, supported by the Semantic Web Company. This year's conference will be hosted at the Hilton Hotel Waterfront in Vienna, providing an exceptional venue for industry and academic experts to connect and collaborate.***
 
 Handelskai 269, 1020 Wien, Austria
 
