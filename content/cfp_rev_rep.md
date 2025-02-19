@@ -19,9 +19,9 @@
 
 All deadlines are set for 11:59 pm, Anywhere On Earth time (UTC-12)
 
-<!--__Submission via Easychair on [https://easychair.org/my/conference?conf=sem24](https://easychair.org/my/conference?conf=sem24).__
--->
-<p>Submissions will be through Easychair and the submission link will be provided soon.</p>
+__Submission via Easychair on [https://easychair.org/conferences/?conf=semantics2025](https://easychair.org/conferences/?conf=semantics2025).__
+
+<!-- <p>Submissions will be through Easychair and the submission link will be provided soon.</p> -->
 
 <p>Proceedings of SEMANTiCS 2025 EU will be made available <b>open access</b>.</p>
 

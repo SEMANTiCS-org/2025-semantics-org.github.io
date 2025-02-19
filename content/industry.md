@@ -10,7 +10,7 @@ The Industry &amp; Use Case track at SEMANTiCS welcomes submissions that present
 
 All deadlines are set for 11:59 pm, Anywhere On Earth time (UTC-12)
 
-**Submissions will be through Easychair and the submission link will be provided soon.** Please notice that a paper abstract is not necessary, as your submission will only include a presentation at SEMANTiCS and not a paper. Any submission should contain a summary of 200 to 300 words that will be used in the final program. Your submission must also include a full page description of the use case you want to present, in particular: initial situation, approach, business value and benefits of the semantic solution, prospects and recommendation. Submissions that don’t meet these requirements cannot be taken into account.
+**Submission via Easychair on [https://easychair.org/conferences/?conf=semantics2025](https://easychair.org/conferences/?conf=semantics2025).** Please notice that a paper abstract is not necessary, as your submission will only include a presentation at SEMANTiCS and not a paper. Any submission should contain a summary of 200 to 300 words that will be used in the final program. Your submission must also include a full page description of the use case you want to present, in particular: initial situation, approach, business value and benefits of the semantic solution, prospects and recommendation. Submissions that don’t meet these requirements cannot be taken into account.
 
 Via Easychair, you can enter your summary in the field “Abstract”, and the full page description via the “upload paper” button. The summary will appear in the program on the webpage, the full page description will only be used in the selection process.
 
