@@ -30,7 +30,7 @@ Here are a few suggestions for accommodation close to the conference venue:
 
 ## Getting there by plane
 
-<div class="venue-sec-title"><img style="vertical-align:middle" src="../img/icons/airplane-fill.svg" width="30" height="30"></span><span> Fly in by plane</span></div>
+<!-- <div class="venue-sec-title"><img style="vertical-align:middle" src="../img/icons/airplane-fill.svg" width="30" height="30"></span><span> Fly in by plane</span></div> -->
 
 Vienna International Airport is about 20 km from the city centre of Vienna, which can easily be reached by Airport Bus Shuttle, CAT (City Airport Train), train (S-Bahn), airport bus shuttle or taxi.
 
