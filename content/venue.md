@@ -7,13 +7,30 @@
 </div>
 </br>
 
-***SEMANTiCS 2025 will take place from September 3–5, with the Vienna University of Business and Economics serving as the local organizer, supported by the Semantic Web Company. This year's conference will be hosted at the Hilton Hotel Waterfront in Vienna, providing an exceptional venue for industry and academic experts to connect and collaborate.***
+**_SEMANTiCS 2025 will take place from September 3–5, with the Vienna University of Business and Economics serving as the local organizer, supported by the Semantic Web Company. This year's conference will be hosted at the Hilton Hotel Waterfront in Vienna, providing an exceptional venue for industry and academic experts to connect and collaborate._**
 
 Handelskai 269, 1020 Wien, Austria
 
+## Accommodation
+
+Vienna offers a diverse selection of accommodations to suit different budgets and preferences. To book a room at the conference hotel, please use the following link. Event participants can enjoy a 15% discount on the Best Available Rate:
+
+[Reservation at the Hilton Hotel Waterfront](https://www.hilton.com/en/attend-my-event/viehahi-asema-a8c0c685-9f6e-4d60-83c0-ad8e7d866430/)
+
+As all our event venues are conveniently located along the U2 subway line, you may also consider nearby hotels or other accommodations within walking distance.
+
+Here are a few suggestions for accommodation close to the conference venue:
+
+| Name                                                | Address                                        | Link                                                                                |
+| --------------------------------------------------- | ---------------------------------------------- | ----------------------------------------------------------------------------------- |
+| Hotel Courtyard Vienna Prater/Messe                 | Trabrennstrasse 4, 1020 Vienna                 | https://www.booking.com/hotel/at/courtyard-by-marriott-wien-messe.html              |
+| Vienna Residence, Stuwerviertel - Exhibition Center | Stuwerstraße 60, 02. Leopoldstadt, 1020 Vienna | https://www.booking.com/hotel/at/vienna-residence-theme-park-exhibition-center.html |
+| Spark by Hilton Vienna Messe Prater                 | Messestraße 2, 1020 Vienna                     | https://www.hilton.com/de/hotels/viemepe-spark-vienna-messe-prater/                 |
+| Motel One Wien-Prater                               | Ausstellungsstraße 40, 1020 Vienna             | https://www.motel-one.com/de/hotels/wien/hotel-wien-prater/                         |
+
 ## Getting there by plane
 
-<div class="venue-sec-title"><img style="vertical-align:middle" src="../img/icons/airplane-fill.svg" width="30" height="30"></span><span> Fly in by plane</span></div> 
+<div class="venue-sec-title"><img style="vertical-align:middle" src="../img/icons/airplane-fill.svg" width="30" height="30"></span><span> Fly in by plane</span></div>
 
 Vienna International Airport is about 20 km from the city centre of Vienna, which can easily be reached by Airport Bus Shuttle, CAT (City Airport Train), train (S-Bahn), airport bus shuttle or taxi.
 
@@ -29,7 +46,7 @@ CATs leave the airport every half hour from 6:07 am to 11:37 pm. Several airline
 
 ### Train
 
-To get to the airport train, follow the sign “S-Bahn” in the airport arrival hall. Take line S7, travel time: around 25 minutes. At stop Praterstern, change to underground U2, direction Seestadt or Aspernstrasse. Get off at Stop Stadion, 5 stops from Praterstern.  You can buy the ticket at the ticket machine in the train station or online (single ticket: 2,40 Euro). Careful: Viennese public transport is segmented in different zones. While most of the city lies in Zone 1, you'll cross an additional zone when travelling to and from the airport, which means that you'll need 2 tickets instead of just one. 
+To get to the airport train, follow the sign “S-Bahn” in the airport arrival hall. Take line S7, travel time: around 25 minutes. At stop Praterstern, change to underground U2, direction Seestadt or Aspernstrasse. Get off at Stop Stadion, 5 stops from Praterstern. You can buy the ticket at the ticket machine in the train station or online (single ticket: 2,40 Euro). Careful: Viennese public transport is segmented in different zones. While most of the city lies in Zone 1, you'll cross an additional zone when travelling to and from the airport, which means that you'll need 2 tickets instead of just one.
 
 [Train schedule](https://www.schnellbahn-wien.at/web/flughafen_wien-schwechat.html) (German)
 
@@ -37,7 +54,7 @@ If you plan to use public transport extensively, you may want to install the [Wi
 
 ### Airport Bus Shuttle
 
-The bus station is directly in front of the airport arrival hall. The bus VAL3 line stopping near the conference venue (Stop Stadion) leaves every 60 minutes, but not at night times, although buses to the city center will operate 24 hours. The bus trip is around 20 minutes and  from Stop Stadin, it's just an 8-minute walk to the conference venue.  Tickets (8 Euro) can be bought on the bus, from the ticket machine or online. Tickets are only valid for the shuttle bus, not for public transport in Vienna!
+The bus station is directly in front of the airport arrival hall. The bus VAL3 line stopping near the conference venue (Stop Stadion) leaves every 60 minutes, but not at night times, although buses to the city center will operate 24 hours. The bus trip is around 20 minutes and from Stop Stadin, it's just an 8-minute walk to the conference venue. Tickets (8 Euro) can be bought on the bus, from the ticket machine or online. Tickets are only valid for the shuttle bus, not for public transport in Vienna!
 
 [Bus schedule](https://www.viennaairport.com/jart/prj3/va/uploads/data-uploads/Passagier/Parken/VIE_VAL3_de_en.pdf) (German)
 
@@ -47,11 +64,11 @@ The taxi stand at the airport is in front of the arrival hall. It takes about ha
 
 ## Getting to there by Railway
 
-If you arrive in Vienna by railway, you will be landing in one of the stations listed below and then you need to use Vienna public transport to get to the conference venue. If you plan to use public transport extensively, you may want to install the [Wiener Linien-App](https://www.wienerlinien.at/wienmobil-app). for tickets and navigation. You can buy the ticket for the Vienna public transport at the ticket machine in the train station or online (single ticket: 2,40 Euro). 
+If you arrive in Vienna by railway, you will be landing in one of the stations listed below and then you need to use Vienna public transport to get to the conference venue. If you plan to use public transport extensively, you may want to install the [Wiener Linien-App](https://www.wienerlinien.at/wienmobil-app). for tickets and navigation. You can buy the ticket for the Vienna public transport at the ticket machine in the train station or online (single ticket: 2,40 Euro).
 
 ### Wien Hauptbahnhof (Vienna Central Train Station)
 
-Take underground U1, direction Leopoldau. At stop Praterstern change to underground U2, direction Seestadt or Aspernstrasse. Get off at Stop Stadion. From there, it's just an 8-minute walk to the conference venue. 
+Take underground U1, direction Leopoldau. At stop Praterstern change to underground U2, direction Seestadt or Aspernstrasse. Get off at Stop Stadion. From there, it's just an 8-minute walk to the conference venue.
 
 ### Wien Westbahnhof (Vienna West Train Station)
 
