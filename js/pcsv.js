@@ -370,11 +370,12 @@ function populate_news_container(fcsv, page, container, baseurl) {
             var html_img = '<div class="container-img-news"><img typeof="foaf:Image" src="'+image+'" class="news-img" alt=""></div>';
             all_html_elems += `<div class="col-lg-3 mx-auto news-box">`
                     + html_img
-                    + `<h5>`+title + `</h5>`
+                    + `<h5 class='news-title'>`+title + `</h5>`
+                    +`<hr/>`
                     + `<div class="news-abs">`
                     + text
                     + `</div>`
-                    + `<div class="news-link text-right"><a href="`+baseurl+"page/news?page="+page_name+`">READ MORE</a></div>`
+                    + `<div class="news-link"><a href="`+baseurl+"page/news?page="+page_name+`">READ MORE</a></div>`
                     + `</div>`;
           }
           count_news += 1;
