@@ -262,10 +262,16 @@ function populate_keyspeakers(fcsv, page, container, baseurl) {
               var presentation = entry["presentation"].trim();
               var page_name = entry["page_name"].trim();
               var img = entry["image"].trim();
+              var googleScholar = entry["googleScholar"].trim();
+              var LinkedIn = entry["LinkedIn"].trim();
+              var website = entry["website"].trim();
+
               let img_size = "60"
 
               var html_img = '<img src="img/LTILogoByLine.png" class="image-profile-type"><img typeof="foaf:Image" src="img/person/'+img+'" class="image-profile" alt="">'
               var html_presentation = "<a href='"+baseurl+"page/"+page_name+"' class='person-talk'>"+presentation+"</a>";
+              var html_google = "<a href='"+googleScholar+"' target='_blank' class='social'><img src='img/icons/googleScholar.svg'' class='social'/></a>";
+              var html_web = "<a href='"+website+"' target='_blank' class='social'><img src='img/icons/website.svg'' class='social'/></a>";
               var html_body = html_img+'<div class="person-name">'+name+'</div>'+'<div class="person-info">'+affiliation+'</div>'+html_presentation;
 
               var str_html = '<div class="ks col-sm-4 '+e_type+'">'+html_body+"</div>";
