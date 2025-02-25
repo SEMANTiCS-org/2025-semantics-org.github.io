@@ -375,7 +375,7 @@ function populate_news_container(fcsv, page, container, baseurl) {
                     + `<div class="news-abs">`
                     + text
                     + `</div>`
-                    + `<div class="news-link"><a href="`+baseurl+"page/news?page="+page_name+`">READ MORE</a></div>`
+                    + `<div class="news-link"><a href="`+baseurl+"page/news?page="+page_name+`">Read More</a></div>`
                     + `</div>`;
           }
           count_news += 1;
