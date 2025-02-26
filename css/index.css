@@ -34,9 +34,16 @@
 .news-link {
     font-size: 14px;
     text-decoration: none;
-    text-align: right;
+    color: gray;
 }
 
+.news-link h5{
+    color: black;
+}
 .news-link a {
-    text-decoration: none;
+    text-decoration: none !important;
+}
+
+a:hover {
+    text-decoration: none !important;
 }

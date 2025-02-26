@@ -368,15 +368,15 @@ function populate_news_container(fcsv, page, container, baseurl) {
             }
 
             var html_img = '<div class="container-img-news"><img typeof="foaf:Image" src="'+image+'" class="news-img" alt=""></div>';
-            all_html_elems += `<div class="col-lg-3 mx-auto news-box">`
+            all_html_elems += `<div class="col-lg-3 mx-auto news-box"> <a href="`+baseurl+"page/news?page="+page_name+`" class="news-link">`
                     + html_img
                     + `<h5 class='news-title'>`+title + `</h5>`
                     +`<hr/>`
                     + `<div class="news-abs">`
                     + text
                     + `</div>`
-                    + `<div class="news-link"><a href="`+baseurl+"page/news?page="+page_name+`">Read More</a></div>`
-                    + `</div>`;
+                    // + `<div class="news-link"><a href="`+baseurl+"page/news?page="+page_name+`">Read More</a></div>`
+                    + `</a></div>`;
           }
           count_news += 1;
         });
