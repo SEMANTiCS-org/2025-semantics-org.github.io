@@ -75,7 +75,6 @@ section td {
 section th:first-child,
 section td:first-child {
   width: 30%; /* Adjust the width value as per your requirement */
-  text-align: center;
   padding: 15px;
 }
 
@@ -126,4 +125,8 @@ section table:nth-last-of-type(1) td:first-child,
 section table:nth-last-of-type(1) section th:first-child
 {
   text-align: left !important;
+}
+
+h3 , h5{
+  text-align: center !important;
 }
