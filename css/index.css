@@ -47,3 +47,7 @@
 a:hover {
     text-decoration: none !important;
 }
+
+.image-profile{
+    max-width: 200px !important;
+}
