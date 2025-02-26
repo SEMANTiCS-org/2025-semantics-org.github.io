@@ -69,7 +69,7 @@ section table {
 section th,
 section td {
 	vertical-align: top;
-	padding-top: 30px;
+	padding-top: 50px;
 }
 
 section th:first-child,
@@ -115,4 +115,15 @@ section h2 + ul {
 	section table img{
 		width: 60vw;
 	}
+}
+section table{
+  margin-bottom: 20px;
+}
+
+/* section th:first-child,
+section td:first-child */
+section table:nth-last-of-type(1) td:first-child,
+section table:nth-last-of-type(1) section th:first-child
+{
+  text-align: left !important;
 }
