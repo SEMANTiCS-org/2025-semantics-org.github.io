@@ -69,7 +69,8 @@ section table {
 section th,
 section td {
 	vertical-align: top;
-	padding-top: 50px;
+	padding-top: 20px;
+  padding-bottom: 50px;
 }
 
 section th:first-child,
