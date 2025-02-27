@@ -131,3 +131,8 @@ section table:nth-last-of-type(1) section th:first-child
 h3 , h5{
   text-align: center !important;
 }
+
+strong{
+  font-size: 20px;
+  color: black;
+}
