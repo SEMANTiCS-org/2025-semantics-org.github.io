@@ -136,3 +136,10 @@ strong{
   font-size: 20px;
   color: black;
 }
+
+a:hover{
+  text-decoration: none;
+  color: #EB8C34;
+  transition: all 0.5s;
+
+}
