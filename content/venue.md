@@ -18,7 +18,7 @@ Handelskai 269, 1020 Wien, Austria
 
 ## Accommodation
 
-Vienna offers a diverse selection of accommodations to suit different budgets and preferences. To book a room at the conference hotel, please use the following link.
+Vienna offers a diverse selection of accommodations to suit different budgets and preferences. To book a room at the conference hotel, please buy a SEMANTiCS conference ticket and we will share the booking link. Event participants can enjoy a 15% discount on the Best Available Rate.
 
 [Reservation at the Hilton Hotel Waterfront](https://www.hilton.com/en/hotels/viehahi-hilton-vienna-waterfront/)
 
