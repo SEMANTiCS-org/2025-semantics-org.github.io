@@ -42,8 +42,8 @@ Workshop and tutorial proposals must include the following information:
 Proposals for workshop and tutorial proposals must be submitted via Easychair: https://easychair.org/conferences/?conf=semantics2025  (max 4 pages)
 ## Important Dates
 Important Dates for Workshops:
-- **Proposals WS Deadline**: March 22, 2025 (11:59 pm, AoE)
-- **Notification of Acceptance**: March 29, 2025 (11:59 pm, AoE)
+- **Proposals WS Deadline**: <del>March 22, 2025 (11:59 pm, AoE)</del>   March 29, 2025 (11:59 pm, AoE)
+- **Notification of Acceptance**: <del>March 29, 2025 (11:59 pm, AoE)</del>   April 5, 2025 (11:59 pm, AoE)
 - **Workshop website is online**: April 15th, 2025 
 
 Suggested dates for Workshop organizers (with Call for Papers)
