@@ -6,8 +6,8 @@
 <p class="topic">September 3 - 5, 2025</p>
 
 Important Dates for Workshops
--   **Proposals WS Deadline**: March 22, 2025 (11:59 pm, AoE)
--   **Notification of Acceptance**: March 29, 2025 (11:59 pm, AoE)
+-   **Proposals WS Deadline**: <del>March 22, 2025 (11:59 pm, AoE)</del>   March 29, 2025 (11:59 pm, AoE)
+-   **Notification of Acceptance**: <del>March 29, 2025 (11:59 pm, AoE)</del>   April 5, 2025 (11:59 pm, AoE)
 
 Important Dates for Tutorials (and other meetings, e.g. seminars, show-cases, etc., without call for papers):
 -   **Proposals Tutorial Deadline**: June 11, 2025 (11:59 pm, AoE)
