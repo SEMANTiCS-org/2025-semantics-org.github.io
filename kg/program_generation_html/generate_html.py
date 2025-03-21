@@ -18,7 +18,7 @@ html_page_start = """
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-	<title>SEMANTICS-2024</title>
+	<title>SEMANTICS-2025</title>
 
 	<!-- Bootstrap core CSS -->
 	<link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">

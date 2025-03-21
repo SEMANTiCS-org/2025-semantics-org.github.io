@@ -8,7 +8,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-	<title>SEMANTICS-2024</title>
+	<title>SEMANTICS-2025</title>
 
 	<!-- Bootstrap core CSS -->
 	<link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -36,11 +36,11 @@
 	</div>
 
 	<script>
-	$(function(){
-		$("#nav-placeholder").load("nav.html", function functionName() {apply_conf_onfunc(update_nav, false);});
-		//$("#sidecol").load("side.html");
-		$("#page-footer").load("footer.html", function functionName() {apply_conf_onfunc(update_footer, false);});
-	});
+		$(function () {
+			$("#nav-placeholder").load("nav.html", function functionName() { apply_conf_onfunc(update_nav, false); });
+			//$("#sidecol").load("side.html");
+			$("#page-footer").load("footer.html", function functionName() { apply_conf_onfunc(update_footer, false); });
+		});
 	</script>
 
 	<section>
@@ -51,49 +51,58 @@
 					<div class="row">
 						<div class="col-lg-12 mx-auto">
 							<zero-md src="../content/contact.md">
-								<template> <link href="../css/md-style.css" rel="stylesheet"/> </template>
+								<template>
+									<link href="../css/md-style.css" rel="stylesheet" />
+								</template>
 							</zero-md>
 						</div>
 					</div>
-					
+
 					<div class="row">
 						<div class="col-lg-12 mx-auto">
-							
-							<form id="fs-frm" name="department-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xbjejkew" method="post">
-							  <fieldset id="fs-frm-inputs">
-									
+
+							<form id="fs-frm" name="department-contact-form" accept-charset="utf-8"
+								action="https://formspree.io/f/xbjejkew" method="post">
+								<fieldset id="fs-frm-inputs">
+
 									<div class="form-group">
-							    	<label for="name">Name</label>
-							    	<input class="form-control" type="text" name="name" id="name" placeholder="Enter your full name " required>
+										<label for="name">Name</label>
+										<input class="form-control" type="text" name="name" id="name"
+											placeholder="Enter your full name " required>
 									</div>
-									
+
 									<div class="form-group">
 										<label for="email-address">Email Address</label>
-							    	<input class="form-control" type="email" name="_replyto" id="email-address" placeholder="email@domain.eu" required>
+										<input class="form-control" type="email" name="_replyto" id="email-address"
+											placeholder="email@domain.eu" required>
 									</div>
-									
+
 									<div class="form-group">
 										<label for="interest">What are you interested in</label>
-									  <select class="form-control form-control-lg" name="interest" id="interest" required>
-									      <option value="" selected="" disabled="">Select</option>
-									      <option value="General">General</option>
-									      <option value="Sponsoring">Sponsoring</option>
-									      <option value="Media Request">Media</option>
-									      <option value="Tickets">Tickets</option>
-									  </select>
+										<select class="form-control form-control-lg" name="interest" id="interest"
+											required>
+											<option value="" selected="" disabled="">Select</option>
+											<option value="General">General</option>
+											<option value="Sponsoring">Sponsoring</option>
+											<option value="Media Request">Media</option>
+											<option value="Tickets">Tickets</option>
+										</select>
 									</div>
-									
+
 									<div class="form-group">
-							    	<label for="message">Message</label>
-							    	<textarea class="form-control" rows="5" name="message" id="message" placeholder="Please start writing your message to the Semantics Team here." required></textarea>
+										<label for="message">Message</label>
+										<textarea class="form-control" rows="5" name="message" id="message"
+											placeholder="Please start writing your message to the Semantics Team here."
+											required></textarea>
 									</div>
-									
-									<input type="hidden" name="_subject" id="email-subject" value="Department Contact Form Submission">
-							  </fieldset>
-							  <input class="btn btn-primary" type="submit" value="Send Message">
+
+									<input type="hidden" name="_subject" id="email-subject"
+										value="Department Contact Form Submission">
+								</fieldset>
+								<input class="btn btn-primary" type="submit" value="Send Message">
 								<p style="padding-top: 10px; min-height: 100px" id="my-form-status"></p>
 							</form>
-									
+
 						</div>
 					</div>
 
@@ -116,8 +125,8 @@
 
 	<!-- Custom JavaScript for this theme -->
 	<script src="../js/scrolling-nav.js"></script>
-	
-	
+
+
 	<!-- Place this script at the end of the body tag 
 <script>
     var form = document.getElementById("fs-frm");

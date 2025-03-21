@@ -81,7 +81,7 @@ References are not included in the page count, so authors may add additional pag
 
 -   Submissions should follow the guidelines of IOS Press. Details are available at https://www.iospress.com/book-article-instructions.
 -   Authors need to use the [Word template](https://www.iospress.com/sites/default/files/media/files/2022-06/ECRC-Author-Instructions-and-tools-Word.zip) or [LaTeX](https://vtex-soft.github.io/texsupport.IOS-Book-Article/) template provided by IOS Press. Overleaf users can copy the project [from here](https://www.overleaf.com/read/gkkspcvjgwxv#563836) (follow instructions in the abstract).
--   Abstract submission is mandatory for all papers. To aid the review and bidding process, we highly encourage authors to submit structured abstracts.
+-   Abstract submission is mandatory for all papers. To aid the review and bidding process, we highly encourage authors to submit structured abstracts (follow the instructions [here](https://2025-eu.semantics.cc/page/cfp_abstract))
 -   All papers and abstracts have to be submitted electronically via EasyChair.
 -   Submissions must be in English.
 -   Submissions must adhere to the fair use of Large Language Models. Please refer to the SEMANTiCS [full policy](https://2025-eu.semantics.cc/page/llm-policy) for more details.
