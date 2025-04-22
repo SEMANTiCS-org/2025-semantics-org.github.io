@@ -12,10 +12,10 @@
 <!--
 * **Paper Submission Deadline**: ~~April 29, 2024~~ **May 13, 2024** -->
 
--   **Abstract Submission Deadline**: April 25 , 2025
--   **Paper Submission Deadline**: May 2, 2025
--   **Notification of Acceptance**: June 13, 2025
--   **Camera-Ready Paper Deadline**: July 04, 2025
+-   **Abstract Submission Deadline**: <span style="color:gray; text-decoration: line-through;">April 25 , 2025</span>  **May 16, 2025**
+-   **Paper Submission Deadline**: <span style="color:gray; text-decoration: line-through;">May 2, 2025*</span>  **May 23, 2025**
+-   **Notification of Acceptance**: <span style="color:gray; text-decoration: line-through;">June 13, 2025</span> **June, 27, 2025**
+-   **Camera-Ready Paper Deadline**: <span style="color:gray; text-decoration: line-through;">July 04, 2025</span> **July 15, 2025**
 
 All deadlines are set for 11:59 pm, Anywhere On Earth time (UTC-12)
 
