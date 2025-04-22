@@ -116,7 +116,6 @@ Accepted workshops
 <p><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://ukgworkshop.github.io/">Workshop website</a></p>
 </div>
 <br>
---------------------------------------------------------------------------
 
 <div class="aw">
 <p id="SKGI" style="font-size: 21px;"><b><a style="text-decoration: none; margin: 0 !important" target="_blank" href="#">Scaling Knowledge Graphs for Industry: LLMs meet KGs (SKGI)</a></b></p>
