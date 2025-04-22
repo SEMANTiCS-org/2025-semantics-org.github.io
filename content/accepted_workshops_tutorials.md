@@ -1,139 +1,114 @@
 # Accepted workshops and tutorials
 <br>
 
-
 # Accepted workshops
 
-<p id="SeMats" style="font-size: 21px;"><b><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://sites.google.com/view/semanticmaterials">International Workshop on Semantic Materials Science: Harnessing the Power of Semantic Web (SeMats)</a></b></p>
+<p id="NXDG" style="font-size: 21px;"><b><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://w3id.org/nxdg/2025">2nd NeXt-Generation Data Governance workshop (NXDG)</a></b></p>
 
-<p style="text-align: justify !important;">Advanced technological solutions are pivotal for leveraging data in innovative research, but compatibility issues in scientific data hinder progress. Interoperability and efficient data access are crucial, and the Semantic Web emerges as a powerful solution. Historically, the intersection  between Semantic Web (SW) technologies, and Materials Science and Engineering (MSE) dates back before the formalization of the Semantic  Web concept in 2001. For instance, the creation of the Plinius ontology in 1994 provided a language-independent conceptual construction  kit for the chemical composition of materials. Recent conferences in the MSE domain, such as the FEMS-Euromat (European Congress and Exhibition on Advanced Materials and Processes) and MSE congress, show a significant increase in Semantic Web applications, with over ten SW-related presentations in 2022 and more than 20 in 2023. This growing  adoption prompts a focus on attracting participants at the intersection of both areas. The Semantic Web, widely adopted in life sciences, proves beneficial in Materials Science Engineering. Expanding Semantic  Web technologies to the Materials Science domain can enhance research outcomes by enabling the uniform consideration of heterogeneous data.  It improves traceability and reproducibility and facilitates automatable data management solutions. The primary objective of the proposed workshop is to gather works applying Semantic Web Technologies in  Materials Science, making these technologies accessible to a broader community. The workshop aims to provide an overview of existing  approaches, identify relevant works, and bring together Materials Science and Semantic Web stakeholders for collaboration and innovation. Join us in exploring the transformative possibilities of Semantic Web Technologies in Materials Science, paving the way for a more interconnected and efficient research landscape.</p>
-
-<p style="font-size: 21px;"><b>Organizers:</b></p>
-
-<ul>
-<li><p style="text-align: justify !important;">Andre Valdestilhas, Bundesanstalt für Materialforschung und -prüfung (BAM), Germany</p></li>
-<li><p style="text-align: justify !important;">Huanyu Li, Linköping University, Sweden</p></li>
-<li><p style="text-align: justify !important;">Patrick Lambrix, Linköping University, Sweden</p></li>
-<li><p style="text-align: justify !important;">Harald Sack, FIZ Karlsruhe, Leibniz Institute for Information Infrastructure, Germany</p></li>
-</ul>
-<p><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://sites.google.com/view/semanticmaterials">Workshop website</a></p>
-<br>
-
-<p id="NLPK" style="font-size: 21px;"><b><a style="text-decoration: none;  margin: 0 !important" target="_blank" href="https://sites.google.com/view/3rdnlp4kgc/home">3rd NLP4KGC: Natural Language Processing for Knowledge</a></b></p>
-<p style="text-align: justify !important;">Building a domain knowledge graph from a large amount of text requires a tremendous amount of work, including entity recognition, entity disambiguation and relationship extraction. Because of this, more work has been done on automated ways to generate knowledge graphs from text. Recent efforts in NLP (Natural Language Processing) development have shown that semantic deep neural networks can learn the complex syntactic and semantics of the natural language and thus, give more potential for automation even in the most complex domains i.e., legal documents. New approaches to KG development use a combination of extraction methods and state-of-the-art NLP techniques. Additionally, the advancement of Graph Neural Networks (GNNs) are able to learn powerful embeddings which leverage topological structures in the KGs and provide explanations of the outcome. Despite the successes this existing research has achieved, deep learning on graphs for NLP still faces many challenges. Presentation of challenges faced in specific domains such as Science, Sustainability is also welcomed. For instance, in the sciences, the production of resources (e.g., publications) is growing at a rate that outstrips an individual’s capacity to discovery and utilize them. As a result, alongside manual methods to structure and make discoverable that knowledge, automation is vital. We welcome applications that analyze and synthesize large volumes of scientific information (especially scientific literature, notes documents, and dataset metadata) and can use that information to create ontologies and semantic representations that better organize them. We also welcome contributions that address automation components of maintenance of ontologies and knowledge graphs. </p>
-<p style="text-align: justify !important;">This workshop invites contributions on methods and approaches of knowledge and data extraction from text, as well as theoretical and practical aspects of using semantic deep NLP for KG creation and the use of such KG for Graph Neural Network (GNN) tasks.</p>
+<p style="text-align: justify !important;">It's 2025 and we still can't visit any website without clicking ""Yes"" on a cookie banner, exchanging access to our most private data for the right to browse around. Managing and enforcing our privacy preferences in a personalised manner is also quite challenging. Additionally, data protection laws are emerging exponentially following in the footsteps of the GDPR. </p>
+<p style="text-align: justify !important;">In this context, the NeXt-generation Data Governance 2025 workshop aims to bring together technical, legal and societal researchers, and industry experts to discuss data governance, emergence of data spaces and the impact of the European strategy for data in such systems. The workshop aims to support the development of solutions to manage data, policies and provenance in a trustful and interoperable manner and to aid in the management and reporting of legal documentation falling from the EU’s GDPR for data protection and the DGA, Data Act, AI Act and EHDS to create legally-aligned, AI-powered data ecosystems, using semantic-based specifications such as ODRL, DPV or Solid. As such, this workshop will have presentations and discussions of interest to both data providers and consumers, researchers, standardisation bodies, businesses, and citizens who want to interoperate in the Data Spaces era.</p>
 
 <p style="font-size: 21px;"><b>Organizers:</b></p>
-<ul>
-<li><p style="text-align: justify !important;">Edlira Vakaj,  Birmingham City University</p></li>
-<li><p style="text-align: justify !important;">Rizou Stamatia, Singular Logic</p></li>
-<li><p style="text-align: justify !important;">Nandana Mihindukulasooriya, IBM research</p></li>
-<li><p style="text-align: justify !important;">Sanju Tiwari, Universidad Autónoma de Tamaulipas</p></li>
-<li><p style="text-align: justify !important;">Fernando Ortiz-Rodríguez, Universidad Autónoma de Tamaulipas</p></li>
-<li><p style="text-align: justify !important;">Ryan Mcgranaghan, NASA Jet Propulsion Laboratory</p></li>
-</ul>
-<p><a style="text-decoration: none;  margin: 0 !important" target="_blank" href="https://sites.google.com/view/3rdnlp4kgc/home">Workshop website</a></p>
-<br>
 
-<p id="LLM" style="font-size: 21px;"><b><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://sites.google.com/view/llmskgs">Large Language Models and Knowledge Graphs unified: use cases and examples</a></b></p>
-<p style="text-align: justify !important;">Large Language models (LLMs) and Generative AI have changed drastically the way we look at knowledge representation and use. Many organizations are investigating how to generate business value from the combination of the two words; LLMs and Knowledge Graphs (KGs). Responsible AI is a key topic of discussion. As with data, it is not only an asset that can be used, but also a liability that needs to be managed. Concerns like biases and hallucinations are hard problems to be solved. On the other hand, KGs are well understood and widely used concepts for knowledge representation. They do not suffer from the aforementioned concerns, but the flip side is that maintaining KGs is often a task which requires considerable human effort and using KGs is often harder than using LLMs.This workshop is all about combining LLMs and KGs. It focusses on real-life, practical use-cases that industry (both commercial and governmental organizations) are currently working on. All talks are presented by invited speakers from industry and research organizations and will present what works in a practical setting to add business value and use AI in a responsible way.
-You can expect discussions on use cases like:
-</p>
-
-<ul>
-	<li><p style="text-align: justify !important;">Using LLMs to convert knowledge from unstructured text to a KG</p></li>
-	<li><p style="text-align: justify !important;">Using KGs as data for RAG (Retrieval augmented generation) LLMs</p></li>
-	<li><p style="text-align: justify !important;">Using LLMs as a natural language interface for semantic search in a KG</p></li>
-	<li><p style="text-align: justify !important;">Using KGs to validate results of LLM prompts</p></li>
-	<li><p style="text-align: justify !important;">Using LLMs to predict links in KG</p></li>
-	<li><p style="text-align: justify !important;">Using KGs for constructing LLM prompts</p></li>
-	<li><p style="text-align: justify !important;">Using LLMs to convert tabular data into graph data</p></li>
-</ul>
-
-<p style="font-size: 21px;"><b>Organizers:</b></p>
-<ul>
-<li><p style="text-align: justify !important;">Marco Brattinga, Ordina</p></li>
-<li><p style="text-align: justify !important;">Ioanna Lytra, Semantic Web Company</p></li>
-<li><p style="text-align: justify !important;">Erwin Folmer, Kadaster, HAN</p></li>
-</ul>
-
-<p><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://sites.google.com/view/llmskgs">Workshop website</a></p>
-<br>
-
-<p id="NXDG" style="font-size: 21px;"><b><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://w3id.org/nxdg/2024">NXDG: NeXt-Generation Data Governance</a></b></p>
-<p style="text-align: justify !important;">It's 2024 and we still can't visit any website without clicking "Yes" on a cookie banner, exchanging access to our most private data for the right to browse around. Managing and enforcing our privacy preferences in a personalised manner is also quite challenging. Additionally, data protection laws are emerging exponentially following in the footsteps of the GDPR. In this context, the NeXt-generation Data Governance 2024 workshop aims to bring together technical, legal and societal researchers, and industry experts to discuss data governance, emergence of data spaces and the impact of the European strategy for data in such systems. The workshop aims to support the development of solutions to manage data, policies and provenance in a trustful and interoperable manner and to aid in the management and reporting of legal documentation falling from the EU’s GDPR for data protection and the DGA, Data Act, AI Act and EHDS to create legally-aligned, AI-powered data ecosystems, using semantic-based specifications such as ODRL, DPV or Solid. As such, this workshop will have presentations and discussions of interest to both data providers and consumers, researchers, standardisation bodies, businesses, and citizens who want to interoperate in the Data Spaces era. </p>
-
-<p style="font-size: 21px;"><b>Organizers:</b></p>
 <ul>
 <li><p style="text-align: justify !important;">Beatriz Esteves, UGent-imec, Ghent</p></li>
-<li><p style="text-align: justify !important;">Ruben Verborgh, UGent-imec, Ghent</p></li>
 <li><p style="text-align: justify !important;">Harshvardhan Pandit, ADAPT Centre, Dublin City University</p></li>
+<li><p style="text-align: justify !important;">Ruben Verborgh, UGent-imec, Ghent</p></li>
 </ul>
-<p><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://w3id.org/nxdg/2024">Workshop website</a></p>
+<p><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://w3id.org/nxdg/2025">Workshop website</a></p>
 <br>
 
-<p id="FIWSKG" style="font-size: 21px;"><b><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://sites.google.com/view/skgi">First International Workshop on Scaling Knowledge Graphs for Industry</a></b></p>
-<p style="text-align: justify !important;">Knowledge Graphs have been used in industrial settings for many years. However, in many cases the use cases have been limited to storage, integration and information retrieval tasks. We identify the lack of scalable solutions as the main blocker for uptake in more use cases. In this workshop, we want to foster discussion on making knowledge graph systems work at industrial scale. We do explicitly not want to limit this discussion to how much data we can store and query (this is already pretty much working), but also how we can deal with other scalability aspects such as processing, streaming, and ingestion of large amounts of information into a knowledge graph systems.</p>
+<p id="SemDev" style="font-size: 21px;"><b><a style="text-decoration: none;  margin: 0 !important" target="_blank" href="https://semantics2025.semdev.org/">Developers Workshop (SemDev)</a></b></p>
+<p style="text-align: justify !important;">While academia and industry are active in the Semantic Web and Knowledge Graph domains, there is often a disconnect between these two worlds. In this workshop, we invite developers of both worlds to present and discuss their software. Furthermore, by bringing people from academia and industry physically together, this workshop will provide a discussion ground for identifying open problems that are relevant to both sides. Besides putting a spotlight on Semantic Web software, the workshop aims to pinpoint opportunities for future research and implementations. In this workshop, we invite talks about the software you created, live demonstrations of your software, and discussion on specific topics.</p>
+<p style="font-size: 21px;"><b>Organizers:</b></p>
+<ul>
+<li><p style="text-align: justify !important;">Ruben Taelman, IDLab, Ghent University – imec, Ghent, Belgium</p></li>
+<li><p style="text-align: justify !important;">Jindřich Mynarz, MSD Czech Republic, Prague, Czech Republic</p></li>
+<li><p style="text-align: justify !important;">Jerven Bolleman, Swiss-Prot Group, SIB Swiss Institute of Bioinformatics, Geneva, Switzerland</p></li>
+</ul>
+<p><a style="text-decoration: none;  margin: 0 !important" target="_blank" href="https://semantics2025.semdev.org/">Workshop website</a></p>
+<br>
+
+<p id="UKG" style="font-size: 21px;"><b><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://ukgworkshop.github.io/">First Workshop on Users and Knowledge Graphs (UKG)</a></b></p>
+<p style="text-align: justify !important;">While the technical aspects of KG construction and reasoning have seen significant advancements, the human element often remains under-explored. Many KGs, despite their rich semantic structure, are not readily accessible or understandable to their intended users. This disconnect can hinder the adoption and effective use of KGs in various domains. This workshop is motivated by the growing recognition of the crucial role of user interaction in the success of KG-based systems. There is a need to understand: How users perceive and interact with KGs. What challenges do users encounter when querying, exploring, or contributing to KGs? How can KG-based applications be designed to be more intuitive and user-friendly? What evaluation metrics and methodologies are appropriate for assessing user interaction with KGs? By bringing together researchers and practitioners from diverse backgrounds, this workshop aims to identify key research directions and foster collaborative efforts to address these challenges. A deeper understanding of user interaction with KGs is essential for unlocking the full potential of this technology and enabling its widespread adoption.</p>
 
 <p style="font-size: 21px;"><b>Organizers:</b></p>
 <ul>
-<li><p style="text-align: justify !important;">Michael Cochez, Vrije Universiteit, Amsterdam, Netherlands</p></li>
-<li><p style="text-align: justify !important;">Evgeny Kharlamov, Bosch Center for AI / University of Oslo, Germany</p></li>
-<li><p style="text-align: justify !important;">Radu Prodan, University of Klagenfurt, Austria</p></li>
+<li><p style="text-align: justify !important;">Enayat Rajabi, Cape Breton University</p></li>
+<li><p style="text-align: justify !important;">Somayeh Kafaie, Saint Mary's University</p></li>
+<li><p style="text-align: justify !important;">Christophe Debruyne, University of Liège</p></li>
+</ul>
+
+<p><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://ukgworkshop.github.io/">Workshop website</a></p>
+<br>
+
+<p id="SymGenAI4Sci" style="font-size: 21px;"><b><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://sga4s.semantic.foundation/">International Workshop on Symbolic and Generative AI for Science (SymGenAI4Sci)</a></b></p>
+<p style="text-align: justify !important;">The rapid advancement of Generative Artificial Intelligence (GenAI) has revolutionized various fields, including natural language processing, computer vision, and creative industries. Models such as GPT, DALL·E, and others have demonstrated the immense potential of generative AI in creating realistic, coherent, and often groundbreaking outputs across a wide range of domains. However, the application of these generative models to scientific discovery and problem-solving remains an emerging area, filled with opportunities and challenges. Science is inherently generative: it involves creating hypotheses, designing experiments, interpreting data, and communicating results. Generative AI has the potential to augment these processes by automating routine tasks, enabling hypothesis generation, synthesizing complex information, and uncovering insights from vast datasets. Scientific data is often sparse, noisy, and domain-specific, requiring models to understand and adhere to rigorous scientific principles and constraints. Issues such as model interpretability, reproducibility, and ethical use are particularly critical in scientific applications, where errors or biases can have far-reaching consequences. The SymGenAI4Sci 2025 workshop aims to address these challenges and explore the transformative potential of symbolic and generative AI in scientific research</p>
+
+<p style="font-size: 21px;"><b>Organizers:</b></p>
+<ul>
+<li><p style="text-align: justify !important;">Sanju Tiwari, Sharda University Delhi-NCR India & TIB Hanover Germany</p></li>
+<li><p style="text-align: justify !important;">Jennifer D'Souza, TIB Hanover, Germany</p></li>
+<li><p style="text-align: justify !important;">Daniil Dobriy, WU Vienna, Austria</p></li>
+<li><p style="text-align: justify !important;">Sören Aue, Leibniz University of Hannover and TIB, Germany</p></li>
+</ul>
+<p><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://sga4s.semantic.foundation/">Workshop website</a></p>
+<br>
+
+<p id="SENTIS" style="font-size: 21px;"><b><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://semsys.ai.wu.ac.at/sentis2025/">Leveraging Semantics for Transparency in Industrial Systems (SENTIS)</a></b></p>
+<p style="text-align: justify !important;">As industrial systems evolve from hardware-centric systems with guaranteed deterministic performance into distributed software-oriented ecosystems, their complexity increases significantly. Catalyzed by the convergence of Information Technology (IT) and Operational Technology (OT) alongside the integration of Machine Learning (ML) and Artificial Intelligence (AI), it becomes increasingly challenging to understand the internal workings of these systems. Semantic modeling and reasoning can play a key role in enhancing transparency and explainability by providing formal representations and a common language to capture the relationships, dependencies, and decision-making processes within these complex industrial systems. The SENTIS workshop aims to connect practitioners in the domain of industrial systems with researchers by providing a platform for presentation of projects as well as individual research contributions.</p>
+
+<p style="font-size: 21px;"><b>Organizers:</b></p>
+<ul>
+<li><p style="text-align: justify !important;">Konrad Diwold, Siemens AG Österreich</p></li>
+<li><p style="text-align: justify !important;">Andreas Harth, University of Erlangen-Nuremberg</p></li>
+<li><p style="text-align: justify !important;">Marta Sabou, WU Vienna</p></li>
+<li><p style="text-align: justify !important;">Gernot Steindl, TU Vienna/FH Burgenland</p></li>
+<li><p style="text-align: justify !important;">Katrin Schreiberhuber, WU Vienna</p></li>
+</ul>
+<p><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://semsys.ai.wu.ac.at/sentis2025/">Workshop website</a></p>
+<br>
+
+<p id="SKGI" style="font-size: 21px;"><b><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://sites.google.com/view/skgi">Scaling Knowledge Graphs for Industry: LLMs meet KGs (SKGI)</a></b></p>
+<p style="text-align: justify !important;">This workshop explores the intersection of Knowledge Graphs (KGs) and Large Language Models (LLMs) with a focus on enabling scalable, efficient, and trustworthy AI applications in industrial contexts. As generative AI rapidly evolves, integrating symbolic and neural methods becomes essential to address challenges such as explainability, data alignment, and system robustness. Topics include Graph-based Retrieval-Augmented Generation (Graph RAG), scalable KG construction, maintenance and usage, energy-efficient AI, and user-centered KG interfaces. The workshop brings together academic researchers and industry practitioners to discuss practical solutions and the future of Semantic Web technologies in the era of foundation models.</p>
+<p style="font-size: 21px;"><b>Organizers:</b></p>
+<ul>
+<li><p style="text-align: justify !important;">Wilma Johanna Schmidt</p></li>
+<li><p style="text-align: justify !important;">Evgeny Kharlamov</p></li>
+<li><p style="text-align: justify !important;">Adrian Paschke</p></li>
+<li><p style="text-align: justify !important;">Michael Cochez</p></li>
+<li><p style="text-align: justify !important;">Diego Rincon-Yanez</p></li>
+<li><p style="text-align: justify !important;">Declan O'Sullivan</p></li>
 </ul>
 <p><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://sites.google.com/view/skgi">Workshop website</a></p>
 <br>
+
+<p id="kgnesy" style="font-size: 21px;"><b><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://sites.google.com/view/kgnesy2025">Second Workshop on Knowledge Graphs and Neurosymbolic AI (KG-NeSy)</a></b></p>
+<p style="text-align: justify !important;">Knowledge Graphs provide a structured and robust framework for organizing, integrating, and reasoning over large-scale knowledge in machine-readable formats. Due to their ability to seamlessly integrate structured symbolic knowledge with data-driven techniques, they are increasingly used in combination with Machine Learning methods. This interplay has led to significant advancements in AI applications, paving the way for the emerging paradigm of Neurosymbolic AI, which seeks to unify neural learning models with symbolic reasoning.</p>
+<p style="text-align: justify !important;">In the KG-NeSy workshop, we will welcome submissions that explore these synergies as well as any other combinations, seeking to gain a better understanding of how Knowledge Graphs and Neurosymbolic AI influence and benefit each other. Furthermore, we invite  contributions presenting preliminary ideas, in-progress research, andapplication-focused work.</p>
+<p style="font-size: 21px;"><b>Organizers:</b></p>
+<ul>
+<li><p style="text-align: justify !important;">Shqiponja Ahmetaj, Vienna University of Technology, Austria</p></li>
+<li><p style="text-align: justify !important;">Fajar J. Ekaputra, Vienna University of Economics and Business, Austria</p></li>
+<li><p style="text-align: justify !important;">Andreas Ekelhart, University of Vienna, Austria</p></li>
+<li><p style="text-align: justify !important;">Sebastian Neumaier, St. Pölten University of Applied Sciences, Austria</p></li>
+</ul>
+<p><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://sites.google.com/view/kgnesy2025">Workshop website</a></p>
+<br>
+
+<p id="sem4tra" style="font-size: 21px;"><b><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://semantic-transportation.github.io/sem4tra-kg-website/">Semantics for Transport 2025 (Sem4Tra25)</a></b></p>
+<p style="text-align: justify !important;">This workshop seeks to advance the Mobility and Logistics Data Space through Semantic Web, Linked Data, and Knowledge Graph techniques. In scope are methods to query and reason over integrated data on the web that can help an end-user plan and book a trip from A to B, as well as extract insights and share information for supply chain operations management. We target researchers and practitioners who are contributing to the transformation of passenger and freight transportation by proposing new solutions based on semantic techniques and technologies. The workshop is an opportunity to disseminate and discuss use cases and studies demonstrating the application of semantic and web technologies in the broader transportation domain to tackle the aforementioned challenges.</p>
+<p style="font-size: 21px;"><b>Organizers:</b></p>
+<ul>
+<li><p style="text-align: justify !important;">Shahrom Sohi, Researcher, WU Vienna</p></li>
+<li><p style="text-align: justify !important;">Pieter Colpaert, Senior Researcher, imec - IDLab UGent</p></li>
+<li><p style="text-align: justify !important;">Julian Rojas, Postdoc Researcher, imec - IDLab UGent</p></li>
+<li><p style="text-align: justify !important;">Ghislain Atemezing, Operational Data Unit, European Railways Agency</p></li>
+<li><p style="text-align: justify !important;">Cornelis Bouter, Sciencetist Innovator, TNO</p></li>
+<li><p style="text-align: justify !important;">Mersedeh Sadeghi, Senior Researcher, University of Cologne</p></li>
+</ul>
+<p><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://semantic-transportation.github.io/sem4tra-kg-website/">Workshop website</a></p>
+<br>
+
 <hr>
 
-# Accepted tutorials
-<p id="REAS" style="font-size: 21px; text-align: justify !important; margin: 0 !important"><b><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://www.oxfordsemantic.tech/events/semantics24-the-ultimate-guide-to-semantic-reasoning-how-to-enrich-your-data-for-practical-applications-including-use-with-rag-llms">The Ultimate Guide to Semantic Reasoning: How to enrich your data for practical applications including use with RAG & LLMs.</a></b></p>
-<p style="margin: 0 !important">Peter Crocker and Thomas Vout.</p>
-<p style=""><b>Description:</b></p>
-<p style="text-align: justify !important; margin: 0 !important">
-Semantic reasoning is fast becoming a must-have for anyone running a knowledge graph application as a route to better data, faster queries, and ultimately greater insights. With ever-improving
-technology, these benefits are no longer for an exclusive few and are instead widely accessible, and
-yet, many in the industry still lack the knowledge and understanding to fully capture the power of
-reasoning.
-Join this Ultimate Guide to Semantic Reasoning to learn the best practices of rule writing and how to
-use it to supercharge applications. Use the W3C standard, OWL, for ontological reasoning, and the
-widely used Datalog for more advanced functionality such as aggregation, negation, and filtering to
-build a working solution live in the workshop.
-Discover how this enriched data, coupled with the advanced automation feature of incremental
-reasoning, is enabling real-world applications, including how to enhance RAG and LLM-based
-solutions. For beginners and experts alike, no prior knowledge is required
-</p>
-<p><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://www.oxfordsemantic.tech/events/semantics24-the-ultimate-guide-to-semantic-reasoning-how-to-enrich-your-data-for-practical-applications-including-use-with-rag-llms">Tutorial website</a></p>
-
-<br>
-<br>
-<p id="IKGA" style="font-size: 21px; text-align: justify !important; margin: 0 !important"><b>
-<a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://pantopix.com/en/modeling-product-ontologies-for-industrial-kg-applications/">
-Modeling product ontologies for industrial KG applications</a></b></p>
-<p  style="margin: 0 !important"> Prof Dr. Martin Ley, Maximilian Gärber and Maraike Heim.</p>
-<p style=""><b>Description:</b></p>
-<p style="text-align: justify !important; margin: 0 !important">
-he main purpose of many industrial KG applications is providing the right information to
-the right person at the right time. From an information point of view (i. e. with respect to
-information units and information types,) this goal is supported by iiRDS, the intelligent
-information request and delivery standard. However, information is not “free floating”, but
-typically and necessarily related to a specific product or a specific component of a product.
-Nonetheless, there seems to be no common understanding of how knowledge about a
-product is represented. iiRDS itself only offers so-called “docking points”. This typically
-leads to highly specialized, customized, and even co-existing representations of the product
-domain, making data-interoperability an even greater task. The goal of this tutorial is to
-discuss existing approaches to product ontology modeling from various perspectives such
-as iiRDS, Asset Administration Shell, custom ontologies and/or eClass. The participants aim
-at identifying agreement and/or deviation of existing approaches and ideally seek
-developing the framework for a common approach to the modeling of product ontologies.
-</p>
-<p><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://pantopix.com/en/modeling-product-ontologies-for-industrial-kg-applications/">Tutorial website</a></p>
-
-<br>
-<br>
-<p id="STVH" style="font-size: 21px; text-align: justify !important; margin: 0 !important"><b><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://www.semantic-treehouse.nl/blog/semantics-2024/">Semantics in Data Spaces: Semantic Treehouse as Vocabulary Hub.</a></b></p>
-<p  style="margin: 0 !important">Jelte Bootsma, Linda Oosterheert and Cornelis Bouter.</p>
-<p style=""><b>Description:</b></p>
-<p style="text-align: justify !important; margin: 0 !important ">
-Data sharing accelerates innovations within and across sectors, leading to the development of new solutions. For a growing number of companies, this turns data into a strategic asset over which they want to maintain control. The European strategy for data aims to create common European data spaces to ensure Europe’s global competitiveness and data sovereignty. Data spaces are distributed systems designed to facilitate secure and trustworthy data exchanges between participants, emphasizing trust and data sovereignty. One of the crucial aspect in making this happen is semantics, which enables consistent and unambiguous data sharing between participants of a data space. Achieving semantic interoperability is a continuous balancing act between maintaining strict uniformity for consistent and easily understandable data, and accommodating the diverse requirements of different data space participants. This tutorial offers practical insights into shaping semantics within data spaces, with TNO’s Semantic Treehouse as so-called vocabulary hub as an important means. The tutorial highlights the challenges and presents solutions for achieving semantic interoperability in the context of data spaces.
-</p>
-<p><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://www.semantic-treehouse.nl/blog/semantics-2024/">Tutorial website</a></p>
