@@ -25,7 +25,7 @@ Accepted workshops
 <li><p>Cornelis Bouter, Sciencetist Innovator, TNO</p></li>
 <li><p>Mersedeh Sadeghi, Senior Researcher, University of Cologne</p></li>
 </ul>
-<p><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://semantic-transportation.github.io/sem4tra-kg-website/">website</a></p>
+<p><b><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://semantic-transportation.github.io/sem4tra-kg-website/">website</a></b></p>
 </div>
 <br>
 <div class="aw">
@@ -39,7 +39,7 @@ Accepted workshops
 <li><p>Andreas Ekelhart, University of Vienna, Austria</p></li>
 <li><p>Sebastian Neumaier, St. Pölten University of Applied Sciences, Austria</p></li>
 </ul>
-<p><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://sites.google.com/view/kgnesy2025">website</a></p>
+<p><b><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://sites.google.com/view/kgnesy2025">website</a></b></p>
 </div>
 <br>
 <div class="aw">
@@ -51,7 +51,7 @@ Accepted workshops
 <li><p>Jindřich Mynarz, MSD Czech Republic, Prague, Czech Republic</p></li>
 <li><p>Jerven Bolleman, Swiss-Prot Group, SIB Swiss Institute of Bioinformatics, Geneva, Switzerland</p></li>
 </ul>
-<p><a style="text-decoration: none;  margin: 0 !important" target="_blank" href="https://semantics2025.semdev.org/">website</a></p>
+<p><b><a style="text-decoration: none;  margin: 0 !important" target="_blank" href="https://semantics2025.semdev.org/">website</a></b></p>
 </div>
 <br>
 <div class="aw">
@@ -65,7 +65,7 @@ Accepted workshops
 <li><p>Daniil Dobriy, WU Vienna, Austria</p></li>
 <li><p>Sören Aue, Leibniz University of Hannover and TIB, Germany</p></li>
 </ul>
-<p><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://sga4s.semantic.foundation/">website</a></p>
+<p><b><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://sga4s.semantic.foundation/">website</a></b></p>
 </div>
 <br>
 
@@ -83,7 +83,7 @@ Accepted workshops
 <li><p>Harshvardhan Pandit, ADAPT Centre, Dublin City University</p></li>
 <li><p>Ruben Verborgh, UGent-imec, Ghent</p></li>
 </ul>
-<p><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://w3id.org/nxdg/2025">website</a></p>
+<p><b><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://w3id.org/nxdg/2025">website</a></b></p>
 </div>
 <br>
 <div class="aw">
@@ -98,7 +98,7 @@ Accepted workshops
 <li><p>Gernot Steindl, TU Vienna/FH Burgenland</p></li>
 <li><p>Katrin Schreiberhuber, WU Vienna</p></li>
 </ul>
-<p><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://semsys.ai.wu.ac.at/sentis2025/">website</a></p>
+<p><b><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://semsys.ai.wu.ac.at/sentis2025/">website</a></b></p>
 </div>
 <br>
 
@@ -113,7 +113,7 @@ Accepted workshops
 <li><p>Christophe Debruyne, University of Liège</p></li>
 </ul>
 
-<p><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://ukgworkshop.github.io/">website</a></p>
+<p><b><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://ukgworkshop.github.io/">website</a></b></p>
 </div>
 <br>
 
@@ -129,7 +129,7 @@ Accepted workshops
 <li><p>Diego Rincon-Yanez</p></li>
 <li><p>Declan O'Sullivan</p></li>
 </ul>
-<p><a style="text-decoration: none; margin: 0 !important" target="_blank" href="#">website</a></p>
+<p><b><a style="text-decoration: none; margin: 0 !important" target="_blank" href="#">website</a></b></p>
 </div>
 <br>
 
