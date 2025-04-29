@@ -30,8 +30,12 @@ Accepted workshops
 <br>
 <div class="aw">
 <p id="kgnesy" style="font-size: 21px;"><b><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://sites.google.com/view/kgnesy2025">Second Workshop on Knowledge Graphs and Neurosymbolic AI (KG-NeSy)</a></b></p>
-<p>Knowledge Graphs provide a structured and robust framework for organizing, integrating, and reasoning over large-scale knowledge in machine-readable formats. Due to their ability to seamlessly integrate structured symbolic knowledge with data-driven techniques, they are increasingly used in combination with Machine Learning methods. This interplay has led to significant advancements in AI applications, paving the way for the emerging paradigm of Neurosymbolic AI, which seeks to unify neural learning models with symbolic reasoning.</p>
-<p>In the KG-NeSy workshop, we will welcome submissions that explore these synergies as well as any other combinations, seeking to gain a better understanding of how Knowledge Graphs and Neurosymbolic AI influence and benefit each other. Furthermore, we invite  contributions presenting preliminary ideas, in-progress research, andapplication-focused work.</p>
+<p>This workshop aims to explore research topics in the intersection of Knowledge Graphs and Neurosymbolic AI. Neurosymbolic AI/Machine Learning techniques can be applied to construct and refine Knowledge Graphs, contributing to their ongoing evolution. Simultaneously,
+leveraging Knowledge Graphs for learning in Neurosymbolic AI allows intelligent systems to draw insights from structured and unstructured symbolic representations, paving the way for more informed AI models and improving interpretability and transparency in
+their decision-making process.</p>
+
+<p>We invite papers that explore these synergies as well as any other combinations, seeking to gain a better understanding of how Knowledge Graphs and Neurosymbolic AI influence and benefit each other. Application papers and extended abstracts of published journal
+articles are also welcome.</p>
 <p style="font-size: 21px; color: #2A709F"><b>Organizers:</b></p>
 <ul>
 <li><p>Shqiponja Ahmetaj, Vienna University of Technology, Austria</p></li>
