@@ -345,8 +345,6 @@ function populate_quotes_container(fcsv, page, container, baseurl) {
       }
     });
 }
-
-
 function populate_news_container(fcsv, page, container, baseurl) {
   $.ajax({
       url : fcsv,
@@ -357,6 +355,46 @@ function populate_news_container(fcsv, page, container, baseurl) {
         var all_html_elems = "";
         var count_news = 1;
         const MAX_NEWS = 4;
+        json_data.forEach(function(entry) {
+          if (count_news <= MAX_NEWS) {
+            var title = entry["title"].trim();
+            var text = entry["text"];
+            var page_name = entry["page_name"];
+            var image = "../img/news/"+entry["img"].trim();
+            if (page == "index") {
+              image = baseurl+"img/news/"+entry["img"].trim();
+            }
+
+            var html_img = '<div class="container-img-news"><img typeof="foaf:Image" src="'+image+'" class="news-img" alt=""></div>';
+            all_html_elems += `<div class="col-lg-3 mx-auto news-box"> <a href="`+baseurl+"page/news?page="+page_name+`" class="news-link">`
+                    + html_img
+                    + `<h5 class='news-title'>`+title + `</h5>`
+                    +`<hr/>`
+                    + `<div class="news-abs">`
+                    + text
+                    + `</div>`
+                    // + `<div class="news-link"><a href="`+baseurl+"page/news?page="+page_name+`">Read More</a></div>`
+                    + `</a></div>`;
+          }
+          count_news += 1;
+        });
+
+        body_html = body_html.replace('__NEWS__', all_html_elems);
+        $("#"+container).append(body_html);
+      }
+    });
+}
+
+function populate_news_blog_container(fcsv, page, container, baseurl) {
+  $.ajax({
+      url : fcsv,
+      dataType: "text",
+      success : function (fdata) {
+        var json_data = $.csv.toObjects(fdata);
+        var body_html = `<div class="row section-content"> __NEWS__ </div>`;
+        var all_html_elems = "";
+        var count_news = 1;
+        const MAX_NEWS = 12;
         json_data.forEach(function(entry) {
           if (count_news <= MAX_NEWS) {
             var title = entry["title"].trim();
@@ -498,4 +536,7 @@ function build_news(conf){
 
 function build_news_list(conf){
   populate_news_list_container(conf["baseurl"]+"content/news.csv", "news","news_list", conf["baseurl"]);
+}
+function build_news_blog(conf){
+  populate_news_blog_container(conf["baseurl"]+"content/news.csv", "blog_news","blog_news", conf["baseurl"]);
 }
