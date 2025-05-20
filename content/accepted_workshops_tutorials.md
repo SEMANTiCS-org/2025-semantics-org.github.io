@@ -67,7 +67,7 @@ articles are also welcome.</p>
 <li><p>Sanju Tiwari, Sharda University Delhi-NCR India & TIB Hanover Germany</p></li>
 <li><p>Jennifer D'Souza, TIB Hanover, Germany</p></li>
 <li><p>Daniil Dobriy, WU Vienna, Austria</p></li>
-<li><p>Sören Aue, Leibniz University of Hannover and TIB, Germany</p></li>
+<li><p>Soren Auer, Leibniz University of Hannover and TIB, Germany</p></li>
 </ul>
 <p><b><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://sga4s.semantic.foundation/">website</a></b></p>
 </div>
