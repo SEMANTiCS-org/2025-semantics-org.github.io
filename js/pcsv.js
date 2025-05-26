@@ -277,7 +277,7 @@ function populate_keyspeakers(fcsv, page, container, baseurl) {
               var str_html = '<div class="ks col-sm-4 '+e_type+'">'+html_body+"</div>";
               group_html = group_html + str_html;
               count = count + 1;
-              if (count == 3) {
+              if (count == 2) {
                 $("#"+container).append('<div class="row section-content kss">'+group_html+'</div>');
                 group_html = "";
                 count = 0;
