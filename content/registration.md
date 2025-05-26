@@ -1,7 +1,7 @@
 # Registration
-Join us from September 17 - 19, 2024 in Amsterdam for the leading European conference on Linked Data, Semantic AI and Data Science. We have an inspiring program for industry professionals, decision-makers, researchers and academics. Share experiences, ideas and learn from each other. Cross the boundaries of your domain or dive deeper into your field of expertise.  
+Join us from September 3 - 5, 2025 Vienna for the leading European conference on Linked Data, Semantic AI and Data Science. We have an inspiring program for industry professionals, decision-makers, researchers and academics. Share experiences, ideas and learn from each other. Cross the boundaries of your domain or dive deeper into your field of expertise.
 
-**Do not miss our earlybird registration deadline: August 12, 2024.**
+**Do not miss our early bird registration deadline: August 2, 2025.**
 
 
 <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sponsor-tab">
@@ -34,18 +34,18 @@ Join us from September 17 - 19, 2024 in Amsterdam for the leading European confe
         <td class=""><div class="i-circle i-check"></div></td>
       </tr>
       <tr class="row3 tr-alt">
-        <td class="">Early Bird ticket (until August 5)</td>
-        <td class="td-important-val">€ 169</td>
-        <td class="td-important-val td-mid-ontop">€ 521</td>
-        <td class="td-important-val">€ 60</td>
-        <td class="td-important-val">€ 206</td>
+        <td class="">Early Bird ticket (until August 1)</td>
+        <td class="td-important-val">€ 185</td>
+        <td class="td-important-val td-mid-ontop">€ 575</td>
+        <td class="td-important-val">€ 66</td>
+        <td class="td-important-val">€ 225</td>
       </tr>
       <tr class="row4">
-        <td class="">Regular price (from August 6)</td>
-        <td class="">€ 225</td>
-        <td class="td-mid-ontop">€ 695</td>
-        <td class="">€ 80</td>
-        <td class="">€ 275</td>
+        <td class="">Regular price (from August 2)</td>
+        <td class="">€ 247</td>
+        <td class="td-mid-ontop">€ 755</td>
+        <td class="">€ 88</td>
+        <td class="">€ 299</td>
       </tr>
       <tr class="row5 tr-alt">
         <td class="">Exhibition</td>
