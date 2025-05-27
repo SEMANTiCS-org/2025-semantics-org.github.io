@@ -36,16 +36,16 @@ Join us from September 3 - 5, 2025 Vienna for the leading European conference on
       <tr class="row3 tr-alt">
         <td class="">Early Bird ticket (until August 1)</td>
         <td class="td-important-val">€ 185</td>
-        <td class="td-important-val td-mid-ontop">€ 575</td>
+        <td class="td-important-val td-mid-ontop">€ 575 *</td>
         <td class="td-important-val">€ 66</td>
-        <td class="td-important-val">€ 225</td>
+        <td class="td-important-val">€ 225 *</td>
       </tr>
       <tr class="row4">
         <td class="">Regular price (from August 2)</td>
         <td class="">€ 247</td>
-        <td class="td-mid-ontop">€ 755</td>
+        <td class="td-mid-ontop">€ 755 *</td>
         <td class="">€ 88</td>
-        <td class="">€ 299</td>
+        <td class="">€ 299 *</td>
       </tr>
       <tr class="row5 tr-alt">
         <td class="">Exhibition</td>
@@ -91,12 +91,11 @@ Join us from September 3 - 5, 2025 Vienna for the leading European conference on
       </tr>
       <tr class="row11 tr-summary">
         <td class="">&nbsp;</td>
-        <td class="">
-        <!-- https://www.aanmelder.nl/semantics2024/subscribe -->
-        <a type="button" class="btn disabled-link">BOOK NOW</a></td>
-        <td class="td-last-ontop"><a type="button" class="btn disabled-link">BOOK NOW</a></td>
-        <td class=""><a  type="button" class="btn disabled-link">BOOK NOW</a></td>
-        <td class=""><a  type="button" class="btn disabled-link">BOOK NOW</a></td>
+        <td class=""><a href="https://www.conftool.org/semantics2025/" type="button" class="btn btn-primary">BOOK NOW</a></td>
+        <td class="td-last-ontop"><a href="https://www.conftool.org/semantics2025/" type="button" class="btn btn-primary">BOOK NOW</a></td>
+        <td class=""><a href="https://www.conftool.org/semantics2025/"  type="button" class="btn btn-primary">BOOK NOW</a></td>
+        <td class=""><a href="https://www.conftool.org/semantics2025/"  type="button" class="btn btn-primary">BOOK NOW</a></td>
       </tr>
     </tbody>
 </table>
+<p>*Without VAT</p>
