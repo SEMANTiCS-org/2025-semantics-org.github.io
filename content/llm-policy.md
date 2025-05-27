@@ -1,5 +1,7 @@
 # Large Language Model Policy
-
+<div style="text-align: center;">
+  <img src="../img/llm.png" style="width: 70%; height: auto;" alt="">
+</div>
 SEMANTICS 2025 follows the guidelines of the community about the fair use of Large Language Models (LLMs) and borrows the policy from the International Conference on Information and Knowledge Management (CIKM).
 
 The underlying policy pertains to all the conference tracks and papers that include text generated from a large-scale language model (LLM), such as ChatGPT or Bing, are prohibited unless the produced text is presented as a part of the paper’s experimental analysis. In essence, the policy expects the following:
