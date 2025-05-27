@@ -1,4 +1,7 @@
 # Code of Conduct
+<div style="text-align: center;">
+  <img src="../img/coc.png" style="width: 70%; height: auto;" alt="">
+</div>
 
 ## Overview
 The **SEMANTiCS Conference** is committed to providing a **professional, respectful, and inclusive environment** for sharing academic research and fostering scholarly collaboration. This Code of Conduct applies to all participants, including attendees, speakers, organizers, sponsors, reviewers, and volunteers, across **all conference-related activities**, whether in person or virtual.
