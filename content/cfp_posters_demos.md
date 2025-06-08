@@ -36,4 +36,4 @@ Poster and demo submissions should consist of a paper that describes the work, i
 ## Poster and Demo Chairs
 
 -   **Ivan Heibi**
--   **Diego Colorano**
+-   **Diego Collarana**
