@@ -6,7 +6,7 @@ The Posters & Demos Track offers an informal setting that promotes engagement an
 
 ## Important dates
 
--   **Paper Submission Deadline**: June 13, 2025
+-   **Paper Submission Deadline**: <del>June 13, 2025</del> July 4, 2025
 -   **Notification of Acceptance**: July 21, 2025
 -   **Camera-Ready Paper Deadline**: July 28, 2025
 
