@@ -344,3 +344,4 @@
   </div>
 </div>
  
+ A comprehensive list of proceedings and research papers is available on [DBLP](https://dblp.org/db/conf/i-semantics/index.html).
