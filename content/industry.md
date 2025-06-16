@@ -5,7 +5,7 @@ The Industry &amp; Use Case track at SEMANTiCS welcomes submissions that present
 ## Important dates
 
 -   **Submission Deadline**: <span style="color:gray; text-decoration: line-through;">May 14, 2025 (11:59 pm)</span>   June 1, 2025 (11:59 pm)
--   **Notification of Acceptance:** June 13, 2025 (11:59 pm)
+-   **Notification of Acceptance:** June 30, 2025 (11:59 pm)
 -   **Presentation Ready:** August 18, 2025 (11:59 pm)
 
 All deadlines are set for 11:59 pm, Anywhere On Earth time (UTC-12)
