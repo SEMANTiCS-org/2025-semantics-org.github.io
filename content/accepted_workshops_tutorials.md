@@ -142,7 +142,7 @@ Accepted tutorials
 </h2>
 
 <div class="aw">
-  <p id="SKGI" style="font-size: 21px">
+  <p id="MKGAR" style="font-size: 21px">
     <b>Making Knowledge Graphs AI-Ready - A Practical Guide for Quality Assessment and Improvement in GraphRAG Systems</b>
   </p>
   <p>Graph-based Retrieval-Augmented Generation (GraphRAG) enhances large language models (LLMs) by grounding their responses in structured knowledge graphs, offering more accurate, domain-specific, and explainable outputs. However, many graphs used in these pipelines are automatically generated or loosely assembled, often lacking the semantic clarity, structure, and consistency required for reliable grounding. The result is misleading retrieval, vague or incomplete answers, and hallucinations that are difficult to trace or fix.</p>
@@ -164,7 +164,7 @@ Accepted tutorials
 <br>
 
 <div class="aw">
-  <p id="SKGI" style="font-size: 21px">
+  <p id="BSCEDPP" style="font-size: 21px">
     <b>Building Streaming and Cross-Environment Data Processing Pipelines with RDF-Connect</b>
   </p>
   <p>RDF-Connect is a novel, language-agnostic framework for building provenance-aware, streaming data pipelines integrating heterogeneous processors across languages. It aims to facilitate the construction, maintenance, and reusability of modular, interoperable pipelines for complex, semantically rich data workflows. Data processing pipelines are essential for modern data-centric systems, such as knowledge graphs, LLMs, and machine learning systems. Developers and researchers need flexible, interoperable tools for creating multilingual data processing pipelines. To meet this need, we present a comprehensive tutorial that blends conceptual foundations with hands-on experience. Participants will learn how to use RDF-Connect to design and execute reusable, extensible, and transparent streaming pipelines. Participants will construct a streaming data processing pipeline from real-world data: generating a weather forecast knowledge graph for Vienna, Austria. They will: (i) Construct a machinelearning pipeline using processors in multiple programming languages, (ii) Create custom data processors for diverse endpoints, (iii) Explore provenance tracking using RDF and PROV-O ontology. By the end of the tutorial, participants from varied backgrounds, including Python, JavaScript, and Java developers, will gain practical experience building language-agnostic, semantically rich data processing pipelines. This tutorial not only introduces RDF-Connect but also opens new avenues for interdisciplinary data transformation strategies in Semantic Web research and development.</p>

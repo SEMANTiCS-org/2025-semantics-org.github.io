@@ -109,11 +109,11 @@ section table td.g-session {
 
 section table td.g-tutorial {
   color: white;
-  background: rgb(201,93,98);
+  background: #52AB99;
 }
 section table td.g-dbpedia {
-  color: white;
-  background: rgb(113,126,195);
+  color: #2C6777;
+  background: #C8D8E5;
 }
 section table td.g-extra.g-conference{
   color: white;
@@ -128,8 +128,8 @@ section table td.g-datathon {
 	background:  #413852 ;
   }
 section table td.g-workshop {
-  color: white;
-  background: rgb(121,179,115);
+  color: #2C6777;
+  background: #F4F4F4;
 }
 
 section table td.g-industry {
@@ -240,7 +240,7 @@ section #programme_legend ul li span:first-child{
 }
 
 section .leg-green{
-	background: rgb(179, 115, 115);
+	background: red;
 }
 
 section .leg-orange{
