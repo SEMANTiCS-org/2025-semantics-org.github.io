@@ -5,7 +5,7 @@
 | First name | Last name | Affiliation|
 |:------------:|:------------:|:------------:|
 | Blerina | Spahiu | University of Milan - Bicocca |
-| Mehdi  | Ali | Fraunhofer IAIS & Lamarr Institute|
+<!-- | Mehdi  | Ali | Fraunhofer IAIS & Lamarr Institute| -->
 
 
 <!-- ## Program Committee Members

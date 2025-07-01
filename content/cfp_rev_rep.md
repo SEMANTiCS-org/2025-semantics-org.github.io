@@ -114,7 +114,7 @@ Papers submitted to this track will be evaluated according to the following crit
 ## Research and Innovation Track Chairs
 
 **Blerina Spahiu** (University of Milano-Bicocca, IT)<br />
-**Mehdi Ali** (Lamarr Institute & Fraunhofer IAIS, Germany)<br />
+<!-- **Mehdi Ali** (Lamarr Institute & Fraunhofer IAIS, Germany)<br /> -->
 
 ## About SEMANTiCS Conference
 
