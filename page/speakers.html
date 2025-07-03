@@ -117,7 +117,8 @@
 
 		function get_doc(all_docxPath, docs_html, header) {
 
-			var docxPath = '../content/programme/' + all_docxPath.shift() + '.docx';
+			//var docxPath = '../content/programme/' + all_docxPath.shift() + '.docx';
+			var docxPath = 'https://docs.google.com/document/d/' + all_docxPath.shift() + '/export?format=docx';
 			fetch(docxPath)
 				.then(function (response) {
 					return response.arrayBuffer();
