@@ -96,15 +96,15 @@ section table td.g-break {
 
 section table td.g-keynote {
   color: white;
-  background: rgb(195,91,97);
+  background: #22475D;
 }
 section table td.g-invited_talk {
   color: white;
   background: rgb(250,148,1);
 }
 section table td.g-session {
-  color: white;
-  background: rgb(26,116,177);
+  color: #2C6777;
+  background: #F4F4F4;
 }
 
 section table td.g-tutorial {
@@ -119,9 +119,13 @@ section table td.g-extra.g-conference{
   color: white;
   background: rgb(26,116,177);
 }
+section table td.g-opening {
+  color: #2C6777;
+  background: #C8D8E5;
+}
 section table td.g-extra {
   color: white;
-  background: rgb(180,167,213);
+  background: #52AB99;
 }
 section table td.g-datathon {
 	color: white;
