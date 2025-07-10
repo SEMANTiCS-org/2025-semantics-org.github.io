@@ -76,7 +76,7 @@ In case your presentation will be accepted, we will provide you with detailed in
 
 An industry and use case presentation allows your organisation or project to advance and promote your topics and gain increased visibility. It gives you the chance to network with experts in a variety of fields. These relationships provide great value to organisations as they encounter subtle technical issues in any stage of implementation. The expertise gained by SEMANTiCS attendees has a long-term impact on their careers and organisations. These factors make SEMANTiCS for our community the major industry related event across Europe.
 
-Presenters will be granted access to the entire program of the SEMANTiCS Conference (incl. all social events) at a reduced rate. Additionally, presenters will have the possibility to discuss their contributions with an interested audience and exchange ideas on how semantic technologies can be utilized for corporate and business needs more effectively and successfully. Besides that, the Industry Presentations at SEMANTiCS generate a high visibility within the Semantics Community and allow you to meet interesting experts and extend your business network.
+Presenters will have the possibility to discuss their contributions with an interested audience and exchange ideas on how semantic technologies can be utilized for corporate and business needs more effectively and successfully. Besides that, the Industry Presentations at SEMANTiCS generate a high visibility within the Semantics Community and allow you to meet interesting experts and extend your business network.
 
 We are looking forward to your contribution!
 
