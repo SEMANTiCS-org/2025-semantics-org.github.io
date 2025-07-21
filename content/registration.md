@@ -98,4 +98,4 @@ Join us from September 3 - 5, 2025 Vienna for the leading European conference on
       </tr>
     </tbody>
 </table>
-<p>*Without VAT</p>
+<p>*Without VAT </p>
