@@ -20,7 +20,8 @@ Handelskai 269, 1020 Wien, Austria
 
 Vienna offers a diverse selection of accommodations to suit different budgets and preferences. To book a room at the conference hotel, please buy a SEMANTiCS conference ticket and we will share the booking link. Event participants can enjoy a 15% discount on the Best Available Rate.
 
-[Reservation at the Hilton Hotel Waterfront](https://www.hilton.com/en/hotels/viehahi-hilton-vienna-waterfront/)
+[Reservation at the Hilton Hotel Waterfront](https://www.hilton.com/en/attend-my-event/viehahi-asema-a8c0c685-9f6e-4d60-83c0-ad8e7d866430/)
+<!-- [Reservation at the Hilton Hotel Waterfront](https://www.hilton.com/en/hotels/viehahi-hilton-vienna-waterfront/) -->
 
 As all our event venues are conveniently located along the U2 subway line, you may also consider nearby hotels or other accommodations within walking distance.
 
