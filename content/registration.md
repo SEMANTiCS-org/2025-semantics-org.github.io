@@ -34,14 +34,14 @@ Join us from September 3 - 5, 2025 Vienna for the leading European conference on
         <td class=""><div class="i-circle i-check"></div></td>
       </tr>
       <tr class="row3 tr-alt">
-        <td class="">Early Bird ticket (until August 11)</td>
+        <td class="">Early Bird ticket ( until August 11 )</td>
         <td class="td-important-val">€ 185</td>
         <td class="td-important-val td-mid-ontop">€ 575 *</td>
         <td class="td-important-val">€ 66</td>
         <td class="td-important-val">€ 225 *</td>
       </tr>
       <tr class="row4">
-        <td class="">Regular price (from August 12)</td>
+        <td class="">Regular price ( from August 12 )</td>
         <td class="">€ 247</td>
         <td class="td-mid-ontop">€ 755 *</td>
         <td class="">€ 88</td>
