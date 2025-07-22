@@ -47,8 +47,8 @@
 
 		table {
 			width: 100% !important;
-			background-color: rgb(230, 230, 230);
-			border-radius: 18px !important;
+			/* background-color: rgb(230, 230, 230);
+			border-radius: 18px !important; */
 		}
 
 		th img {
@@ -60,6 +60,31 @@
 
 		img:not(table img) {
 			width: 200px;
+		}
+
+		table {
+			border-collapse: separate;
+			border-spacing: 10px;
+
+			overflow: hidden;
+		}
+
+		@media (min-width: 768px) {
+			table {
+				width: 100%;
+			}
+
+			th {
+				width: 33.33% !important;
+
+			}
+		}
+
+
+		th {
+			background-color: rgb(230, 230, 230);
+			border-radius: 18px !important;
+			border: 1px solid #ccc;
 		}
 	</style>
 
