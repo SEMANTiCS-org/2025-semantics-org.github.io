@@ -133,7 +133,7 @@ articles are also welcome.</p>
 <li><p>Diego Rincon-Yanez</p></li>
 <li><p>Declan O'Sullivan</p></li>
 </ul>
-<p><b><a style="text-decoration: none; margin: 0 !important" target="_blank" href="#">website</a></b></p>
+<p><b><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://sites.google.com/view/skgi/">website</a></b></p>
 </div>
 <br>
 
