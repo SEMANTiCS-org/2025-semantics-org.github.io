@@ -8,7 +8,7 @@ The Posters & Demos Track offers an informal setting that promotes engagement an
 
 -   **Paper Submission Deadline**: <del>June 13, 2025</del> July 4, 2025
 -   **Notification of Acceptance**: <del>July 21, 2025</del>  July 31, 2025
--   **Camera-Ready Paper Deadline**: <del>July 28, 2025</del> August 7, 2025
+-   **Camera-Ready Paper Deadline**: <del>July 28, 2025</del> August 16, 2025
 
 __Submission via Easychair on [https://easychair.org/conferences/?conf=semantics2025](https://easychair.org/conferences/?conf=semantics2025).__
 
