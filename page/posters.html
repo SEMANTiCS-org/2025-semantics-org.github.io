@@ -75,7 +75,7 @@
 								});
 
 								document.addEventListener('DOMContentLoaded', function () {
-									const filePath = '../content/SEMANTICS24_PD_titles_authors.xlsx';
+									const filePath = 'https://docs.google.com/spreadsheets/d/1mr0CMZTnbauMci_6ZfD-DOBDMbPFFZbTlLADrU1WKjA/export?format=xlsx';
 									fetch(filePath)
 										.then(response => response.arrayBuffer())
 										.then(data => {
@@ -84,8 +84,8 @@
 											const worksheet = workbook.Sheets[sheetName];
 											const jsonData = XLSX.utils.sheet_to_json(worksheet);
 
-											// Group By Cell 3
-											const groupedData = _.groupBy(jsonData, row => row[Object.keys(row)[3]]);
+											// Group By Cell 
+											const groupedData = _.groupBy(jsonData, row => row[Object.keys(row)[1]]);
 
 											displayTables(groupedData);
 										});
@@ -98,7 +98,7 @@
 									Object.keys(groupedData).forEach(group => {
 										const groupData = groupedData[group];
 										let table = `<h3>${group}</h3><table border="1"><tr>`;
-										const keys = Object.keys(groupData[0]).filter((_, index) => index !== 0 && index !== 1 && index !== 3); // Remove Cell
+										const keys = Object.keys(groupData[0]).filter((_, index) => index !== 0 && index !== 1); // Remove Cell
 
 										keys.forEach((key, index) => {
 											table += `<th class="column${index + 1}">${key}</th>`;
