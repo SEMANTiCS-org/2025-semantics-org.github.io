@@ -14,8 +14,8 @@ DBpedia has become a high-impact, high-visibility project because of our foundat
 * Milan Dojchinovski, InfAI, DBpedia Association, CTU
 * Sebastian Hellmann, InfAI, DBpedia Association
 
-## This year's topics
-TBA
+<!-- ## This year's topics
+TBA -->
 <!--We invite the world’s leading Knowledge Engineering experts to gain insights on the topic “Knowledge Graphs operated by AI”. This event aims to explore how recent advances in AI can leverage and exploit structured knowledge, as well as address new challenges and necessary changes to advance the vision of “Knowledge Graphs operated by AI”. Please find more information at the [Call for Presentations.](https://www.dbpedia.org/blog/cfp-dbpedia-day-2024/) -->
 
 ## Highlights include
