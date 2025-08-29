@@ -1,3 +1,49 @@
-title,author,url,code_url,license,image_url
-BiPaSs: Further Investigation of Fast Pathfinding in Wikidata,Leon Martin,https://doi.org/10.3233/SSW230009,https://github.com/uniba-mi/bipass-wikidata-pathfinder,GNU General Public License v3.0,https://2023-eu.semantics.cc/img/illustrations/760-Semantic23-Drawing-Text-04.png
-Another Paper,Jane Doe,https://doi.org/10.3233/SSW230010,https://github.com/janedoe/another-paper,MIT License,https://2023-eu.semantics.cc/img/illustrations/another.png
+#,author,title,code_url,data_url,ontology_url,orkg_url
+11,"Tobias Schwarzinger, Gernot Steindl, Thomas Frühwirth,
+Thomas Preindl, Konrad Diwold, Katrin Schreiberhuber and
+Fajar J. Ekaputra","SigSPARQL: Signals as a First-Class Citizen When Querying
+Knowledge Graphs",https://zenodo.org/records/15260651,,,
+13,"Michael Freund, Sebastian Schmid and Andreas Harth","Efficient Knowledge Graph Construction Based on Optimized
+Plans","https://anonymous.4open.science/r/benchmark_konverter-424B
+https://anonymous.4open.science/r/konverter-5FB0
+https://anonymous.4open.science/r/rml_io_konverter_frontend-7F72",,,
+20,"Felix Hamann, Lukas Walker and Adrian Ulges","Re-ranking with LLMs for Open-World Knowledge Graph
+Completion",https://anonymous.4open.science/r/ilp-EB37,"https://github.com/dfdazac/blp
+https://github.com/lavis-nlp/irt2","https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-70B/tree/main
+https://huggingface.co/meta-llama/Meta-Llama-3-70B-Instruct",
+21,"Maxime Jakubowski, Dominik Tomaszuk and Katja Hose",Bridging Gaps in RDF Validation,https://anonymous.4open.science/r/rdfvalidation-community-survey-E477/,,,
+28,"Mariam Arustashvili, Joerg Deigmoeller and Heiko Paulheim","Knowledge Graph Completion for Action Prediction on
+Situational Graphs -- A Case Study on Household Tasks",https://github.com/marusta/Knowledge_Refinement,,,
+36,"Malte Christian Bartels, Debayan Banerjee and Ricardo Usbeck","Automating SPARQL Query Translations between DBpedia and
+Wikidata",https://anonymous.4open.science/r/SPARQL-Query-Translation-QALD9-C27E,,,
+39,"Shubhanker Banerjee, Bharathi Raja Chakravarthi and John
+Philip McCrae",DA-ATE:Data Augmentation for Automatic Term Extraction,https://anonymous.4open.science/r/BF3B/,,,
+42,"Max Thoma, Leonhard Esterbauer, Thomas Preindl and Gernot
+Steindl","Utilizing Large Language Models for Log-Based Automated
+Thing Description Generation","https://doi.org/10.5281/zenodo.15526223
+https://github.com/max-thoma/log-based-td-generation","https://doi.org/10.5281/zenodo.15526223
+https://github.com/max-thoma/log-based-td-generation",,
+44,"Giulio Macilenti, Manuel Fiorelli and Armando Stellato",SISMA: Sentence Embedding–Based Ontology Matching with SBERT,https://anonymous.4open.science/r/SISMA-CD53/,"https://oaei.webdatacommons.org/tdrs/testdata/persistent/conference/conference-v1/conference_conference-v1.zip
+https://oaei.webdatacommons.org/tdrs/testdata/persistent/ce_track/ce_track/ce_track_ce_track.zip
+https://github.com/EngyNasr/MSE-Benchmark",https://huggingface.co/sentence-transformers/all-mpnet-base-v2,
+49,"Ginwa Fakih, Patricia Serrano-Alvarado and Matthieu Perrin",SHARP : A Hybrid Approach for SPARQL Query Relaxation,https://anonymous.4open.science/r/SHARP-SPARQL-Hybrid-Query-Relaxation-Approach-67E8/,https://anonymous.4open.science/r/SHARP-SPARQL-Hybrid-Query-Relaxation-Approach-67E8/,,
+59,"Kristian Noullet, Ayoub Ourgani, Niklas Thomas Lakner and
+Tobias Käfer","Linking with Bias: Domain-Specific Behavior in Entity
+Linking Systems",https://anonymous.4open.science/r/LinkingBias,"https://anonymous.4open.science/r/LinkingBias
+https://anonymous.4open.science/r/LinkingBias",,
+68,"Wilma Johanna Schmidt, Diego Rincon-Yanez, Irlan
+Grangel-González, Adrian Paschke and Evgeny Kharlamov",Document-Level Relation Extraction with Ontology-Guided RAG,https://github.com/boschresearch/growlrag_semantics2025,,,https://orkg.org/comparisons/R1431779
+70,"Antrea Christou, Alexis Ellis, Chris Davis Jaldi and Cogan
+Shimizu","Extending the Interactive Knowledge Browser to Support
+Educational Multimedia",https://github.com/kastle-lab/ink-browser-multimedia,,,
+78,"Christophe Debruyne, Souail Jaadari and David Chaves-Fraga","Declarative Generation of RDF Collections and Containers
+from Heterogeneous Data","https://github.com/SouailJ/morph-kgc/
+https://github.com/kg-construct/BURP/
+https://github.com/citiususc/yatter","https://github.com/dachafra/rml-cc-eval
+http://w3id.org/rml/cc/test-cases",,
+79,"Piotr Gorczyca, Doerthe Arndt, Martin Diller, Jochen Hampe,
+Georg Heidenreich, Pascal Kettmann, Markus Krötzsch,
+Stephan Mennicke, Sebastian Rudolph and Hannes Strass","Supporting Risk Management for Medical devices via the
+RISKMAN Ontology & Shapes",https://anonymous.4open.science/r/Riskman-SEMANTICS/,,,
+82,"Tilahun Abedissa Taffa, Debayan Banerjee, Yaregal Assabie
+and Ricardo Usbeck",HySQA: Hybrid Scholarly Question Answering,https://anonymous.4open.science/r/hysqa_new-8EAB/README.md,https://anonymous.4open.science/r/hysqa_new-8EAB/README.md,,
