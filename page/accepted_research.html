@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>SEMANTICS-2025</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="../css/scrolling-nav.css" rel="stylesheet" />
+
+    <link href="../css/style.css" rel="stylesheet" />
+    <link href="../css/accepted_papers_posters.css" rel="stylesheet" />
+    <link rel="icon" href="../img/semantics-logo-browser.ico" />
+
+    <!-- Mark down -->
+    <script type="module" src="../vendor/zero-md-v2/zero-md.min.js"></script>
+
+    <script src="../vendor/jquery/jquery.min.js"></script>
+
+    <script src="../js/getconf.js"></script>
+    <script src="../js/pcontent.js"></script>
+    <style>
+        .custom-link {
+            color: #fefefe;
+            text-decoration: none;
+            transition: color 0.3s, border-bottom 0.3s;
+        }
+
+        .custom-link:hover {
+            color: #fefefe;
+        }
+    </style>
+</head>
+
+<body id="page-top">
+    <div id="nav-placeholder"></div>
+
+    <script>
+        $(function () {
+            $('#nav-placeholder').load('nav.html', function functionName() {
+                apply_conf_onfunc(update_nav, false);
+            });
+            $('#page-footer').load('footer.html', function functionName() {
+                apply_conf_onfunc(update_footer, false);
+            });
+        });
+    </script>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <h4>Accepted Papers (Research Track)</h4>
+            </div>
+            <div id="papers-container" class="row">
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="page-footer"></footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="../js/scrolling-nav.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            Papa.parse('../content/papers.csv', {
+                download: true,
+                header: true,
+                complete: function (results) {
+                    const container = $('#papers-container');
+                    results.data.forEach((paper) => {
+                        if (!paper.title) return;
+                        // Split code_url by new lines and create links for each
+                        function createLinks(urls) {
+                            return urls
+                                .split(/\r?\n/)
+                                .map((url) => url.trim())
+                                .filter((url) => url)
+                                .map((url) => `<li><a href="${url}" target="_blank" rel="noopener noreferrer">${url}</a></li>`)
+                                .join('');
+                        }
+
+                        const codeLinks = paper.code_url ? createLinks(paper.code_url) : '';
+                        const dataLinks = paper.data_url ? createLinks(paper.data_url) : '';
+                        const ontologyLinks = paper.ontology_url ? createLinks(paper.ontology_url) : '';
+                        const orkgLinks = paper.orkg_url ? createLinks(paper.orkg_url) : '';
+                        const imageUrl = `/img/illustrations/2025/Semantics2025-SelectedPapers_HD-${paper['#']}.jpg`;
+                        const card = `
+                    <div class="col-lg-4 mb-4">
+                        <div class="card">
+                            <a href="${imageUrl}"><img class="card-img-top" src="${imageUrl}" alt="${paper.title}"></a>
+                            <div class="card-body">
+                                <p class="card-text"><u>${paper.title}</u>.<br>${paper.author}<br>
+                                ${paper.url ? `<i><strong>URL: <a href="${paper.url}" target="_blank">${paper.url}</a></strong></i></p>` : ''}
+                                <ul>
+                                    ${codeLinks ? `<li class="resource-type"><strong>Code</strong>: <ul>${codeLinks}</ul></li>` : ''}
+                                    ${dataLinks ? `<li class="resource-type"><strong>Data</strong>: <ul>${dataLinks}</ul></li>` : ''}
+                                    ${ontologyLinks ? `<li class="resource-type"><strong>Ontology</strong>: <ul>${ontologyLinks}</ul></li>` : ''}
+                                    ${orkgLinks ? `<li class="resource-type"><strong>ORKG</strong>: <ul>${orkgLinks}</ul></li>` : ''}
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    `;
+                        container.append(card);
+                    });
+                },
+            });
+        });
+    </script>
+</body>
+
+</html>
