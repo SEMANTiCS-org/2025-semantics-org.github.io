@@ -1,0 +1,66 @@
+submission,AuthorName,AuthorSurname,Email,Country,Affiliation,Corresponding?,Submitter?
+11,Tobias,Schwarzinger,tobias.schwarzinger@tuwien.ac.at,Austria,TU Wien,✔,✔
+11,Gernot,Steindl,gernot.steindl@hochschule-burgenland.at,Austria,Hochschule Burgenland,,
+11,Thomas,Frühwirth,tfruehwirth@auto.tuwien.ac.at,Austria,TU Wien,,
+11,Thomas,Preindl,thomas.preindl@tuwien.ac.at,Austria,TU Wien,,
+11,Konrad,Diwold,konrad.diwold@siemens.com,Austria,Siemens Aktiengesellschaft Österreich,,
+11,Katrin,Schreiberhuber,katrin.schreiberhuber@wu.ac.at,Austria,Vienna University of Economics and Business (WU),,
+11,Fajar J.,Ekaputra,fajar.ekaputra@wu.ac.at,Austria,Vienna University of Economics and Business (WU),,
+13,Michael,Freund,michaelfreund95@gmail.com,Germany,Fraunhofer Institute for Integrated Circuits IIS,✔,✔
+13,Sebastian,Schmid,sebastian.schmid@fau.de,Germany,Friedrich-Alexander-Universität Erlangen-Nürnberg,,
+13,Andreas,Harth,andreas.harth@fau.de,Germany,"Friedrich-Alexander-Universität Erlangen-Nürnberg and Fraunhofer IIS",,
+20,Felix,Hamann,felix.hamann@hs-rm.de,Germany,RheinMain University of Applied Sciences,✔,✔
+20,Lukas,Walker,lukas.walker@student.cs.hs-rm.de,Germany,RheinMain University of Applied Sciences,,
+20,Adrian,Ulges,adrian.ulges@hs-rm.de,Germany,RheinMain University of Applied Sciences,,
+21,Maxime,Jakubowski,maxime.jakubowski@tuwien.ac.at,Austria,TU Wien,✔,✔
+21,Dominik,Tomaszuk,d.tomaszuk@uwb.edu.pl,Poland,University of Bialystok,✔,
+21,Katja,Hose,katja.hose@tuwien.ac.at,Austria,TU Wien,✔,
+28,Mariam,Arustashvili,mariamarustashvili@gmail.com,Norway,University of Stavanger,✔,
+28,Joerg,Deigmoeller,joerg.deigmoeller@honda-ri.de,Germany,Honda Research Institute,✔,
+28,Heiko,Paulheim,heiko@informatik.uni-mannheim.de,Germany,University of Mannheim,✔,✔
+36,MalteChristian,Bartels,malte.c.bartels@stud.leuphana.de,Germany,Leuphana University,✔,✔
+36,Debayan,Banerjee,debayan.banerjee@leuphana.de,Germany,Leuphana University,✔,
+36,Ricardo,Usbeck,ricardo.usbeck@leuphana.de,Germany,Leuphana University,✔,
+39,Shubhanker,Banerjee,shubhanker.banerjee@adaptcentre.ie,Ireland,"ADAPT Centre, University of Galway",✔,✔
+39,Bharathi Raja,Chakravarthi,bharathiraja.asokachakravarthi@universityofgalway.ie,Ireland,University of Galway,,
+39,John Philip,McCrae,john.mccrae@adaptcentre.ie,Ireland,"ADAPT Centre, University of Galway",,
+42,Max,Thoma,max.thoma@tuwien.ac.at,Austria,TU Wien,✔,✔
+42,Leonhard,Esterbauer,leonhard.esterbauer@tuwien.ac.at,Austria,TU Wien,✔,
+42,Thomas,Preindl,thomas.preindl@tuwien.ac.at,Austria,Vienna University of Technology,✔,
+42,Gernot,Steindl,gernot.steindl@tuwien.ac.at,Austria,University of Applied Sciences Burgenland,✔,
+44,Giulio,Macilenti,giuliomacilenti@gmail.com,Italy,Tor Vergata University of Rome,✔,✔
+44,Manuel,Fiorelli,manuel.fiorelli@gmail.com,Italy,Tor Vergata University of Rome,✔,
+44,Armando,Stellato,stellato@uniroma2.it,Italy,Tor Vergata University of Rome,✔,
+49,Ginwa,Fakih,ginwa.fakih@univ-nantes.fr,France,Nantes University,✔,✔
+49,Patricia,Serrano-Alvarado,Patricia.Serrano-Alvarado@univ-nantes.fr,France,Nantes University,✔,
+49,Matthieu,Perrin,Matthieu.Perrin@univ-nantes.fr,France,Nantes University,✔,
+59,Kristian,Noullet,kristian.noullet@kit.edu,Germany,KIT,✔,✔
+59,Ayoub,Ourgani,unjde@student.kit.edu,Germany,KIT,✔,
+59,Niklas Thomas,Lakner,niklas.lakner@student.kit.edu,Germany,Karlsruhe Institute of Technology,✔,
+59,Tobias,Käfer,tobias.kaefer@kit.edu,Germany,Karlsruhe Institute of Technology,✔,
+68,Wilma Johanna,Schmidt,wilma.schmidt@bosch.com,Germany,Robert Bosch GmbH and Freie Universität Berlin,✔,✔
+68,Diego,Rincon-Yanez,rinconyanezd@gmail.com,Ireland,Trinity College Dublin,,
+68,Irlan,Grangel-González,irlan.grangelgonzalez@bosch.com,Germany,"Robert Bosch GmbH, Corporate Research, Renningen, Germany",,
+68,Adrian,Paschke,adrian.paschke@gmx.de,Germany,Freie Universität Berlin,,
+68,Evgeny,Kharlamov,Evgeny.Kharlamov@de.bosch.com,Germany,Bosch Center for AI,,
+70,Antrea,Christou,christou.2@wright.edu,United States,Wright State University,✔,✔
+70,Alexis,Ellis,ellis.177@wright.edu,United States,Wright State University,✔,
+70,Chris Davis,Jaldi,jaldi.2@wright.edu,United States,Wright State University,✔,
+70,Cogan,Shimizu,cogan.shimizu@wright.edu,United States,Wright State University,✔,
+78,Christophe,Debruyne,christophe.debruyne@gmail.com,Belgium,Université de Liège,✔,
+78,Souail,Jaadari,,Belgium,Université de Liège,,
+78,David,Chaves-Fraga,dachafra@gmail.com,Spain,Universidade de Santiago de Compostela,✔,✔
+79,Piotr,Gorczyca,piotr.gorczyca@tu-dresden.de,Germany,"TU Dresden, Institute of Artificial Intelligence, Computational Logic Group",✔,
+79,Doerthe,Arndt,doerthe.arndt@tu-dresden.de,Germany,TU Dresden,✔,✔
+79,Martin,Diller,martin.diller@tu-dresden.de,Germany,TU Dresden,✔,
+79,Jochen,Hampe,jochen.hampe@uniklinikum-dresden.de,Germany,TU Dresden,,
+79,Georg,Heidenreich,georg.heidenreich@siemens-healthineers.de,Germany,Siemens Healthineers,,
+79,Pascal,Kettmann,pascal.kettmann@tu-dresden.de,Germany,TU Dresden,✔,
+79,Markus,Krötzsch,markus.kroetzsch@tu-dresden.de,Germany,TU Dresden,,
+79,Stephan,Mennicke,stephan.mennicke@tu-dresden.de,Germany,"Knowledge-Based Systems Group, TU Dresden",✔,
+79,Sebastian,Rudolph,sebastian.rudolph@tu-dresden.de,Germany,TU Dresden,,
+79,Hannes,Strass,hannes.strass@tu-dresden.de,Germany,TU Dresden,✔,
+82,Tilahun Abedissa,Taffa,tilahun.taffa@uni-hamburg.de,Germany,University of Hamburg,✔,✔
+82,Debayan,Banerjee,debayan.banerjee@leuphana.de,Germany,Leuphana Universität Lüneburg,✔,
+82,Yaregal,Assabie,yaregala@yahoo.com,Ethiopia,Addis Ababa University,✔,
+82,Ricardo,Usbeck,ricardo.usbeck@leuphana.de,Germany,"Leuphana University Lüneburg, Germany",✔,

@@ -1,0 +1,446 @@
+ID,author,title,code_url,data_url,ontology_url,orkg_url,keywords,abstract
+11,"Tobias Schwarzinger, Gernot Steindl, Thomas Frühwirth,Thomas Preindl, Konrad Diwold, Katrin Schreiberhuber and Fajar J. Ekaputra",SigSPARQL: Signals as a First-Class Citizen When Querying Knowledge Graphs,https://zenodo.org/records/15260651,,,,"Knowledge Graph,Time Series,SPARQL,Semantic Web","Purpose:
+Cyber-Physical Systems (CPSs) integrate computation and
+physical processes, producing time series data from
+thousands of sensors.
+Knowledge graphs can contextualize these data, yet current
+approaches that are applicably to monitoring CPS rely on
+observation-based approaches.
+This limits the ability to express computations on sensor
+data, especially when no assumptions can be made about
+sampling synchronicity or sampling rates.
+
+Methodology:
+We propose an approach for integrating knowledge graphs
+with signals that model run-time sensor data as functions
+from time to data.
+To demonstrate this approach, we introduce SigSPARQL, a
+query language that can combine RDF data and signals.
+We assess its technical feasibility with a prototype and
+demonstrate its use in a typical CPS monitoring use case.
+
+Findings:
+Our approach enables queries to combine graph-based
+knowledge with signals, overcoming some key limits of
+observation-based methods.
+The developed prototype successfully demonstrated
+feasibility and applicability.
+
+Value:
+This work presents a query-based approach for CPS
+monitoring that integrates knowledge graphs and signals,
+alleviating problems of observation-based approaches.
+By leveraging system knowledge, it enables operators to run
+a single query across different system instances within the
+same domain.
+Future work will extend SigSPARQL with additional signal
+functions and evaluate it in large-scale CPS deployments."
+13,"Michael Freund, Sebastian Schmid and Andreas Harth",Efficient Knowledge Graph Construction Based on Optimized Plans,"https://anonymous.4open.science/r/benchmark_konverter-424B,https://anonymous.4open.science/r/konverter-5FB0,https://anonymous.4open.science/r/rml_io_konverter_frontend-7F72",,,,"Knowledge Graph Construction,Relational Algebra,RML","Purpose:
+Existing approaches for generating Knowledge Graphs (KGs)
+from file-based, non-RDF data using declarative mappings
+are either limited by language-specific engines or lack
+optimization with language-independent relational algebra
+backends, resulting in suboptimal performance. This
+research proposes an integrated framework that tightly
+couples logical and physical plan optimizations, enabling
+high-performance, language-agnostic RDF graph construction.
+
+Methodology:
+We formalize the KG construction process using relational
+algebra with a dedicated RDF term generation function
+within the projection operator, resulting in one of two
+canonicalized logical plans, one with a join and one
+without. We then introduce tightly coupled physical
+operators used to define concrete execution pipelines. We
+propose and evaluate two optimizations, logical-level
+constant-folding to reduce redundant computations and a
+physical-level heuristic scheduling strategy to optimize
+concurrent execution. We implemented the optimizations in a
+new backend engine called konverter and benchmarked the 
+engine with an RML frontend against two comparable engines,
+Morph-KGC and FlexRML.
+
+Findings:
+Empirical results show that constant-folding improves
+performance by approximately 7.4 % and heuristic scheduling
+by approximately 14.7 % compared to a worst case scenario,
+with minimal additional memory overhead. Overall, konverter
+significantly outperforms the current state-of-the-art in
+performance FlexRML, reducing execution time by 61.5 % and
+peak memory usage by 25.1 %.
+
+Value: The proposed framework and optimizations provide a
+formal and practically validated approach to optimizing the
+execution of declarative mappings for KG construction. The
+konverter engine demonstrates the potential for building
+high-performance, language-agnostic engines designed for
+efficient, large-scale enterprise data transformation into
+KGs directly from common file formats."
+20,"Felix Hamann, Lukas Walker and Adrian Ulges",Re-ranking with LLMs for Open-World Knowledge Graph Completion,https://anonymous.4open.science/r/ilp-EB37,"https://github.com/dfdazac/blp,https://github.com/lavis-nlp/irt2","https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-70B/tree/main,https://huggingface.co/meta-llama/Meta-Llama-3-70B-Instruct",,"Open-World Knowledge Graph Completion,LLM,Re-Ranking","Knowledge graphs (KGs) are a key tool across fields like
+web search, healthcare, and technical assistance, but are
+known to be notoriously incomplete. This paper addresses
+open-world knowledge graph completion (OW-KGC), which
+involves linking newly emerging entities – which are
+mentioned in text but not yet present in the graph – to a
+KG. We investigate the potential of off-the-shelf LLMs to
+tackle this task. Here, a central challenge is to constrain
+the LLM to the candidate space of existing entities
+available for linking. To address this, we propose a
+two-stage pipeline: A light-weight pre-ranker fine-tuned on
+the particular task narrows down the candidate entities,
+which are then re-ranked by the LLM.
+
+We evaluate two recent open-weight LLMs, namely Meta-LLAMA3
+Instruct (70B) and DeepSeek-R1-Distill-LLAMA (70B), on
+public OW-KGC benchmarks for the KGs Freebase (FB15k237),
+WordNet (WN18RR), and Wikidata (IRT2). We test two variants
+of the pipeline: one where the LLM is applied as a strict
+re-ranker, and another where the LLM is allowed to provide
+additional suggestions. Our experimental results show that,
+while LLMs used in isolation perform poorly, they improve
+performance substantially when applied as re-rankers,
+achieving new state-of-the-art results across all datasets.
+Notably, we observe that DeepSeek, which leverages an
+explicit self-reflection mechanism before producing
+results, outperforms LLAMA significantly when re-ranking
+and measuring MRR. However, LLAMA contrary to DeepSeek, is
+considerably better at accessing and re-trieving correct
+answers from its internalized knowledge."
+21,"Maxime Jakubowski, Dominik Tomaszuk and Katja Hose",Bridging Gaps in RDF Validation,https://anonymous.4open.science/r/rdfvalidation-community-survey-E477/,,,,"validation,rdf,knowledge graphs,shacl,shex,community survey","Purpose: This paper examines RDF validation practices and
+ challenges to understand stakeholder applications, their
+ needs, and
+ identify areas for improvement in technologies and
+ methodologies,
+ thereby guiding future research and standardization
+ efforts.
+
+Methodology: A community survey was conducted, targeting a
+ diverse group of RDF validation technology users across
+ academia and
+ industry. The survey collected data on current practices,
+ tool
+ usage, perceived benefits, limitations, and desired
+ enhancements to
+ gain a broad overview of the validation landscape.
+ 
+Findings: Our analysis shows that while RDF validation is
+ widely adopted and valued for enhancing data quality,
+ significant
+ challenges remain. In particular, users report a need for
+ better
+ documentation, improved tool support, enhanced
+ performance, and
+ greater language expressiveness to handle complex
+ large-scale
+ validation tasks effectively.
+
+Value: This work provides crucial insights into the RDF
+ validation landscape, highlighting current practices and
+ key areas
+ for development. It offers a foundation for researchers,
+ developers,
+ and standardization bodies to address current limitations
+ and
+ advance validation technologies, ultimately improving
+ data quality
+ and usability in knowledge graphs."
+28,"Mariam Arustashvili, Joerg Deigmoeller and Heiko Paulheim",Knowledge Graph Completion for Action Prediction on Situational Graphs -- A Case Study on Household Tasks,https://github.com/marusta/Knowledge_Refinement,,,,"Knowledge Graph,Completion,Link Prediction,Situational Knowledge Graph,Household Actions","Purpose: Knowledge graphs are used for various purposes,
+including business applications, biomedical analyses, and
+digital twins in industry 4.0. We investigate knowledge
+graphs describing household actions, which are useful for
+controlling household robots and analyzing video footage.
+Methodology: We study situational knowledge graphs built
+from video data and evaluate various link prediction
+methods, including graph embeddings and simple statistical
+baselines, on the task of completing these graphs.
+Findings: We show that although this is a standard link
+prediction problem, situational knowledge graphs have
+special characteristics that make many algorithms
+ineffective.
+Value: Our results reveal the limitations of current
+methods for situational reasoning and highlight the need
+for more context-aware approaches in household robotics."
+36,"Malte Christian Bartels, Debayan Banerjee and Ricardo Usbeck",Automating SPARQL Query Translations between DBpedia and Wikidata,https://anonymous.4open.science/r/SPARQL-Query-Translation-QALD9-C27E,,,,"SPARQL Query Translation,Knowledge Graph Interoperability,Large Language Models,Wikidata,DBpedia","Purpose: Cross-graph reuse of SPARQL queries could unlock
+the combined knowledge of multiple linked-data
+repositories, yet manual rewriting remains the norm. This
+study investigates whether state-of-the-art large language
+models (LLMs) can automatically translate SPARQL between
+heterogeneous knowledge graph (KG) schemas, focusing on
+DBpedia ↔ Wikidata, with implications for scaling
+applications to ever larger knowledge stores. This study
+addresses a notable gap in KG interoperability research by
+rigorously evaluating LLM performance on SPARQL-to-SPARQL
+translation.
+
+Methodology: Two benchmarks were assembled. The first pairs
+100 DBpedia–Wikidata queries from QALD-9-Plus; the second
+contains 100 DBLP queries aligned to OpenAlex, testing
+generalizability beyond encyclopaedic KGs. For each pair,
+explicit entity- and relation-mappings were generated;
+these were omitted in baseline runs, while subsequent
+variants included them. Three open LLMs —Llama-3-8B,
+DeepSeek-70B, Mistral-Large-Instruct— were selected based
+on their sizes and architectures and tested with zero-shot,
+few-shot and two chain-of-thought variants. Outputs were
+compared with gold answers and resulting errors categorized.
+
+Findings: Performance varied markedly across models and
+prompting strategies. Few-shot Mistral-Large-Instruct
+reached the highest accuracy of 86% on DBpedia → Wikidata,
+while corresponding DBLP → OpenAlex tests confirmed similar
+results, indicating generalizability to domain-specific
+KGs. Most errors in translation arose from mis-aligned
+entities or properties that propagated and distorted entire
+query structures. Incorporating explicit alignment tables
+and structured reasoning, consistently reduced such errors
+and improved accuracy, demonstrating the crucial role of
+semantic mappings and targeted prompting for enhancing the
+effectiveness of LLM-based SPARQL translation.
+
+Value: The study outlines a scalable path to KG
+interoperability: widely available LLMs, combined with
+alignment tables and structured prompting, offer a solution
+for translating queries across heterogeneous KGs. It
+introduces openly accessible benchmarks and evaluation
+resources, enabling reproducible comparisons for future
+research. The approach generalizes beyond encyclopaedic KGs
+to specialized domains, providing a low-effort pathway for
+integrating diverse data sources. By lowering the barrier
+to cross-graph integration, this work supports broader
+adoption of linked data in scientific and industrial
+contexts."
+39,"Shubhanker Banerjee, Bharathi Raja Chakravarthi and John Philip McCrae",DA-ATE:Data Augmentation for Automatic Term Extraction,https://anonymous.4open.science/r/BF3B/,,,,"Automatic term extraction,LLM,Data augmentation,Synthetic data","Automatic term extraction is the task of identifying
+domain-specific concepts from specialized corpora. In
+recent years, deep learning based methods have
+substantially improved the performance on this task.
+However, the availability of annotated corpora for diverse
+domains that can be used to train deep learning models is
+limited. Large language models have shown remarkable
+generation capabilities guided by extensive world knowledge
+acquired through large-scale pre-training. To tackle the
+problem of data scarcity we propose LLM-based data
+augmentation in this paper. We carry out experiments to
+evaluate the impact of augmentation at the context and term
+levels. Furthermore, we conduct experiments with varying
+gold standard training set sizes and note that gains from
+our proposed technique are not just limited to few-shot
+scenarios. Performance gains across different domains
+further establish the effectiveness of our method."
+42,"Max Thoma, Leonhard Esterbauer, Thomas Preindl and Gernot Steindl",Utilizing Large Language Models for Log-Based Automated Thing Description Generation,"https://doi.org/10.5281/zenodo.15526223,https://github.com/max-thoma/log-based-td-generation","https://doi.org/10.5281/zenodo.15526223,https://github.com/max-thoma/log-based-td-generation",,,"Web of Things,Thing Description,Large Language Models,Device Integration","Semantic device descriptions, such as the Web of Things
+(WoT) Thing Description (TD), are a great tool to improve
+the level of interoperability in Internet of Things (IoT)
+systems. However, a majority of new and existing IoT
+devices do not ship with a TD, and developers often need to
+create them by hand. This makes it tedious for anyone who
+wishes to integrate, migrate, or modernize devices of their
+existing infrastructure into a WoT ecosystem. Therefore, an
+automated approach for TD generation that facilitates this
+process is needed. Methodology: We propose a Large Language
+Model (LLM)-based approach to automate TD generation. By
+utilizing message logs and conformance checks, we introduce
+an iterative process that leverages LLM technologies to
+generate TDs. The proposed methodology is evaluated in a
+case study of 76 IoT devices communicating over MQTT.
+Findings: Our results show that with the proposed
+methodology, an LLM can generate TDs from MQTT message logs
+with an average functional accuracy of up to 91%, and a
+descriptive accuracy of around 85%, demonstrating strong
+overall performance. Value: All generated TDs and the
+prototypical Python implementation of the methodology can
+be found in our repository. The proposed methodology helps
+the adoption of the WoT by offering an automated generation
+of TDs in environments where MQTT message logs are
+available."
+44,"Giulio Macilenti, Manuel Fiorelli and Armando Stellato",SISMA: Sentence Embedding–Based Ontology Matching with SBERT,https://anonymous.4open.science/r/SISMA-CD53/,"https://oaei.webdatacommons.org/tdrs/testdata/persistent/conference/conference-v1/conference_conference-v1.zip,https://oaei.webdatacommons.org/tdrs/testdata/persistent/ce_track/ce_track/ce_track_ce_track.zip,https://github.com/EngyNasr/MSE-Benchmark",https://huggingface.co/sentence-transformers/all-mpnet-base-v2,,"Ontology Matching,Ontology Alignment,Sentence Embedding,Semantic Similarity","Purpose: Ontology Matching (OM) has been studied for
+decades, yet fully automatic solutions remain elusive
+because ontologies differ in structure, granularity and
+vocabulary. Nevertheless, the abundant textual content
+attached to ontology entities suggests that the task could
+benefit from modern language-representation models. We
+therefore present the Semantically-Informed Similarity
+Matching Algorithm (SISMA), a novel system that matches
+concepts by leveraging the similarity of SBERT embeddings
+computed over pseudo-sentences—concatenations of the
+objects related to each predicate— extracted from the
+ontologies.
+
+Methodology: We represent each ontology concept as a set of
+SBERT embedding vectors associated with each predicate. For
+every concept pair, a similarity matrix is computed and
+reduced to a score via linear operations with two learnable
+matrices. These are trained on a dedicated dataset. We
+evaluated our system on the OAEI benchmark alignments,
+using the Conference track for training and the Circular
+Economy (CE) and Material Sciences and Engineering (MSE)
+tracks for testing.
+
+Findings: Our experiments reveal that the SISMA method can
+achieve performance comparable to, and in some cases
+surpassing, the state of the art. On the CE track our
+system achieves a higher F-score than the participating
+systems, while on the MSE track it performs slightly lower.
+We also compared our results with a baseline across the
+parameter space, confirming that the training step is key
+to overall performance.
+
+Value: We have designed, implemented, and evaluated a novel
+system for ontology matching that, starting solely from
+textual information, achieves performance comparable to
+state-of-the-art methods. Our approach is readily
+extensible—primarily by training and testing on additional
+datasets—and the underlying idea can be realized in
+alternative ways, for example by replacing the current
+linear-operator scoring and threshold-filtering approach
+with a classifier that operates directly on the similarity
+matrix space."
+49,"Ginwa Fakih, Patricia Serrano-Alvarado and Matthieu Perrin",SHARP : A Hybrid Approach for SPARQL Query Relaxation,https://anonymous.4open.science/r/SHARP-SPARQL-Hybrid-Query-Relaxation-Approach-67E8/,https://anonymous.4open.science/r/SHARP-SPARQL-Hybrid-Query-Relaxation-Approach-67E8/,,,"SPARQL,Query relaxation,Information Content,RDF Reification","In SPARQL query processing, query relaxation addresses the
+issue of empty or restrictive queries by broadening
+constraints to retrieve k-similar results. Existing
+approaches relax SPARQL queries either by generalizing
+constraints using class and property hierarchies or by
+replacing entities with similar ones based on their
+descriptions. The first approach is oriented to
+domain-specific queries, where domain-specific ontologies
+are used. In contrast, the second approach targets
+entity-centric queries, which are common in contexts with
+cross-domain or unidentified ontologies. However,
+real-world queries frequently involve a combination of both
+approaches, including classes, properties, entities, and
+literals. This motivates the need for a hybrid relaxation
+model that handles both kinds of relaxation. The main
+challenge lies in managing the combinatorial explosion of
+the possibilities of relaxed queries and defining a unified
+similarity measure that fairly compares and ranks results
+obtained from different types of relaxations. In this
+paper, we propose a query relaxation solution with a hybrid
+ranking system based on information content, which
+integrates ontology-based and entity-based strategies by
+extending the similarity measures beyond classes to
+entities and literals. To evaluate our contribution, we
+extend the existing benchmark LUBM4OBDA with seven new
+queries. Each query targets a specific relaxation type
+considering classes, properties, entities, and literals.
+Our experimental evaluation shows that the model we propose
+outperforms state-of-the-art methods."
+59,"Kristian Noullet, Ayoub Ourgani, Niklas Thomas Lakner and Tobias Käfer",Linking with Bias: Domain-Specific Behavior in Entity Linking Systems,https://anonymous.4open.science/r/LinkingBias,"https://anonymous.4open.science/r/LinkingBias,https://anonymous.4open.science/r/LinkingBias",,,"entity linking,domain bias,predictive investigation,dataset","Detecting textual mentions and linking them to
+corresponding entities in a knowledge base is an essential
+task performed by a variety of existing entity linking
+approaches.
+In this paper, we investigate how domain characteristics
+influence the performance of such systems.
+We adopt a predictive framework that leverages topic
+modeling and machine learning to assess system performance
+across domains.
+Our study spans 12 state-of-the-art entity linkers
+evaluated on six widely used datasets.
+By analysing the interaction between domains and linker
+behavior, we show that no single system consistently
+outperforms across all domains.
+Instead, performance varies significantly depending on
+domain, suggesting that optimal results require
+domain-specific system selection.
+To detect and mitigate domain effects, we provide our
+approach, tools, and benchmarks for enhanced
+domain-balanced (DOMiNO) and domain-aware (DOMeX)
+evaluation.
+Our findings underline the critical role of domain
+awareness in the development and deployment of
+text-processing systems, providing a pathway for more
+adaptable and robust methodologies. We release and open
+source all generated data, code and findings on our
+repository at
+\url{https://anonymous.4open.science/r/LinkingBias}."
+68,"Wilma Johanna Schmidt, Diego Rincon-Yanez, Irlan Grangel-González, Adrian Paschke and Evgeny Kharlamov",Document-Level Relation Extraction with Ontology-Guided RAG,https://github.com/boschresearch/growlrag_semantics2025,,,https://orkg.org/comparisons/R1431779,"Document-Level Relation Extraction,Ontology RAG,LLM,Re-DocRED","Purpose: The purpose of this paper is to explore whether
+ontologies can improve LLM-based document-level relation
+extraction (docRE) for knowledge graph (KG) construction.
+In particular, the authors are interested in harnessing
+semantics in LLM-supported docRE for KG construction and
+retrieving the docRE-relevant ontology segment of an
+ontology.
+Methodology: To explore how ontologies can improve
+LLM-based docRE for KG construction, the paper provides
+GrOWL-RAG, a framework consisting of an Ontology RAG to
+provide structured domain knowledge and reasoning
+capabilities as prompt context. The authors evaluate
+GrOWL-RAG on Re-DocRED benchmark data with promising
+precision results and conduct an ablation study with LLMs.
+Findings: The paper shows value add of GrOWL-RAG under an
+ablation study. In this paper, the authors identify
+multiple fields for further development of this approach,
+such as improving performance, extending GrOWL-RAG with
+ontology embeddings, and exploring different ontology types.
+Value: Integrating ontologies into RAG is a relatively
+unexplored field in which this paper shines light on for
+the task of docRE. Further, GrOWL-RAG is an LLM-based
+approach for docRE without the need for training or
+finetuning. The authors publish code and input files along
+with a new ontology for the docRE test set Re-DocRED to
+support docRE research utilizing ontologies. This paper
+sets the stage for further discussions of this topic."
+70,"Antrea Christou, Alexis Ellis, Chris Davis Jaldi and Cogan Shimizu",Extending the Interactive Knowledge Browser to Support Educational Multimedia,https://github.com/kastle-lab/ink-browser-multimedia,,,,"InK Browser,Multimodal Knowledge Graphs,Education","The individualized delivery of educational content benefits
+from the usage of various multimedia formats. Hence, there
+is a need for a tool that supports visual engagement,
+especially in cases of video consumption. In this short
+paper, we present an extension to the Interactive Knowledge
+(InK) Browser that accommodates the exploration of
+educational multimedia material. The InK Browser already
+provides an intuitive and interactive interface that allows
+a follow-your-nose data discovery of a knowledge graph.
+Additionally, we provide the InK Browser with a new
+functionality that supports the visual parsing of video
+content and links it to openly accessible educational
+material. Additionally, we report results from a System
+Usability Survey. Finally, we propose an underlying
+ontology that reflects this design and encourages both
+modularity and re-usability in the representation of
+knowledge."
+78,"Christophe Debruyne, Souail Jaadari and David Chaves-Fraga",Declarative Generation of RDF Collections and Containers from Heterogeneous Data,"https://github.com/SouailJ/morph-kgc/,https://github.com/kg-construct/BURP/,https://github.com/citiususc/yatter","https://github.com/dachafra/rml-cc-eval,http://w3id.org/rml/cc/test-cases",,,"RML,Knowledge Graph Construction,Collections and Containers","RDF Collections and Containers are key constructs for
+representing ordered and grouped data in knowledge graphs.
+However, generating them from heterogeneous data sources
+remains challenging due to limited support in existing
+declarative mapping tools. While the RML-CC module formally
+defines these constructs within the modular RML ontology,
+this paper focuses on their practical support. We extend
+two mapping engines, BURP and Morph-KGC, to support RML-CC,
+enabling the declarative generation of structured RDF
+constructs. On top of that, we introduce YARRRML-CC, an
+extension of the YARRRML syntax to represent RML-CC
+mappings, and update the YARRRML-compliant engine Yatter
+for translating mappings from YARRRML-CC to RML-CC to
+support interoperability across toolchains. The standard
+W3C-CG-KGC suite of RML-CC test cases is also used to
+validate the correctness and coverage of our proposals.
+Scaling these test cases, we also conduct an experimental
+evaluation to assess the performance of the proposed tools
+across a wide range of scenarios. These contributions make
+it possible to integrate RDF Collections and Containers
+into real-world knowledge graph generation workflows with
+greater expressiveness and consistency."
+79,"Piotr Gorczyca, Doerthe Arndt, Martin Diller, Jochen Hampe, Georg Heidenreich, Pascal Kettmann, Markus Krötzsch, Stephan Mennicke, Sebastian Rudolph and Hannes Strass",Supporting Risk Management for Medical devices via the RISKMAN Ontology & Shapes,https://anonymous.4open.science/r/Riskman-SEMANTICS/,,,,"Risk management,Safety assurance,OWL EL,SHACL","We propose the RISKMAN ontology & shapes for representing
+and analysing information about risk management for medical
+devices. Risk management is concerned with taking necessary
+precautions so a medical device does not cause harms for
+users or the environment. To date, risk management
+documentation is submitted to notified bodies (for
+certification) in the form of semi-structured natural
+language text. We propose to use terms from the RISKMAN
+ontology to provide a formal, logical underpinning for risk
+management documentation, and to use the included SHACL
+constraints to check whether the provided data is in
+accordance with the requirements specified in the two
+relevant norms, i.e. ISO 14971 and VDE Spec 90025."
+82,"Tilahun Abedissa Taffa, Debayan Banerjee, Yaregal Assabie and Ricardo Usbeck",HySQA: Hybrid Scholarly Question Answering,https://anonymous.4open.science/r/hysqa_new-8EAB/README.md,https://anonymous.4open.science/r/hysqa_new-8EAB/README.md,,,"Question Answering,Scholarly Question Answering,Hybrid Question Answering","To answer a hybrid question with scholarly data, a system
+must look up and integrate facts spanning heterogeneous
+sources such as Scholarly Knowledge Graphs (SKGs) and text.
+However, existing Scholarly Question Answering (SQA)
+methods and datasets typically target homogeneous data
+sources, relying solely on either SKGs or text. To address
+this gap, we introduce the HySQA (\textbf{Hy}brid
+\textbf{S}cholarly \textbf{Q}uestion \textbf{A}nswering), a
+novel large-scale dataset that consists of 10.5K
+question-answer pairs generated using a generative model,
+leveraging the KGs - DBLP and SemOpenAlex alongside
+corresponding text from Wikipedia. We also propose a
+RAG-based model to benchmark scholarly QA over text and KG
+facts, and our experiment sets a baseline for further
+comparisons."
