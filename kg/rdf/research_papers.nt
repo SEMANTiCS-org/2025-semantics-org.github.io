@@ -1,0 +1,498 @@
+<https://w3id.org/okn/semantics/2025/i/Paper_59> <http://schema.org/abstract> "Detecting textual mentions and linking them to\ncorresponding entities in a knowledge base is an essential\ntask performed by a variety of existing entity linking\napproaches.\nIn this paper, we investigate how domain characteristics\ninfluence the performance of such systems.\nWe adopt a predictive framework that leverages topic\nmodeling and machine learning to assess system performance\nacross domains.\nOur study spans 12 state-of-the-art entity linkers\nevaluated on six widely used datasets.\nBy analysing the interaction between domains and linker\nbehavior, we show that no single system consistently\noutperforms across all domains.\nInstead, performance varies significantly depending on\ndomain, suggesting that optimal results require\ndomain-specific system selection.\nTo detect and mitigate domain effects, we provide our\napproach, tools, and benchmarks for enhanced\ndomain-balanced (DOMiNO) and domain-aware (DOMeX)\nevaluation.\nOur findings underline the critical role of domain\nawareness in the development and deployment of\ntext-processing systems, providing a pathway for more\nadaptable and robust methodologies. We release and open\nsource all generated data, code and findings on our\nrepository at\n\\url{https://anonymous.4open.science/r/LinkingBias}." .
+<https://w3id.org/okn/semantics/2025/i/Paper_13> <http://schema.org/abstract> "Purpose:\nExisting approaches for generating Knowledge Graphs (KGs)\nfrom file-based, non-RDF data using declarative mappings\nare either limited by language-specific engines or lack\noptimization with language-independent relational algebra\nbackends, resulting in suboptimal performance. This\nresearch proposes an integrated framework that tightly\ncouples logical and physical plan optimizations, enabling\nhigh-performance, language-agnostic RDF graph construction.\n\nMethodology:\nWe formalize the KG construction process using relational\nalgebra with a dedicated RDF term generation function\nwithin the projection operator, resulting in one of two\ncanonicalized logical plans, one with a join and one\nwithout. We then introduce tightly coupled physical\noperators used to define concrete execution pipelines. We\npropose and evaluate two optimizations, logical-level\nconstant-folding to reduce redundant computations and a\nphysical-level heuristic scheduling strategy to optimize\nconcurrent execution. We implemented the optimizations in a\nnew backend engine called konverter and benchmarked the \nengine with an RML frontend against two comparable engines,\nMorph-KGC and FlexRML.\n\nFindings:\nEmpirical results show that constant-folding improves\nperformance by approximately 7.4 % and heuristic scheduling\nby approximately 14.7 % compared to a worst case scenario,\nwith minimal additional memory overhead. Overall, konverter\nsignificantly outperforms the current state-of-the-art in\nperformance FlexRML, reducing execution time by 61.5 % and\npeak memory usage by 25.1 %.\n\nValue: The proposed framework and optimizations provide a\nformal and practically validated approach to optimizing the\nexecution of declarative mappings for KG construction. The\nkonverter engine demonstrates the potential for building\nhigh-performance, language-agnostic engines designed for\nefficient, large-scale enterprise data transformation into\nKGs directly from common file formats." .
+<https://w3id.org/okn/semantics/2025/i/Paper_49> <http://schema.org/abstract> "In SPARQL query processing, query relaxation addresses the\nissue of empty or restrictive queries by broadening\nconstraints to retrieve k-similar results. Existing\napproaches relax SPARQL queries either by generalizing\nconstraints using class and property hierarchies or by\nreplacing entities with similar ones based on their\ndescriptions. The first approach is oriented to\ndomain-specific queries, where domain-specific ontologies\nare used. In contrast, the second approach targets\nentity-centric queries, which are common in contexts with\ncross-domain or unidentified ontologies. However,\nreal-world queries frequently involve a combination of both\napproaches, including classes, properties, entities, and\nliterals. This motivates the need for a hybrid relaxation\nmodel that handles both kinds of relaxation. The main\nchallenge lies in managing the combinatorial explosion of\nthe possibilities of relaxed queries and defining a unified\nsimilarity measure that fairly compares and ranks results\nobtained from different types of relaxations. In this\npaper, we propose a query relaxation solution with a hybrid\nranking system based on information content, which\nintegrates ontology-based and entity-based strategies by\nextending the similarity measures beyond classes to\nentities and literals. To evaluate our contribution, we\nextend the existing benchmark LUBM4OBDA with seven new\nqueries. Each query targets a specific relaxation type\nconsidering classes, properties, entities, and literals.\nOur experimental evaluation shows that the model we propose\noutperforms state-of-the-art methods." .
+<https://w3id.org/okn/semantics/2025/i/Paper_42> <http://schema.org/abstract> "Semantic device descriptions, such as the Web of Things\n(WoT) Thing Description (TD), are a great tool to improve\nthe level of interoperability in Internet of Things (IoT)\nsystems. However, a majority of new and existing IoT\ndevices do not ship with a TD, and developers often need to\ncreate them by hand. This makes it tedious for anyone who\nwishes to integrate, migrate, or modernize devices of their\nexisting infrastructure into a WoT ecosystem. Therefore, an\nautomated approach for TD generation that facilitates this\nprocess is needed. Methodology: We propose a Large Language\nModel (LLM)-based approach to automate TD generation. By\nutilizing message logs and conformance checks, we introduce\nan iterative process that leverages LLM technologies to\ngenerate TDs. The proposed methodology is evaluated in a\ncase study of 76 IoT devices communicating over MQTT.\nFindings: Our results show that with the proposed\nmethodology, an LLM can generate TDs from MQTT message logs\nwith an average functional accuracy of up to 91%, and a\ndescriptive accuracy of around 85%, demonstrating strong\noverall performance. Value: All generated TDs and the\nprototypical Python implementation of the methodology can\nbe found in our repository. The proposed methodology helps\nthe adoption of the WoT by offering an automated generation\nof TDs in environments where MQTT message logs are\navailable." .
+<https://w3id.org/okn/semantics/2025/i/Paper_70> <http://schema.org/abstract> "The individualized delivery of educational content benefits\nfrom the usage of various multimedia formats. Hence, there\nis a need for a tool that supports visual engagement,\nespecially in cases of video consumption. In this short\npaper, we present an extension to the Interactive Knowledge\n(InK) Browser that accommodates the exploration of\neducational multimedia material. The InK Browser already\nprovides an intuitive and interactive interface that allows\na follow-your-nose data discovery of a knowledge graph.\nAdditionally, we provide the InK Browser with a new\nfunctionality that supports the visual parsing of video\ncontent and links it to openly accessible educational\nmaterial. Additionally, we report results from a System\nUsability Survey. Finally, we propose an underlying\nontology that reflects this design and encourages both\nmodularity and re-usability in the representation of\nknowledge." .
+<https://w3id.org/okn/semantics/2025/i/Paper_39> <http://schema.org/abstract> "Automatic term extraction is the task of identifying\ndomain-specific concepts from specialized corpora. In\nrecent years, deep learning based methods have\nsubstantially improved the performance on this task.\nHowever, the availability of annotated corpora for diverse\ndomains that can be used to train deep learning models is\nlimited. Large language models have shown remarkable\ngeneration capabilities guided by extensive world knowledge\nacquired through large-scale pre-training. To tackle the\nproblem of data scarcity we propose LLM-based data\naugmentation in this paper. We carry out experiments to\nevaluate the impact of augmentation at the context and term\nlevels. Furthermore, we conduct experiments with varying\ngold standard training set sizes and note that gains from\nour proposed technique are not just limited to few-shot\nscenarios. Performance gains across different domains\nfurther establish the effectiveness of our method." .
+<https://w3id.org/okn/semantics/2025/i/Paper_20> <http://schema.org/abstract> "Knowledge graphs (KGs) are a key tool across fields like\nweb search, healthcare, and technical assistance, but are\nknown to be notoriously incomplete. This paper addresses\nopen-world knowledge graph completion (OW-KGC), which\ninvolves linking newly emerging entities – which are\nmentioned in text but not yet present in the graph – to a\nKG. We investigate the potential of off-the-shelf LLMs to\ntackle this task. Here, a central challenge is to constrain\nthe LLM to the candidate space of existing entities\navailable for linking. To address this, we propose a\ntwo-stage pipeline: A light-weight pre-ranker fine-tuned on\nthe particular task narrows down the candidate entities,\nwhich are then re-ranked by the LLM.\n\nWe evaluate two recent open-weight LLMs, namely Meta-LLAMA3\nInstruct (70B) and DeepSeek-R1-Distill-LLAMA (70B), on\npublic OW-KGC benchmarks for the KGs Freebase (FB15k237),\nWordNet (WN18RR), and Wikidata (IRT2). We test two variants\nof the pipeline: one where the LLM is applied as a strict\nre-ranker, and another where the LLM is allowed to provide\nadditional suggestions. Our experimental results show that,\nwhile LLMs used in isolation perform poorly, they improve\nperformance substantially when applied as re-rankers,\nachieving new state-of-the-art results across all datasets.\nNotably, we observe that DeepSeek, which leverages an\nexplicit self-reflection mechanism before producing\nresults, outperforms LLAMA significantly when re-ranking\nand measuring MRR. However, LLAMA contrary to DeepSeek, is\nconsiderably better at accessing and re-trieving correct\nanswers from its internalized knowledge." .
+<https://w3id.org/okn/semantics/2025/i/Paper_79> <http://schema.org/abstract> "We propose the RISKMAN ontology & shapes for representing\nand analysing information about risk management for medical\ndevices. Risk management is concerned with taking necessary\nprecautions so a medical device does not cause harms for\nusers or the environment. To date, risk management\ndocumentation is submitted to notified bodies (for\ncertification) in the form of semi-structured natural\nlanguage text. We propose to use terms from the RISKMAN\nontology to provide a formal, logical underpinning for risk\nmanagement documentation, and to use the included SHACL\nconstraints to check whether the provided data is in\naccordance with the requirements specified in the two\nrelevant norms, i.e. ISO 14971 and VDE Spec 90025." .
+<https://w3id.org/okn/semantics/2025/i/Paper_36> <http://schema.org/abstract> "Purpose: Cross-graph reuse of SPARQL queries could unlock\nthe combined knowledge of multiple linked-data\nrepositories, yet manual rewriting remains the norm. This\nstudy investigates whether state-of-the-art large language\nmodels (LLMs) can automatically translate SPARQL between\nheterogeneous knowledge graph (KG) schemas, focusing on\nDBpedia ↔ Wikidata, with implications for scaling\napplications to ever larger knowledge stores. This study\naddresses a notable gap in KG interoperability research by\nrigorously evaluating LLM performance on SPARQL-to-SPARQL\ntranslation.\n\nMethodology: Two benchmarks were assembled. The first pairs\n100 DBpedia–Wikidata queries from QALD-9-Plus; the second\ncontains 100 DBLP queries aligned to OpenAlex, testing\ngeneralizability beyond encyclopaedic KGs. For each pair,\nexplicit entity- and relation-mappings were generated;\nthese were omitted in baseline runs, while subsequent\nvariants included them. Three open LLMs —Llama-3-8B,\nDeepSeek-70B, Mistral-Large-Instruct— were selected based\non their sizes and architectures and tested with zero-shot,\nfew-shot and two chain-of-thought variants. Outputs were\ncompared with gold answers and resulting errors categorized.\n\nFindings: Performance varied markedly across models and\nprompting strategies. Few-shot Mistral-Large-Instruct\nreached the highest accuracy of 86% on DBpedia → Wikidata,\nwhile corresponding DBLP → OpenAlex tests confirmed similar\nresults, indicating generalizability to domain-specific\nKGs. Most errors in translation arose from mis-aligned\nentities or properties that propagated and distorted entire\nquery structures. Incorporating explicit alignment tables\nand structured reasoning, consistently reduced such errors\nand improved accuracy, demonstrating the crucial role of\nsemantic mappings and targeted prompting for enhancing the\neffectiveness of LLM-based SPARQL translation.\n\nValue: The study outlines a scalable path to KG\ninteroperability: widely available LLMs, combined with\nalignment tables and structured prompting, offer a solution\nfor translating queries across heterogeneous KGs. It\nintroduces openly accessible benchmarks and evaluation\nresources, enabling reproducible comparisons for future\nresearch. The approach generalizes beyond encyclopaedic KGs\nto specialized domains, providing a low-effort pathway for\nintegrating diverse data sources. By lowering the barrier\nto cross-graph integration, this work supports broader\nadoption of linked data in scientific and industrial\ncontexts." .
+<https://w3id.org/okn/semantics/2025/i/Paper_28> <http://schema.org/abstract> "Purpose: Knowledge graphs are used for various purposes,\nincluding business applications, biomedical analyses, and\ndigital twins in industry 4.0. We investigate knowledge\ngraphs describing household actions, which are useful for\ncontrolling household robots and analyzing video footage.\nMethodology: We study situational knowledge graphs built\nfrom video data and evaluate various link prediction\nmethods, including graph embeddings and simple statistical\nbaselines, on the task of completing these graphs.\nFindings: We show that although this is a standard link\nprediction problem, situational knowledge graphs have\nspecial characteristics that make many algorithms\nineffective.\nValue: Our results reveal the limitations of current\nmethods for situational reasoning and highlight the need\nfor more context-aware approaches in household robotics." .
+<https://w3id.org/okn/semantics/2025/i/Paper_21> <http://schema.org/abstract> "Purpose: This paper examines RDF validation practices and\n challenges to understand stakeholder applications, their\n needs, and\n identify areas for improvement in technologies and\n methodologies,\n thereby guiding future research and standardization\n efforts.\n\nMethodology: A community survey was conducted, targeting a\n diverse group of RDF validation technology users across\n academia and\n industry. The survey collected data on current practices,\n tool\n usage, perceived benefits, limitations, and desired\n enhancements to\n gain a broad overview of the validation landscape.\n \nFindings: Our analysis shows that while RDF validation is\n widely adopted and valued for enhancing data quality,\n significant\n challenges remain. In particular, users report a need for\n better\n documentation, improved tool support, enhanced\n performance, and\n greater language expressiveness to handle complex\n large-scale\n validation tasks effectively.\n\nValue: This work provides crucial insights into the RDF\n validation landscape, highlighting current practices and\n key areas\n for development. It offers a foundation for researchers,\n developers,\n and standardization bodies to address current limitations\n and\n advance validation technologies, ultimately improving\n data quality\n and usability in knowledge graphs." .
+<https://w3id.org/okn/semantics/2025/i/Paper_44> <http://schema.org/abstract> "Purpose: Ontology Matching (OM) has been studied for\ndecades, yet fully automatic solutions remain elusive\nbecause ontologies differ in structure, granularity and\nvocabulary. Nevertheless, the abundant textual content\nattached to ontology entities suggests that the task could\nbenefit from modern language-representation models. We\ntherefore present the Semantically-Informed Similarity\nMatching Algorithm (SISMA), a novel system that matches\nconcepts by leveraging the similarity of SBERT embeddings\ncomputed over pseudo-sentences—concatenations of the\nobjects related to each predicate— extracted from the\nontologies.\n\nMethodology: We represent each ontology concept as a set of\nSBERT embedding vectors associated with each predicate. For\nevery concept pair, a similarity matrix is computed and\nreduced to a score via linear operations with two learnable\nmatrices. These are trained on a dedicated dataset. We\nevaluated our system on the OAEI benchmark alignments,\nusing the Conference track for training and the Circular\nEconomy (CE) and Material Sciences and Engineering (MSE)\ntracks for testing.\n\nFindings: Our experiments reveal that the SISMA method can\nachieve performance comparable to, and in some cases\nsurpassing, the state of the art. On the CE track our\nsystem achieves a higher F-score than the participating\nsystems, while on the MSE track it performs slightly lower.\nWe also compared our results with a baseline across the\nparameter space, confirming that the training step is key\nto overall performance.\n\nValue: We have designed, implemented, and evaluated a novel\nsystem for ontology matching that, starting solely from\ntextual information, achieves performance comparable to\nstate-of-the-art methods. Our approach is readily\nextensible—primarily by training and testing on additional\ndatasets—and the underlying idea can be realized in\nalternative ways, for example by replacing the current\nlinear-operator scoring and threshold-filtering approach\nwith a classifier that operates directly on the similarity\nmatrix space." .
+<https://w3id.org/okn/semantics/2025/i/Paper_68> <http://schema.org/abstract> "Purpose: The purpose of this paper is to explore whether\nontologies can improve LLM-based document-level relation\nextraction (docRE) for knowledge graph (KG) construction.\nIn particular, the authors are interested in harnessing\nsemantics in LLM-supported docRE for KG construction and\nretrieving the docRE-relevant ontology segment of an\nontology.\nMethodology: To explore how ontologies can improve\nLLM-based docRE for KG construction, the paper provides\nGrOWL-RAG, a framework consisting of an Ontology RAG to\nprovide structured domain knowledge and reasoning\ncapabilities as prompt context. The authors evaluate\nGrOWL-RAG on Re-DocRED benchmark data with promising\nprecision results and conduct an ablation study with LLMs.\nFindings: The paper shows value add of GrOWL-RAG under an\nablation study. In this paper, the authors identify\nmultiple fields for further development of this approach,\nsuch as improving performance, extending GrOWL-RAG with\nontology embeddings, and exploring different ontology types.\nValue: Integrating ontologies into RAG is a relatively\nunexplored field in which this paper shines light on for\nthe task of docRE. Further, GrOWL-RAG is an LLM-based\napproach for docRE without the need for training or\nfinetuning. The authors publish code and input files along\nwith a new ontology for the docRE test set Re-DocRED to\nsupport docRE research utilizing ontologies. This paper\nsets the stage for further discussions of this topic." .
+<https://w3id.org/okn/semantics/2025/i/Paper_78> <http://schema.org/abstract> "RDF Collections and Containers are key constructs for\nrepresenting ordered and grouped data in knowledge graphs.\nHowever, generating them from heterogeneous data sources\nremains challenging due to limited support in existing\ndeclarative mapping tools. While the RML-CC module formally\ndefines these constructs within the modular RML ontology,\nthis paper focuses on their practical support. We extend\ntwo mapping engines, BURP and Morph-KGC, to support RML-CC,\nenabling the declarative generation of structured RDF\nconstructs. On top of that, we introduce YARRRML-CC, an\nextension of the YARRRML syntax to represent RML-CC\nmappings, and update the YARRRML-compliant engine Yatter\nfor translating mappings from YARRRML-CC to RML-CC to\nsupport interoperability across toolchains. The standard\nW3C-CG-KGC suite of RML-CC test cases is also used to\nvalidate the correctness and coverage of our proposals.\nScaling these test cases, we also conduct an experimental\nevaluation to assess the performance of the proposed tools\nacross a wide range of scenarios. These contributions make\nit possible to integrate RDF Collections and Containers\ninto real-world knowledge graph generation workflows with\ngreater expressiveness and consistency." .
+<https://w3id.org/okn/semantics/2025/i/Paper_11> <http://schema.org/abstract> "Purpose:\nCyber-Physical Systems (CPSs) integrate computation and\nphysical processes, producing time series data from\nthousands of sensors.\nKnowledge graphs can contextualize these data, yet current\napproaches that are applicably to monitoring CPS rely on\nobservation-based approaches.\nThis limits the ability to express computations on sensor\ndata, especially when no assumptions can be made about\nsampling synchronicity or sampling rates.\n\nMethodology:\nWe propose an approach for integrating knowledge graphs\nwith signals that model run-time sensor data as functions\nfrom time to data.\nTo demonstrate this approach, we introduce SigSPARQL, a\nquery language that can combine RDF data and signals.\nWe assess its technical feasibility with a prototype and\ndemonstrate its use in a typical CPS monitoring use case.\n\nFindings:\nOur approach enables queries to combine graph-based\nknowledge with signals, overcoming some key limits of\nobservation-based methods.\nThe developed prototype successfully demonstrated\nfeasibility and applicability.\n\nValue:\nThis work presents a query-based approach for CPS\nmonitoring that integrates knowledge graphs and signals,\nalleviating problems of observation-based approaches.\nBy leveraging system knowledge, it enables operators to run\na single query across different system instances within the\nsame domain.\nFuture work will extend SigSPARQL with additional signal\nfunctions and evaluate it in large-scale CPS deployments." .
+<https://w3id.org/okn/semantics/2025/i/Paper_82> <http://schema.org/abstract> "To answer a hybrid question with scholarly data, a system\nmust look up and integrate facts spanning heterogeneous\nsources such as Scholarly Knowledge Graphs (SKGs) and text.\nHowever, existing Scholarly Question Answering (SQA)\nmethods and datasets typically target homogeneous data\nsources, relying solely on either SKGs or text. To address\nthis gap, we introduce the HySQA (\\textbf{Hy}brid\n\\textbf{S}cholarly \\textbf{Q}uestion \\textbf{A}nswering), a\nnovel large-scale dataset that consists of 10.5K\nquestion-answer pairs generated using a generative model,\nleveraging the KGs - DBLP and SemOpenAlex alongside\ncorresponding text from Wikipedia. We also propose a\nRAG-based model to benchmark scholarly QA over text and KG\nfacts, and our experiment sets a baseline for further\ncomparisons." .
+<https://w3id.org/okn/semantics/2025/i/Paper_39> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<https://w3id.org/okn/semantics/2025/i/Paper_21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<https://w3id.org/okn/semantics/2025/i/Paper_49> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<https://w3id.org/okn/semantics/2025/i/Paper_79> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<https://w3id.org/okn/semantics/2025/i/Paper_20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<https://w3id.org/okn/semantics/2025/i/Paper_68> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<https://w3id.org/okn/semantics/2025/i/Paper_28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<https://w3id.org/okn/semantics/2025/i/Paper_82> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<https://w3id.org/okn/semantics/2025/i/Paper_13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<https://w3id.org/okn/semantics/2025/i/Paper_44> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<https://w3id.org/okn/semantics/2025/i/Paper_36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<https://w3id.org/okn/semantics/2025/i/Paper_70> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<https://w3id.org/okn/semantics/2025/i/Paper_59> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<https://w3id.org/okn/semantics/2025/i/Paper_42> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<https://w3id.org/okn/semantics/2025/i/Paper_78> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<https://w3id.org/okn/semantics/2025/i/Paper_11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<https://w3id.org/okn/semantics/2025/i/Paper_49> <https://w3id.org/okn/semantics/voc#authorString> "Ginwa Fakih, Patricia Serrano-Alvarado and Matthieu Perrin" .
+<https://w3id.org/okn/semantics/2025/i/Paper_42> <https://w3id.org/okn/semantics/voc#authorString> "Max Thoma, Leonhard Esterbauer, Thomas Preindl and Gernot Steindl" .
+<https://w3id.org/okn/semantics/2025/i/Paper_11> <https://w3id.org/okn/semantics/voc#authorString> "Tobias Schwarzinger, Gernot Steindl, Thomas Frühwirth,Thomas Preindl, Konrad Diwold, Katrin Schreiberhuber and Fajar J. Ekaputra" .
+<https://w3id.org/okn/semantics/2025/i/Paper_39> <https://w3id.org/okn/semantics/voc#authorString> "Shubhanker Banerjee, Bharathi Raja Chakravarthi and John Philip McCrae" .
+<https://w3id.org/okn/semantics/2025/i/Paper_70> <https://w3id.org/okn/semantics/voc#authorString> "Antrea Christou, Alexis Ellis, Chris Davis Jaldi and Cogan Shimizu" .
+<https://w3id.org/okn/semantics/2025/i/Paper_59> <https://w3id.org/okn/semantics/voc#authorString> "Kristian Noullet, Ayoub Ourgani, Niklas Thomas Lakner and Tobias Käfer" .
+<https://w3id.org/okn/semantics/2025/i/Paper_82> <https://w3id.org/okn/semantics/voc#authorString> "Tilahun Abedissa Taffa, Debayan Banerjee, Yaregal Assabie and Ricardo Usbeck" .
+<https://w3id.org/okn/semantics/2025/i/Paper_79> <https://w3id.org/okn/semantics/voc#authorString> "Piotr Gorczyca, Doerthe Arndt, Martin Diller, Jochen Hampe, Georg Heidenreich, Pascal Kettmann, Markus Krötzsch, Stephan Mennicke, Sebastian Rudolph and Hannes Strass" .
+<https://w3id.org/okn/semantics/2025/i/Paper_21> <https://w3id.org/okn/semantics/voc#authorString> "Maxime Jakubowski, Dominik Tomaszuk and Katja Hose" .
+<https://w3id.org/okn/semantics/2025/i/Paper_28> <https://w3id.org/okn/semantics/voc#authorString> "Mariam Arustashvili, Joerg Deigmoeller and Heiko Paulheim" .
+<https://w3id.org/okn/semantics/2025/i/Paper_13> <https://w3id.org/okn/semantics/voc#authorString> "Michael Freund, Sebastian Schmid and Andreas Harth" .
+<https://w3id.org/okn/semantics/2025/i/Paper_36> <https://w3id.org/okn/semantics/voc#authorString> "Malte Christian Bartels, Debayan Banerjee and Ricardo Usbeck" .
+<https://w3id.org/okn/semantics/2025/i/Paper_20> <https://w3id.org/okn/semantics/voc#authorString> "Felix Hamann, Lukas Walker and Adrian Ulges" .
+<https://w3id.org/okn/semantics/2025/i/Paper_68> <https://w3id.org/okn/semantics/voc#authorString> "Wilma Johanna Schmidt, Diego Rincon-Yanez, Irlan Grangel-González, Adrian Paschke and Evgeny Kharlamov" .
+<https://w3id.org/okn/semantics/2025/i/Paper_44> <https://w3id.org/okn/semantics/voc#authorString> "Giulio Macilenti, Manuel Fiorelli and Armando Stellato" .
+<https://w3id.org/okn/semantics/2025/i/Paper_78> <https://w3id.org/okn/semantics/voc#authorString> "Christophe Debruyne, Souail Jaadari and David Chaves-Fraga" .
+<https://w3id.org/okn/semantics/2025/i/Paper_39> <https://w3id.org/okn/semantics/voc#hasAssociatedCode> "https://anonymous.4open.science/r/BF3B/" .
+<https://w3id.org/okn/semantics/2025/i/Paper_49> <https://w3id.org/okn/semantics/voc#hasAssociatedCode> "https://anonymous.4open.science/r/SHARP-SPARQL-Hybrid-Query-Relaxation-Approach-67E8/" .
+<https://w3id.org/okn/semantics/2025/i/Paper_21> <https://w3id.org/okn/semantics/voc#hasAssociatedCode> "https://anonymous.4open.science/r/rdfvalidation-community-survey-E477/" .
+<https://w3id.org/okn/semantics/2025/i/Paper_20> <https://w3id.org/okn/semantics/voc#hasAssociatedCode> "https://anonymous.4open.science/r/ilp-EB37" .
+<https://w3id.org/okn/semantics/2025/i/Paper_28> <https://w3id.org/okn/semantics/voc#hasAssociatedCode> "https://github.com/marusta/Knowledge_Refinement" .
+<https://w3id.org/okn/semantics/2025/i/Paper_59> <https://w3id.org/okn/semantics/voc#hasAssociatedCode> "https://anonymous.4open.science/r/LinkingBias" .
+<https://w3id.org/okn/semantics/2025/i/Paper_70> <https://w3id.org/okn/semantics/voc#hasAssociatedCode> "https://github.com/kastle-lab/ink-browser-multimedia" .
+<https://w3id.org/okn/semantics/2025/i/Paper_82> <https://w3id.org/okn/semantics/voc#hasAssociatedCode> "https://anonymous.4open.science/r/hysqa_new-8EAB/README.md" .
+<https://w3id.org/okn/semantics/2025/i/Paper_78> <https://w3id.org/okn/semantics/voc#hasAssociatedCode> "https://github.com/SouailJ/morph-kgc/,https://github.com/kg-construct/BURP/,https://github.com/citiususc/yatter" .
+<https://w3id.org/okn/semantics/2025/i/Paper_44> <https://w3id.org/okn/semantics/voc#hasAssociatedCode> "https://anonymous.4open.science/r/SISMA-CD53/" .
+<https://w3id.org/okn/semantics/2025/i/Paper_79> <https://w3id.org/okn/semantics/voc#hasAssociatedCode> "https://anonymous.4open.science/r/Riskman-SEMANTICS/" .
+<https://w3id.org/okn/semantics/2025/i/Paper_11> <https://w3id.org/okn/semantics/voc#hasAssociatedCode> "https://zenodo.org/records/15260651" .
+<https://w3id.org/okn/semantics/2025/i/Paper_42> <https://w3id.org/okn/semantics/voc#hasAssociatedCode> "https://doi.org/10.5281/zenodo.15526223,https://github.com/max-thoma/log-based-td-generation" .
+<https://w3id.org/okn/semantics/2025/i/Paper_68> <https://w3id.org/okn/semantics/voc#hasAssociatedCode> "https://github.com/boschresearch/growlrag_semantics2025" .
+<https://w3id.org/okn/semantics/2025/i/Paper_13> <https://w3id.org/okn/semantics/voc#hasAssociatedCode> "https://anonymous.4open.science/r/benchmark_konverter-424B,https://anonymous.4open.science/r/konverter-5FB0,https://anonymous.4open.science/r/rml_io_konverter_frontend-7F72" .
+<https://w3id.org/okn/semantics/2025/i/Paper_36> <https://w3id.org/okn/semantics/voc#hasAssociatedCode> "https://anonymous.4open.science/r/SPARQL-Query-Translation-QALD9-C27E" .
+<https://w3id.org/okn/semantics/2025/i/Paper_49> <https://w3id.org/okn/semantics/voc#hasAssociatedData> "https://anonymous.4open.science/r/SHARP-SPARQL-Hybrid-Query-Relaxation-Approach-67E8/" .
+<https://w3id.org/okn/semantics/2025/i/Paper_42> <https://w3id.org/okn/semantics/voc#hasAssociatedData> "https://doi.org/10.5281/zenodo.15526223,https://github.com/max-thoma/log-based-td-generation" .
+<https://w3id.org/okn/semantics/2025/i/Paper_44> <https://w3id.org/okn/semantics/voc#hasAssociatedData> "https://oaei.webdatacommons.org/tdrs/testdata/persistent/conference/conference-v1/conference_conference-v1.zip,https://oaei.webdatacommons.org/tdrs/testdata/persistent/ce_track/ce_track/ce_track_ce_track.zip,https://github.com/EngyNasr/MSE-Benchmark" .
+<https://w3id.org/okn/semantics/2025/i/Paper_82> <https://w3id.org/okn/semantics/voc#hasAssociatedData> "https://anonymous.4open.science/r/hysqa_new-8EAB/README.md" .
+<https://w3id.org/okn/semantics/2025/i/Paper_20> <https://w3id.org/okn/semantics/voc#hasAssociatedData> "https://github.com/dfdazac/blp,https://github.com/lavis-nlp/irt2" .
+<https://w3id.org/okn/semantics/2025/i/Paper_59> <https://w3id.org/okn/semantics/voc#hasAssociatedData> "https://anonymous.4open.science/r/LinkingBias,https://anonymous.4open.science/r/LinkingBias" .
+<https://w3id.org/okn/semantics/2025/i/Paper_78> <https://w3id.org/okn/semantics/voc#hasAssociatedData> "https://github.com/dachafra/rml-cc-eval,http://w3id.org/rml/cc/test-cases" .
+<https://w3id.org/okn/semantics/2025/i/Paper_20> <https://w3id.org/okn/semantics/voc#hasAssociatedOntology> "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-70B/tree/main,https://huggingface.co/meta-llama/Meta-Llama-3-70B-Instruct" .
+<https://w3id.org/okn/semantics/2025/i/Paper_44> <https://w3id.org/okn/semantics/voc#hasAssociatedOntology> "https://huggingface.co/sentence-transformers/all-mpnet-base-v2" .
+<https://w3id.org/okn/semantics/2025/i/Paper_68> <https://w3id.org/okn/semantics/voc#providesORKGComparison> "https://orkg.org/comparisons/R1431779" .
+<https://w3id.org/okn/semantics/2025/i/Paper_42> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_LeonhardEsterbauer> .
+<https://w3id.org/okn/semantics/2025/i/Paper_59> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_KristianNoullet> .
+<https://w3id.org/okn/semantics/2025/i/Paper_78> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_SouailJaadari> .
+<https://w3id.org/okn/semantics/2025/i/Paper_13> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_MichaelFreund> .
+<https://w3id.org/okn/semantics/2025/i/Paper_39> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_Bharathi%20RajaChakravarthi> .
+<https://w3id.org/okn/semantics/2025/i/Paper_82> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_RicardoUsbeck> .
+<https://w3id.org/okn/semantics/2025/i/Paper_21> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_MaximeJakubowski> .
+<https://w3id.org/okn/semantics/2025/i/Paper_68> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_Wilma%20JohannaSchmidt> .
+<https://w3id.org/okn/semantics/2025/i/Paper_79> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_PiotrGorczyca> .
+<https://w3id.org/okn/semantics/2025/i/Paper_44> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_ManuelFiorelli> .
+<https://w3id.org/okn/semantics/2025/i/Paper_13> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_AndreasHarth> .
+<https://w3id.org/okn/semantics/2025/i/Paper_11> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_KatrinSchreiberhuber> .
+<https://w3id.org/okn/semantics/2025/i/Paper_49> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_MatthieuPerrin> .
+<https://w3id.org/okn/semantics/2025/i/Paper_49> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_PatriciaSerrano-Alvarado> .
+<https://w3id.org/okn/semantics/2025/i/Paper_70> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_CoganShimizu> .
+<https://w3id.org/okn/semantics/2025/i/Paper_70> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_AntreaChristou> .
+<https://w3id.org/okn/semantics/2025/i/Paper_68> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_DiegoRincon-Yanez> .
+<https://w3id.org/okn/semantics/2025/i/Paper_70> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_AlexisEllis> .
+<https://w3id.org/okn/semantics/2025/i/Paper_13> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_SebastianSchmid> .
+<https://w3id.org/okn/semantics/2025/i/Paper_42> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_GernotSteindl> .
+<https://w3id.org/okn/semantics/2025/i/Paper_49> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_GinwaFakih> .
+<https://w3id.org/okn/semantics/2025/i/Paper_42> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_MaxThoma> .
+<https://w3id.org/okn/semantics/2025/i/Paper_79> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_MartinDiller> .
+<https://w3id.org/okn/semantics/2025/i/Paper_68> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_EvgenyKharlamov> .
+<https://w3id.org/okn/semantics/2025/i/Paper_79> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_HannesStrass> .
+<https://w3id.org/okn/semantics/2025/i/Paper_11> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_Fajar%20J.Ekaputra> .
+<https://w3id.org/okn/semantics/2025/i/Paper_79> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_SebastianRudolph> .
+<https://w3id.org/okn/semantics/2025/i/Paper_39> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_ShubhankerBanerjee> .
+<https://w3id.org/okn/semantics/2025/i/Paper_78> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_DavidChaves-Fraga> .
+<https://w3id.org/okn/semantics/2025/i/Paper_11> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_GernotSteindl> .
+<https://w3id.org/okn/semantics/2025/i/Paper_68> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_AdrianPaschke> .
+<https://w3id.org/okn/semantics/2025/i/Paper_42> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_ThomasPreindl> .
+<https://w3id.org/okn/semantics/2025/i/Paper_20> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_LukasWalker> .
+<https://w3id.org/okn/semantics/2025/i/Paper_59> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_Niklas%20ThomasLakner> .
+<https://w3id.org/okn/semantics/2025/i/Paper_79> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_JochenHampe> .
+<https://w3id.org/okn/semantics/2025/i/Paper_11> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_TobiasSchwarzinger> .
+<https://w3id.org/okn/semantics/2025/i/Paper_79> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_GeorgHeidenreich> .
+<https://w3id.org/okn/semantics/2025/i/Paper_44> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_ArmandoStellato> .
+<https://w3id.org/okn/semantics/2025/i/Paper_28> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_MariamArustashvili> .
+<https://w3id.org/okn/semantics/2025/i/Paper_39> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_John%20PhilipMcCrae> .
+<https://w3id.org/okn/semantics/2025/i/Paper_36> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_MalteChristianBartels> .
+<https://w3id.org/okn/semantics/2025/i/Paper_21> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_DominikTomaszuk> .
+<https://w3id.org/okn/semantics/2025/i/Paper_59> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_TobiasK%C3%A4fer> .
+<https://w3id.org/okn/semantics/2025/i/Paper_21> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_KatjaHose> .
+<https://w3id.org/okn/semantics/2025/i/Paper_79> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_StephanMennicke> .
+<https://w3id.org/okn/semantics/2025/i/Paper_59> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_AyoubOurgani> .
+<https://w3id.org/okn/semantics/2025/i/Paper_68> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_IrlanGrangel-Gonz%C3%A1lez> .
+<https://w3id.org/okn/semantics/2025/i/Paper_79> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_DoertheArndt> .
+<https://w3id.org/okn/semantics/2025/i/Paper_28> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_HeikoPaulheim> .
+<https://w3id.org/okn/semantics/2025/i/Paper_20> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_AdrianUlges> .
+<https://w3id.org/okn/semantics/2025/i/Paper_70> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_Chris%20DavisJaldi> .
+<https://w3id.org/okn/semantics/2025/i/Paper_82> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_DebayanBanerjee> .
+<https://w3id.org/okn/semantics/2025/i/Paper_36> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_DebayanBanerjee> .
+<https://w3id.org/okn/semantics/2025/i/Paper_79> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_MarkusKr%C3%B6tzsch> .
+<https://w3id.org/okn/semantics/2025/i/Paper_28> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_JoergDeigmoeller> .
+<https://w3id.org/okn/semantics/2025/i/Paper_82> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_YaregalAssabie> .
+<https://w3id.org/okn/semantics/2025/i/Paper_82> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_Tilahun%20AbedissaTaffa> .
+<https://w3id.org/okn/semantics/2025/i/Paper_78> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_ChristopheDebruyne> .
+<https://w3id.org/okn/semantics/2025/i/Paper_20> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_FelixHamann> .
+<https://w3id.org/okn/semantics/2025/i/Paper_11> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_ThomasPreindl> .
+<https://w3id.org/okn/semantics/2025/i/Paper_44> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_GiulioMacilenti> .
+<https://w3id.org/okn/semantics/2025/i/Paper_11> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_KonradDiwold> .
+<https://w3id.org/okn/semantics/2025/i/Paper_79> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_PascalKettmann> .
+<https://w3id.org/okn/semantics/2025/i/Paper_11> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_ThomasFr%C3%BChwirth> .
+<https://w3id.org/okn/semantics/2025/i/Paper_36> <http://schema.org/author> <https://w3id.org/okn/semantics/i/Author_RicardoUsbeck> .
+<https://w3id.org/okn/semantics/2025/i/Paper_79> <http://schema.org/isPartOf> <https://w3id.org/okn/semantics/i/Track_1> .
+<https://w3id.org/okn/semantics/2025/i/Paper_82> <http://schema.org/isPartOf> <https://w3id.org/okn/semantics/i/Track_1> .
+<https://w3id.org/okn/semantics/2025/i/Paper_21> <http://schema.org/isPartOf> <https://w3id.org/okn/semantics/i/Track_1> .
+<https://w3id.org/okn/semantics/2025/i/Paper_13> <http://schema.org/isPartOf> <https://w3id.org/okn/semantics/i/Track_1> .
+<https://w3id.org/okn/semantics/2025/i/Paper_70> <http://schema.org/isPartOf> <https://w3id.org/okn/semantics/i/Track_1> .
+<https://w3id.org/okn/semantics/2025/i/Paper_78> <http://schema.org/isPartOf> <https://w3id.org/okn/semantics/i/Track_1> .
+<https://w3id.org/okn/semantics/2025/i/Paper_44> <http://schema.org/isPartOf> <https://w3id.org/okn/semantics/i/Track_1> .
+<https://w3id.org/okn/semantics/2025/i/Paper_11> <http://schema.org/isPartOf> <https://w3id.org/okn/semantics/i/Track_1> .
+<https://w3id.org/okn/semantics/2025/i/Paper_68> <http://schema.org/isPartOf> <https://w3id.org/okn/semantics/i/Track_1> .
+<https://w3id.org/okn/semantics/2025/i/Paper_20> <http://schema.org/isPartOf> <https://w3id.org/okn/semantics/i/Track_1> .
+<https://w3id.org/okn/semantics/2025/i/Paper_28> <http://schema.org/isPartOf> <https://w3id.org/okn/semantics/i/Track_1> .
+<https://w3id.org/okn/semantics/2025/i/Paper_36> <http://schema.org/isPartOf> <https://w3id.org/okn/semantics/i/Track_1> .
+<https://w3id.org/okn/semantics/2025/i/Paper_42> <http://schema.org/isPartOf> <https://w3id.org/okn/semantics/i/Track_1> .
+<https://w3id.org/okn/semantics/2025/i/Paper_59> <http://schema.org/isPartOf> <https://w3id.org/okn/semantics/i/Track_1> .
+<https://w3id.org/okn/semantics/2025/i/Paper_49> <http://schema.org/isPartOf> <https://w3id.org/okn/semantics/i/Track_1> .
+<https://w3id.org/okn/semantics/2025/i/Paper_39> <http://schema.org/isPartOf> <https://w3id.org/okn/semantics/i/Track_1> .
+<https://w3id.org/okn/semantics/2025/i/Paper_70> <http://schema.org/keywords> "InK Browser,Multimodal Knowledge Graphs,Education" .
+<https://w3id.org/okn/semantics/2025/i/Paper_13> <http://schema.org/keywords> "Knowledge Graph Construction,Relational Algebra,RML" .
+<https://w3id.org/okn/semantics/2025/i/Paper_68> <http://schema.org/keywords> "Document-Level Relation Extraction,Ontology RAG,LLM,Re-DocRED" .
+<https://w3id.org/okn/semantics/2025/i/Paper_44> <http://schema.org/keywords> "Ontology Matching,Ontology Alignment,Sentence Embedding,Semantic Similarity" .
+<https://w3id.org/okn/semantics/2025/i/Paper_59> <http://schema.org/keywords> "entity linking,domain bias,predictive investigation,dataset" .
+<https://w3id.org/okn/semantics/2025/i/Paper_79> <http://schema.org/keywords> "Risk management,Safety assurance,OWL EL,SHACL" .
+<https://w3id.org/okn/semantics/2025/i/Paper_21> <http://schema.org/keywords> "validation,rdf,knowledge graphs,shacl,shex,community survey" .
+<https://w3id.org/okn/semantics/2025/i/Paper_82> <http://schema.org/keywords> "Question Answering,Scholarly Question Answering,Hybrid Question Answering" .
+<https://w3id.org/okn/semantics/2025/i/Paper_42> <http://schema.org/keywords> "Web of Things,Thing Description,Large Language Models,Device Integration" .
+<https://w3id.org/okn/semantics/2025/i/Paper_39> <http://schema.org/keywords> "Automatic term extraction,LLM,Data augmentation,Synthetic data" .
+<https://w3id.org/okn/semantics/2025/i/Paper_28> <http://schema.org/keywords> "Knowledge Graph,Completion,Link Prediction,Situational Knowledge Graph,Household Actions" .
+<https://w3id.org/okn/semantics/2025/i/Paper_36> <http://schema.org/keywords> "SPARQL Query Translation,Knowledge Graph Interoperability,Large Language Models,Wikidata,DBpedia" .
+<https://w3id.org/okn/semantics/2025/i/Paper_11> <http://schema.org/keywords> "Knowledge Graph,Time Series,SPARQL,Semantic Web" .
+<https://w3id.org/okn/semantics/2025/i/Paper_20> <http://schema.org/keywords> "Open-World Knowledge Graph Completion,LLM,Re-Ranking" .
+<https://w3id.org/okn/semantics/2025/i/Paper_78> <http://schema.org/keywords> "RML,Knowledge Graph Construction,Collections and Containers" .
+<https://w3id.org/okn/semantics/2025/i/Paper_49> <http://schema.org/keywords> "SPARQL,Query relaxation,Information Content,RDF Reification" .
+<https://w3id.org/okn/semantics/2025/i/Paper_44> <http://schema.org/name> "SISMA: Sentence Embedding–Based Ontology Matching with SBERT" .
+<https://w3id.org/okn/semantics/2025/i/Paper_28> <http://schema.org/name> "Knowledge Graph Completion for Action Prediction on Situational Graphs -- A Case Study on Household Tasks" .
+<https://w3id.org/okn/semantics/2025/i/Paper_78> <http://schema.org/name> "Declarative Generation of RDF Collections and Containers from Heterogeneous Data" .
+<https://w3id.org/okn/semantics/2025/i/Paper_39> <http://schema.org/name> "DA-ATE:Data Augmentation for Automatic Term Extraction" .
+<https://w3id.org/okn/semantics/2025/i/Paper_49> <http://schema.org/name> "SHARP : A Hybrid Approach for SPARQL Query Relaxation" .
+<https://w3id.org/okn/semantics/2025/i/Paper_70> <http://schema.org/name> "Extending the Interactive Knowledge Browser to Support Educational Multimedia" .
+<https://w3id.org/okn/semantics/2025/i/Paper_36> <http://schema.org/name> "Automating SPARQL Query Translations between DBpedia and Wikidata" .
+<https://w3id.org/okn/semantics/2025/i/Paper_59> <http://schema.org/name> "Linking with Bias: Domain-Specific Behavior in Entity Linking Systems" .
+<https://w3id.org/okn/semantics/2025/i/Paper_21> <http://schema.org/name> "Bridging Gaps in RDF Validation" .
+<https://w3id.org/okn/semantics/2025/i/Paper_42> <http://schema.org/name> "Utilizing Large Language Models for Log-Based Automated Thing Description Generation" .
+<https://w3id.org/okn/semantics/2025/i/Paper_13> <http://schema.org/name> "Efficient Knowledge Graph Construction Based on Optimized Plans" .
+<https://w3id.org/okn/semantics/2025/i/Paper_11> <http://schema.org/name> "SigSPARQL: Signals as a First-Class Citizen When Querying Knowledge Graphs" .
+<https://w3id.org/okn/semantics/2025/i/Paper_82> <http://schema.org/name> "HySQA: Hybrid Scholarly Question Answering" .
+<https://w3id.org/okn/semantics/2025/i/Paper_20> <http://schema.org/name> "Re-ranking with LLMs for Open-World Knowledge Graph Completion" .
+<https://w3id.org/okn/semantics/2025/i/Paper_79> <http://schema.org/name> "Supporting Risk Management for Medical devices via the RISKMAN Ontology & Shapes" .
+<https://w3id.org/okn/semantics/2025/i/Paper_68> <http://schema.org/name> "Document-Level Relation Extraction with Ontology-Guided RAG" .
+<https://w3id.org/okn/semantics/i/Author_AyoubOurgani> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_AdrianUlges> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_MaxThoma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_KatjaHose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_SebastianRudolph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_FelixHamann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_MaximeJakubowski> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_SebastianSchmid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_ShubhankerBanerjee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_JochenHampe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_AntreaChristou> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_ThomasFr%C3%BChwirth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_LukasWalker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_GiulioMacilenti> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_YaregalAssabie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_LeonhardEsterbauer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_EvgenyKharlamov> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_AdrianPaschke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_DoertheArndt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_JoergDeigmoeller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_Chris%20DavisJaldi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_MalteChristianBartels> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_GeorgHeidenreich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_StephanMennicke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_MariamArustashvili> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_TobiasK%C3%A4fer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_Wilma%20JohannaSchmidt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_CoganShimizu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_SouailJaadari> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_KonradDiwold> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_Niklas%20ThomasLakner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_MatthieuPerrin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_PascalKettmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_HeikoPaulheim> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_DominikTomaszuk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_GernotSteindl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_Bharathi%20RajaChakravarthi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_RicardoUsbeck> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_MichaelFreund> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_GinwaFakih> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_Fajar%20J.Ekaputra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_DiegoRincon-Yanez> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_ArmandoStellato> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_KristianNoullet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_John%20PhilipMcCrae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_AlexisEllis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_MarkusKr%C3%B6tzsch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_ChristopheDebruyne> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_ThomasPreindl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_TobiasSchwarzinger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_AndreasHarth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_DebayanBanerjee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_PiotrGorczyca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_HannesStrass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_ManuelFiorelli> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_KatrinSchreiberhuber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_IrlanGrangel-Gonz%C3%A1lez> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_DavidChaves-Fraga> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_MartinDiller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_Tilahun%20AbedissaTaffa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_PatriciaSerrano-Alvarado> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/okn/semantics/i/Author_Bharathi%20RajaChakravarthi> <http://schema.org/affiliation> "University of Galway" .
+<https://w3id.org/okn/semantics/i/Author_DebayanBanerjee> <http://schema.org/affiliation> "Leuphana University" .
+<https://w3id.org/okn/semantics/i/Author_MichaelFreund> <http://schema.org/affiliation> "Fraunhofer Institute for Integrated Circuits IIS" .
+<https://w3id.org/okn/semantics/i/Author_SebastianRudolph> <http://schema.org/affiliation> "TU Dresden" .
+<https://w3id.org/okn/semantics/i/Author_DiegoRincon-Yanez> <http://schema.org/affiliation> "Trinity College Dublin" .
+<https://w3id.org/okn/semantics/i/Author_John%20PhilipMcCrae> <http://schema.org/affiliation> "ADAPT Centre, University of Galway" .
+<https://w3id.org/okn/semantics/i/Author_ThomasFr%C3%BChwirth> <http://schema.org/affiliation> "TU Wien" .
+<https://w3id.org/okn/semantics/i/Author_RicardoUsbeck> <http://schema.org/affiliation> "Leuphana University Lüneburg, Germany" .
+<https://w3id.org/okn/semantics/i/Author_MaxThoma> <http://schema.org/affiliation> "TU Wien" .
+<https://w3id.org/okn/semantics/i/Author_KonradDiwold> <http://schema.org/affiliation> "Siemens Aktiengesellschaft Österreich" .
+<https://w3id.org/okn/semantics/i/Author_ThomasPreindl> <http://schema.org/affiliation> "Vienna University of Technology" .
+<https://w3id.org/okn/semantics/i/Author_LeonhardEsterbauer> <http://schema.org/affiliation> "TU Wien" .
+<https://w3id.org/okn/semantics/i/Author_TobiasK%C3%A4fer> <http://schema.org/affiliation> "Karlsruhe Institute of Technology" .
+<https://w3id.org/okn/semantics/i/Author_KatrinSchreiberhuber> <http://schema.org/affiliation> "Vienna University of Economics and Business (WU)" .
+<https://w3id.org/okn/semantics/i/Author_ArmandoStellato> <http://schema.org/affiliation> "Tor Vergata University of Rome" .
+<https://w3id.org/okn/semantics/i/Author_ShubhankerBanerjee> <http://schema.org/affiliation> "ADAPT Centre, University of Galway" .
+<https://w3id.org/okn/semantics/i/Author_ChristopheDebruyne> <http://schema.org/affiliation> "Université de Liège" .
+<https://w3id.org/okn/semantics/i/Author_AdrianUlges> <http://schema.org/affiliation> "RheinMain University of Applied Sciences" .
+<https://w3id.org/okn/semantics/i/Author_Tilahun%20AbedissaTaffa> <http://schema.org/affiliation> "University of Hamburg" .
+<https://w3id.org/okn/semantics/i/Author_AdrianPaschke> <http://schema.org/affiliation> "Freie Universität Berlin" .
+<https://w3id.org/okn/semantics/i/Author_SebastianSchmid> <http://schema.org/affiliation> "Friedrich-Alexander-Universität Erlangen-Nürnberg" .
+<https://w3id.org/okn/semantics/i/Author_GeorgHeidenreich> <http://schema.org/affiliation> "Siemens Healthineers" .
+<https://w3id.org/okn/semantics/i/Author_RicardoUsbeck> <http://schema.org/affiliation> "Leuphana University" .
+<https://w3id.org/okn/semantics/i/Author_AlexisEllis> <http://schema.org/affiliation> "Wright State University" .
+<https://w3id.org/okn/semantics/i/Author_Niklas%20ThomasLakner> <http://schema.org/affiliation> "Karlsruhe Institute of Technology" .
+<https://w3id.org/okn/semantics/i/Author_MartinDiller> <http://schema.org/affiliation> "TU Dresden" .
+<https://w3id.org/okn/semantics/i/Author_TobiasSchwarzinger> <http://schema.org/affiliation> "TU Wien" .
+<https://w3id.org/okn/semantics/i/Author_KristianNoullet> <http://schema.org/affiliation> "KIT" .
+<https://w3id.org/okn/semantics/i/Author_AntreaChristou> <http://schema.org/affiliation> "Wright State University" .
+<https://w3id.org/okn/semantics/i/Author_MarkusKr%C3%B6tzsch> <http://schema.org/affiliation> "TU Dresden" .
+<https://w3id.org/okn/semantics/i/Author_Fajar%20J.Ekaputra> <http://schema.org/affiliation> "Vienna University of Economics and Business (WU)" .
+<https://w3id.org/okn/semantics/i/Author_LukasWalker> <http://schema.org/affiliation> "RheinMain University of Applied Sciences" .
+<https://w3id.org/okn/semantics/i/Author_PiotrGorczyca> <http://schema.org/affiliation> "TU Dresden, Institute of Artificial Intelligence, Computational Logic Group" .
+<https://w3id.org/okn/semantics/i/Author_HannesStrass> <http://schema.org/affiliation> "TU Dresden" .
+<https://w3id.org/okn/semantics/i/Author_ManuelFiorelli> <http://schema.org/affiliation> "Tor Vergata University of Rome" .
+<https://w3id.org/okn/semantics/i/Author_FelixHamann> <http://schema.org/affiliation> "RheinMain University of Applied Sciences" .
+<https://w3id.org/okn/semantics/i/Author_GernotSteindl> <http://schema.org/affiliation> "Hochschule Burgenland" .
+<https://w3id.org/okn/semantics/i/Author_Chris%20DavisJaldi> <http://schema.org/affiliation> "Wright State University" .
+<https://w3id.org/okn/semantics/i/Author_YaregalAssabie> <http://schema.org/affiliation> "Addis Ababa University" .
+<https://w3id.org/okn/semantics/i/Author_DoertheArndt> <http://schema.org/affiliation> "TU Dresden" .
+<https://w3id.org/okn/semantics/i/Author_HeikoPaulheim> <http://schema.org/affiliation> "University of Mannheim" .
+<https://w3id.org/okn/semantics/i/Author_MalteChristianBartels> <http://schema.org/affiliation> "Leuphana University" .
+<https://w3id.org/okn/semantics/i/Author_JoergDeigmoeller> <http://schema.org/affiliation> "Honda Research Institute" .
+<https://w3id.org/okn/semantics/i/Author_DavidChaves-Fraga> <http://schema.org/affiliation> "Universidade de Santiago de Compostela" .
+<https://w3id.org/okn/semantics/i/Author_DebayanBanerjee> <http://schema.org/affiliation> "Leuphana Universität Lüneburg" .
+<https://w3id.org/okn/semantics/i/Author_MaximeJakubowski> <http://schema.org/affiliation> "TU Wien" .
+<https://w3id.org/okn/semantics/i/Author_ThomasPreindl> <http://schema.org/affiliation> "TU Wien" .
+<https://w3id.org/okn/semantics/i/Author_AyoubOurgani> <http://schema.org/affiliation> "KIT" .
+<https://w3id.org/okn/semantics/i/Author_GinwaFakih> <http://schema.org/affiliation> "Nantes University" .
+<https://w3id.org/okn/semantics/i/Author_Wilma%20JohannaSchmidt> <http://schema.org/affiliation> "Robert Bosch GmbH and Freie Universität Berlin" .
+<https://w3id.org/okn/semantics/i/Author_StephanMennicke> <http://schema.org/affiliation> "Knowledge-Based Systems Group, TU Dresden" .
+<https://w3id.org/okn/semantics/i/Author_MatthieuPerrin> <http://schema.org/affiliation> "Nantes University" .
+<https://w3id.org/okn/semantics/i/Author_DominikTomaszuk> <http://schema.org/affiliation> "University of Bialystok" .
+<https://w3id.org/okn/semantics/i/Author_EvgenyKharlamov> <http://schema.org/affiliation> "Bosch Center for AI" .
+<https://w3id.org/okn/semantics/i/Author_GiulioMacilenti> <http://schema.org/affiliation> "Tor Vergata University of Rome" .
+<https://w3id.org/okn/semantics/i/Author_PatriciaSerrano-Alvarado> <http://schema.org/affiliation> "Nantes University" .
+<https://w3id.org/okn/semantics/i/Author_IrlanGrangel-Gonz%C3%A1lez> <http://schema.org/affiliation> "Robert Bosch GmbH, Corporate Research, Renningen, Germany" .
+<https://w3id.org/okn/semantics/i/Author_GernotSteindl> <http://schema.org/affiliation> "University of Applied Sciences Burgenland" .
+<https://w3id.org/okn/semantics/i/Author_AndreasHarth> <http://schema.org/affiliation> "Friedrich-Alexander-Universität Erlangen-Nürnberg and Fraunhofer IIS" .
+<https://w3id.org/okn/semantics/i/Author_CoganShimizu> <http://schema.org/affiliation> "Wright State University" .
+<https://w3id.org/okn/semantics/i/Author_KatjaHose> <http://schema.org/affiliation> "TU Wien" .
+<https://w3id.org/okn/semantics/i/Author_JochenHampe> <http://schema.org/affiliation> "TU Dresden" .
+<https://w3id.org/okn/semantics/i/Author_PascalKettmann> <http://schema.org/affiliation> "TU Dresden" .
+<https://w3id.org/okn/semantics/i/Author_MariamArustashvili> <http://schema.org/affiliation> "University of Stavanger" .
+<https://w3id.org/okn/semantics/i/Author_SouailJaadari> <http://schema.org/affiliation> "Université de Liège" .
+<https://w3id.org/okn/semantics/i/Author_John%20PhilipMcCrae> <http://schema.org/familyName> "McCrae" .
+<https://w3id.org/okn/semantics/i/Author_IrlanGrangel-Gonz%C3%A1lez> <http://schema.org/familyName> "Grangel-González" .
+<https://w3id.org/okn/semantics/i/Author_MaximeJakubowski> <http://schema.org/familyName> "Jakubowski" .
+<https://w3id.org/okn/semantics/i/Author_DiegoRincon-Yanez> <http://schema.org/familyName> "Rincon-Yanez" .
+<https://w3id.org/okn/semantics/i/Author_SouailJaadari> <http://schema.org/familyName> "Jaadari" .
+<https://w3id.org/okn/semantics/i/Author_PascalKettmann> <http://schema.org/familyName> "Kettmann" .
+<https://w3id.org/okn/semantics/i/Author_SebastianSchmid> <http://schema.org/familyName> "Schmid" .
+<https://w3id.org/okn/semantics/i/Author_Fajar%20J.Ekaputra> <http://schema.org/familyName> "Ekaputra" .
+<https://w3id.org/okn/semantics/i/Author_DavidChaves-Fraga> <http://schema.org/familyName> "Chaves-Fraga" .
+<https://w3id.org/okn/semantics/i/Author_KatrinSchreiberhuber> <http://schema.org/familyName> "Schreiberhuber" .
+<https://w3id.org/okn/semantics/i/Author_DominikTomaszuk> <http://schema.org/familyName> "Tomaszuk" .
+<https://w3id.org/okn/semantics/i/Author_PatriciaSerrano-Alvarado> <http://schema.org/familyName> "Serrano-Alvarado" .
+<https://w3id.org/okn/semantics/i/Author_JochenHampe> <http://schema.org/familyName> "Hampe" .
+<https://w3id.org/okn/semantics/i/Author_Wilma%20JohannaSchmidt> <http://schema.org/familyName> "Schmidt" .
+<https://w3id.org/okn/semantics/i/Author_AndreasHarth> <http://schema.org/familyName> "Harth" .
+<https://w3id.org/okn/semantics/i/Author_PiotrGorczyca> <http://schema.org/familyName> "Gorczyca" .
+<https://w3id.org/okn/semantics/i/Author_RicardoUsbeck> <http://schema.org/familyName> "Usbeck" .
+<https://w3id.org/okn/semantics/i/Author_Bharathi%20RajaChakravarthi> <http://schema.org/familyName> "Chakravarthi" .
+<https://w3id.org/okn/semantics/i/Author_KatjaHose> <http://schema.org/familyName> "Hose" .
+<https://w3id.org/okn/semantics/i/Author_GiulioMacilenti> <http://schema.org/familyName> "Macilenti" .
+<https://w3id.org/okn/semantics/i/Author_MartinDiller> <http://schema.org/familyName> "Diller" .
+<https://w3id.org/okn/semantics/i/Author_SebastianRudolph> <http://schema.org/familyName> "Rudolph" .
+<https://w3id.org/okn/semantics/i/Author_MichaelFreund> <http://schema.org/familyName> "Freund" .
+<https://w3id.org/okn/semantics/i/Author_LukasWalker> <http://schema.org/familyName> "Walker" .
+<https://w3id.org/okn/semantics/i/Author_TobiasSchwarzinger> <http://schema.org/familyName> "Schwarzinger" .
+<https://w3id.org/okn/semantics/i/Author_Chris%20DavisJaldi> <http://schema.org/familyName> "Jaldi" .
+<https://w3id.org/okn/semantics/i/Author_AyoubOurgani> <http://schema.org/familyName> "Ourgani" .
+<https://w3id.org/okn/semantics/i/Author_Tilahun%20AbedissaTaffa> <http://schema.org/familyName> "Taffa" .
+<https://w3id.org/okn/semantics/i/Author_TobiasK%C3%A4fer> <http://schema.org/familyName> "Käfer" .
+<https://w3id.org/okn/semantics/i/Author_MariamArustashvili> <http://schema.org/familyName> "Arustashvili" .
+<https://w3id.org/okn/semantics/i/Author_MatthieuPerrin> <http://schema.org/familyName> "Perrin" .
+<https://w3id.org/okn/semantics/i/Author_AdrianUlges> <http://schema.org/familyName> "Ulges" .
+<https://w3id.org/okn/semantics/i/Author_AdrianPaschke> <http://schema.org/familyName> "Paschke" .
+<https://w3id.org/okn/semantics/i/Author_DoertheArndt> <http://schema.org/familyName> "Arndt" .
+<https://w3id.org/okn/semantics/i/Author_JoergDeigmoeller> <http://schema.org/familyName> "Deigmoeller" .
+<https://w3id.org/okn/semantics/i/Author_GinwaFakih> <http://schema.org/familyName> "Fakih" .
+<https://w3id.org/okn/semantics/i/Author_MalteChristianBartels> <http://schema.org/familyName> "Bartels" .
+<https://w3id.org/okn/semantics/i/Author_ChristopheDebruyne> <http://schema.org/familyName> "Debruyne" .
+<https://w3id.org/okn/semantics/i/Author_ThomasPreindl> <http://schema.org/familyName> "Preindl" .
+<https://w3id.org/okn/semantics/i/Author_ArmandoStellato> <http://schema.org/familyName> "Stellato" .
+<https://w3id.org/okn/semantics/i/Author_CoganShimizu> <http://schema.org/familyName> "Shimizu" .
+<https://w3id.org/okn/semantics/i/Author_LeonhardEsterbauer> <http://schema.org/familyName> "Esterbauer" .
+<https://w3id.org/okn/semantics/i/Author_EvgenyKharlamov> <http://schema.org/familyName> "Kharlamov" .
+<https://w3id.org/okn/semantics/i/Author_AntreaChristou> <http://schema.org/familyName> "Christou" .
+<https://w3id.org/okn/semantics/i/Author_YaregalAssabie> <http://schema.org/familyName> "Assabie" .
+<https://w3id.org/okn/semantics/i/Author_StephanMennicke> <http://schema.org/familyName> "Mennicke" .
+<https://w3id.org/okn/semantics/i/Author_AlexisEllis> <http://schema.org/familyName> "Ellis" .
+<https://w3id.org/okn/semantics/i/Author_HannesStrass> <http://schema.org/familyName> "Strass" .
+<https://w3id.org/okn/semantics/i/Author_KonradDiwold> <http://schema.org/familyName> "Diwold" .
+<https://w3id.org/okn/semantics/i/Author_GernotSteindl> <http://schema.org/familyName> "Steindl" .
+<https://w3id.org/okn/semantics/i/Author_KristianNoullet> <http://schema.org/familyName> "Noullet" .
+<https://w3id.org/okn/semantics/i/Author_ThomasFr%C3%BChwirth> <http://schema.org/familyName> "Frühwirth" .
+<https://w3id.org/okn/semantics/i/Author_ManuelFiorelli> <http://schema.org/familyName> "Fiorelli" .
+<https://w3id.org/okn/semantics/i/Author_GeorgHeidenreich> <http://schema.org/familyName> "Heidenreich" .
+<https://w3id.org/okn/semantics/i/Author_HeikoPaulheim> <http://schema.org/familyName> "Paulheim" .
+<https://w3id.org/okn/semantics/i/Author_FelixHamann> <http://schema.org/familyName> "Hamann" .
+<https://w3id.org/okn/semantics/i/Author_Niklas%20ThomasLakner> <http://schema.org/familyName> "Lakner" .
+<https://w3id.org/okn/semantics/i/Author_DebayanBanerjee> <http://schema.org/familyName> "Banerjee" .
+<https://w3id.org/okn/semantics/i/Author_MaxThoma> <http://schema.org/familyName> "Thoma" .
+<https://w3id.org/okn/semantics/i/Author_MarkusKr%C3%B6tzsch> <http://schema.org/familyName> "Krötzsch" .
+<https://w3id.org/okn/semantics/i/Author_ShubhankerBanerjee> <http://schema.org/familyName> "Banerjee" .
+<https://w3id.org/okn/semantics/i/Author_ShubhankerBanerjee> <http://schema.org/givenName> "Shubhanker" .
+<https://w3id.org/okn/semantics/i/Author_Niklas%20ThomasLakner> <http://schema.org/givenName> "Niklas Thomas" .
+<https://w3id.org/okn/semantics/i/Author_AdrianUlges> <http://schema.org/givenName> "Adrian" .
+<https://w3id.org/okn/semantics/i/Author_JoergDeigmoeller> <http://schema.org/givenName> "Joerg" .
+<https://w3id.org/okn/semantics/i/Author_AntreaChristou> <http://schema.org/givenName> "Antrea" .
+<https://w3id.org/okn/semantics/i/Author_MarkusKr%C3%B6tzsch> <http://schema.org/givenName> "Markus" .
+<https://w3id.org/okn/semantics/i/Author_GernotSteindl> <http://schema.org/givenName> "Gernot" .
+<https://w3id.org/okn/semantics/i/Author_IrlanGrangel-Gonz%C3%A1lez> <http://schema.org/givenName> "Irlan" .
+<https://w3id.org/okn/semantics/i/Author_HeikoPaulheim> <http://schema.org/givenName> "Heiko" .
+<https://w3id.org/okn/semantics/i/Author_DebayanBanerjee> <http://schema.org/givenName> "Debayan" .
+<https://w3id.org/okn/semantics/i/Author_LukasWalker> <http://schema.org/givenName> "Lukas" .
+<https://w3id.org/okn/semantics/i/Author_MichaelFreund> <http://schema.org/givenName> "Michael" .
+<https://w3id.org/okn/semantics/i/Author_ThomasFr%C3%BChwirth> <http://schema.org/givenName> "Thomas" .
+<https://w3id.org/okn/semantics/i/Author_GinwaFakih> <http://schema.org/givenName> "Ginwa" .
+<https://w3id.org/okn/semantics/i/Author_PiotrGorczyca> <http://schema.org/givenName> "Piotr" .
+<https://w3id.org/okn/semantics/i/Author_HannesStrass> <http://schema.org/givenName> "Hannes" .
+<https://w3id.org/okn/semantics/i/Author_AndreasHarth> <http://schema.org/givenName> "Andreas" .
+<https://w3id.org/okn/semantics/i/Author_DoertheArndt> <http://schema.org/givenName> "Doerthe" .
+<https://w3id.org/okn/semantics/i/Author_DiegoRincon-Yanez> <http://schema.org/givenName> "Diego" .
+<https://w3id.org/okn/semantics/i/Author_JochenHampe> <http://schema.org/givenName> "Jochen" .
+<https://w3id.org/okn/semantics/i/Author_TobiasK%C3%A4fer> <http://schema.org/givenName> "Tobias" .
+<https://w3id.org/okn/semantics/i/Author_MaxThoma> <http://schema.org/givenName> "Max" .
+<https://w3id.org/okn/semantics/i/Author_ArmandoStellato> <http://schema.org/givenName> "Armando" .
+<https://w3id.org/okn/semantics/i/Author_CoganShimizu> <http://schema.org/givenName> "Cogan" .
+<https://w3id.org/okn/semantics/i/Author_SebastianSchmid> <http://schema.org/givenName> "Sebastian" .
+<https://w3id.org/okn/semantics/i/Author_TobiasSchwarzinger> <http://schema.org/givenName> "Tobias" .
+<https://w3id.org/okn/semantics/i/Author_Wilma%20JohannaSchmidt> <http://schema.org/givenName> "Wilma Johanna" .
+<https://w3id.org/okn/semantics/i/Author_PascalKettmann> <http://schema.org/givenName> "Pascal" .
+<https://w3id.org/okn/semantics/i/Author_ChristopheDebruyne> <http://schema.org/givenName> "Christophe" .
+<https://w3id.org/okn/semantics/i/Author_MariamArustashvili> <http://schema.org/givenName> "Mariam" .
+<https://w3id.org/okn/semantics/i/Author_YaregalAssabie> <http://schema.org/givenName> "Yaregal" .
+<https://w3id.org/okn/semantics/i/Author_PatriciaSerrano-Alvarado> <http://schema.org/givenName> "Patricia" .
+<https://w3id.org/okn/semantics/i/Author_KatjaHose> <http://schema.org/givenName> "Katja" .
+<https://w3id.org/okn/semantics/i/Author_DominikTomaszuk> <http://schema.org/givenName> "Dominik" .
+<https://w3id.org/okn/semantics/i/Author_KonradDiwold> <http://schema.org/givenName> "Konrad" .
+<https://w3id.org/okn/semantics/i/Author_Fajar%20J.Ekaputra> <http://schema.org/givenName> "Fajar J." .
+<https://w3id.org/okn/semantics/i/Author_SebastianRudolph> <http://schema.org/givenName> "Sebastian" .
+<https://w3id.org/okn/semantics/i/Author_ThomasPreindl> <http://schema.org/givenName> "Thomas" .
+<https://w3id.org/okn/semantics/i/Author_ManuelFiorelli> <http://schema.org/givenName> "Manuel" .
+<https://w3id.org/okn/semantics/i/Author_RicardoUsbeck> <http://schema.org/givenName> "Ricardo" .
+<https://w3id.org/okn/semantics/i/Author_AlexisEllis> <http://schema.org/givenName> "Alexis" .
+<https://w3id.org/okn/semantics/i/Author_Chris%20DavisJaldi> <http://schema.org/givenName> "Chris Davis" .
+<https://w3id.org/okn/semantics/i/Author_GeorgHeidenreich> <http://schema.org/givenName> "Georg" .
+<https://w3id.org/okn/semantics/i/Author_SouailJaadari> <http://schema.org/givenName> "Souail" .
+<https://w3id.org/okn/semantics/i/Author_Tilahun%20AbedissaTaffa> <http://schema.org/givenName> "Tilahun Abedissa" .
+<https://w3id.org/okn/semantics/i/Author_AyoubOurgani> <http://schema.org/givenName> "Ayoub" .
+<https://w3id.org/okn/semantics/i/Author_Bharathi%20RajaChakravarthi> <http://schema.org/givenName> "Bharathi Raja" .
+<https://w3id.org/okn/semantics/i/Author_StephanMennicke> <http://schema.org/givenName> "Stephan" .
+<https://w3id.org/okn/semantics/i/Author_KatrinSchreiberhuber> <http://schema.org/givenName> "Katrin" .
+<https://w3id.org/okn/semantics/i/Author_DavidChaves-Fraga> <http://schema.org/givenName> "David" .
+<https://w3id.org/okn/semantics/i/Author_EvgenyKharlamov> <http://schema.org/givenName> "Evgeny" .
+<https://w3id.org/okn/semantics/i/Author_MaximeJakubowski> <http://schema.org/givenName> "Maxime" .
+<https://w3id.org/okn/semantics/i/Author_MartinDiller> <http://schema.org/givenName> "Martin" .
+<https://w3id.org/okn/semantics/i/Author_GiulioMacilenti> <http://schema.org/givenName> "Giulio" .
+<https://w3id.org/okn/semantics/i/Author_KristianNoullet> <http://schema.org/givenName> "Kristian" .
+<https://w3id.org/okn/semantics/i/Author_MalteChristianBartels> <http://schema.org/givenName> "MalteChristian" .
+<https://w3id.org/okn/semantics/i/Author_John%20PhilipMcCrae> <http://schema.org/givenName> "John Philip" .
+<https://w3id.org/okn/semantics/i/Author_FelixHamann> <http://schema.org/givenName> "Felix" .
+<https://w3id.org/okn/semantics/i/Author_MatthieuPerrin> <http://schema.org/givenName> "Matthieu" .
+<https://w3id.org/okn/semantics/i/Author_AdrianPaschke> <http://schema.org/givenName> "Adrian" .
+<https://w3id.org/okn/semantics/i/Author_LeonhardEsterbauer> <http://schema.org/givenName> "Leonhard" .
+<https://w3id.org/okn/semantics/i/Author_GeorgHeidenreich> <http://schema.org/nationality> "Germany" .
+<https://w3id.org/okn/semantics/i/Author_MarkusKr%C3%B6tzsch> <http://schema.org/nationality> "Germany" .
+<https://w3id.org/okn/semantics/i/Author_Fajar%20J.Ekaputra> <http://schema.org/nationality> "Austria" .
+<https://w3id.org/okn/semantics/i/Author_MariamArustashvili> <http://schema.org/nationality> "Norway" .
+<https://w3id.org/okn/semantics/i/Author_John%20PhilipMcCrae> <http://schema.org/nationality> "Ireland" .
+<https://w3id.org/okn/semantics/i/Author_GernotSteindl> <http://schema.org/nationality> "Austria" .
+<https://w3id.org/okn/semantics/i/Author_HannesStrass> <http://schema.org/nationality> "Germany" .
+<https://w3id.org/okn/semantics/i/Author_MatthieuPerrin> <http://schema.org/nationality> "France" .
+<https://w3id.org/okn/semantics/i/Author_SebastianSchmid> <http://schema.org/nationality> "Germany" .
+<https://w3id.org/okn/semantics/i/Author_Wilma%20JohannaSchmidt> <http://schema.org/nationality> "Germany" .
+<https://w3id.org/okn/semantics/i/Author_JoergDeigmoeller> <http://schema.org/nationality> "Germany" .
+<https://w3id.org/okn/semantics/i/Author_AdrianUlges> <http://schema.org/nationality> "Germany" .
+<https://w3id.org/okn/semantics/i/Author_RicardoUsbeck> <http://schema.org/nationality> "Germany" .
+<https://w3id.org/okn/semantics/i/Author_YaregalAssabie> <http://schema.org/nationality> "Ethiopia" .
+<https://w3id.org/okn/semantics/i/Author_KatjaHose> <http://schema.org/nationality> "Austria" .
+<https://w3id.org/okn/semantics/i/Author_KatrinSchreiberhuber> <http://schema.org/nationality> "Austria" .
+<https://w3id.org/okn/semantics/i/Author_PascalKettmann> <http://schema.org/nationality> "Germany" .
+<https://w3id.org/okn/semantics/i/Author_StephanMennicke> <http://schema.org/nationality> "Germany" .
+<https://w3id.org/okn/semantics/i/Author_IrlanGrangel-Gonz%C3%A1lez> <http://schema.org/nationality> "Germany" .
+<https://w3id.org/okn/semantics/i/Author_PiotrGorczyca> <http://schema.org/nationality> "Germany" .
+<https://w3id.org/okn/semantics/i/Author_EvgenyKharlamov> <http://schema.org/nationality> "Germany" .
+<https://w3id.org/okn/semantics/i/Author_PatriciaSerrano-Alvarado> <http://schema.org/nationality> "France" .
+<https://w3id.org/okn/semantics/i/Author_ThomasFr%C3%BChwirth> <http://schema.org/nationality> "Austria" .
+<https://w3id.org/okn/semantics/i/Author_DoertheArndt> <http://schema.org/nationality> "Germany" .
+<https://w3id.org/okn/semantics/i/Author_SouailJaadari> <http://schema.org/nationality> "Belgium" .
+<https://w3id.org/okn/semantics/i/Author_GinwaFakih> <http://schema.org/nationality> "France" .
+<https://w3id.org/okn/semantics/i/Author_ManuelFiorelli> <http://schema.org/nationality> "Italy" .
+<https://w3id.org/okn/semantics/i/Author_MaxThoma> <http://schema.org/nationality> "Austria" .
+<https://w3id.org/okn/semantics/i/Author_AyoubOurgani> <http://schema.org/nationality> "Germany" .
+<https://w3id.org/okn/semantics/i/Author_ChristopheDebruyne> <http://schema.org/nationality> "Belgium" .
+<https://w3id.org/okn/semantics/i/Author_JochenHampe> <http://schema.org/nationality> "Germany" .
+<https://w3id.org/okn/semantics/i/Author_KristianNoullet> <http://schema.org/nationality> "Germany" .
+<https://w3id.org/okn/semantics/i/Author_ArmandoStellato> <http://schema.org/nationality> "Italy" .
+<https://w3id.org/okn/semantics/i/Author_CoganShimizu> <http://schema.org/nationality> "United States" .
+<https://w3id.org/okn/semantics/i/Author_KonradDiwold> <http://schema.org/nationality> "Austria" .
+<https://w3id.org/okn/semantics/i/Author_AndreasHarth> <http://schema.org/nationality> "Germany" .
+<https://w3id.org/okn/semantics/i/Author_MartinDiller> <http://schema.org/nationality> "Germany" .
+<https://w3id.org/okn/semantics/i/Author_MichaelFreund> <http://schema.org/nationality> "Germany" .
+<https://w3id.org/okn/semantics/i/Author_AntreaChristou> <http://schema.org/nationality> "United States" .
+<https://w3id.org/okn/semantics/i/Author_DominikTomaszuk> <http://schema.org/nationality> "Poland" .
+<https://w3id.org/okn/semantics/i/Author_DavidChaves-Fraga> <http://schema.org/nationality> "Spain" .
+<https://w3id.org/okn/semantics/i/Author_MaximeJakubowski> <http://schema.org/nationality> "Austria" .
+<https://w3id.org/okn/semantics/i/Author_LeonhardEsterbauer> <http://schema.org/nationality> "Austria" .
+<https://w3id.org/okn/semantics/i/Author_Tilahun%20AbedissaTaffa> <http://schema.org/nationality> "Germany" .
+<https://w3id.org/okn/semantics/i/Author_ShubhankerBanerjee> <http://schema.org/nationality> "Ireland" .
+<https://w3id.org/okn/semantics/i/Author_AdrianPaschke> <http://schema.org/nationality> "Germany" .
+<https://w3id.org/okn/semantics/i/Author_DiegoRincon-Yanez> <http://schema.org/nationality> "Ireland" .
+<https://w3id.org/okn/semantics/i/Author_Chris%20DavisJaldi> <http://schema.org/nationality> "United States" .
+<https://w3id.org/okn/semantics/i/Author_AlexisEllis> <http://schema.org/nationality> "United States" .
+<https://w3id.org/okn/semantics/i/Author_Niklas%20ThomasLakner> <http://schema.org/nationality> "Germany" .
+<https://w3id.org/okn/semantics/i/Author_MalteChristianBartels> <http://schema.org/nationality> "Germany" .
+<https://w3id.org/okn/semantics/i/Author_GiulioMacilenti> <http://schema.org/nationality> "Italy" .
+<https://w3id.org/okn/semantics/i/Author_DebayanBanerjee> <http://schema.org/nationality> "Germany" .
+<https://w3id.org/okn/semantics/i/Author_TobiasK%C3%A4fer> <http://schema.org/nationality> "Germany" .
+<https://w3id.org/okn/semantics/i/Author_TobiasSchwarzinger> <http://schema.org/nationality> "Austria" .
+<https://w3id.org/okn/semantics/i/Author_SebastianRudolph> <http://schema.org/nationality> "Germany" .
+<https://w3id.org/okn/semantics/i/Author_FelixHamann> <http://schema.org/nationality> "Germany" .
+<https://w3id.org/okn/semantics/i/Author_HeikoPaulheim> <http://schema.org/nationality> "Germany" .
+<https://w3id.org/okn/semantics/i/Author_Bharathi%20RajaChakravarthi> <http://schema.org/nationality> "Ireland" .
+<https://w3id.org/okn/semantics/i/Author_ThomasPreindl> <http://schema.org/nationality> "Austria" .
+<https://w3id.org/okn/semantics/i/Author_LukasWalker> <http://schema.org/nationality> "Germany" .
+<https://w3id.org/okn/semantics/i/Track_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://w3id.org/okn/semantics/i/Track_1> <http://schema.org/name> "Research Track" .
