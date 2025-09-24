@@ -1,5 +1,6 @@
 # Proceedings and Recording
 ##### The valuable contents of the conference
 
-* ​Proceedings are published under the IOS Press - [Knowledge Graphs in the Age of Language Models and Neuro-Symbolic AI](https://ebooks.iospress.nl/volume/knowledge-graphs-in-the-age-of-language-models-and-neuro-symbolic-ai-proceedings-of-the-20th-international-conference-on-semantic-systems)
+* ​Proceedings are published under the IOS Press - [Linking Meaning: Semantic Technologies Shaping the Future of AI](https://ebooks.iospress.nl/doi/10.3233/SSW62)
 
+* Posters, demos and some workshop proceedings are published in CEUR: []()
