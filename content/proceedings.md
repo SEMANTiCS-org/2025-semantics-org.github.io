@@ -3,4 +3,4 @@
 
 * ​Proceedings are published under the IOS Press - [Linking Meaning: Semantic Technologies Shaping the Future of AI](https://ebooks.iospress.nl/doi/10.3233/SSW62)
 
-* Posters, demos and some workshop proceedings are published in CEUR: []()
+* Posters, demos and some workshop proceedings are published in CEUR: [CEUR Workshop Proceedings - Vol-4064](https://ceur-ws.org/Vol-4064/)
