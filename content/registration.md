@@ -1,3 +1,11 @@
+<style>
+  .disabled-link {
+	pointer-events: none;
+	background-color: gray;
+	color: #444444;
+	text-decoration: none;
+	}
+</style>
 # Registration
 Join us from September 3 - 5, 2025 Vienna for the leading European conference on Linked Data, Semantic AI and Data Science. We have an inspiring program for industry professionals, decision-makers, researchers and academics. Share experiences, ideas and learn from each other. Cross the boundaries of your domain or dive deeper into your field of expertise.
 
@@ -91,10 +99,10 @@ Join us from September 3 - 5, 2025 Vienna for the leading European conference on
       </tr>
       <tr class="row11 tr-summary">
         <td class="">&nbsp;</td>
-        <td class=""><a href="https://www.conftool.org/semantics2025/" type="button" class="btn btn-primary">BOOK NOW</a></td>
-        <td class="td-last-ontop"><a href="https://www.conftool.org/semantics2025/" type="button" class="btn btn-primary">BOOK NOW</a></td>
-        <td class=""><a href="https://www.conftool.org/semantics2025/"  type="button" class="btn btn-primary">BOOK NOW</a></td>
-        <td class=""><a href="https://www.conftool.org/semantics2025/"  type="button" class="btn btn-primary">BOOK NOW</a></td>
+        <td class=""><a href="#" type="button" class="btn disabled-link">BOOK NOW</a></td>
+        <td class="td-last-ontop"><a href="#" type="button" class="btn disabled-link">BOOK NOW</a></td>
+        <td class=""><a href="#"  type="button" class="btn disabled-link">BOOK NOW</a></td>
+        <td class=""><a href="#"  type="button" class="btn disabled-link">BOOK NOW</a></td>
       </tr>
     </tbody>
 </table>
