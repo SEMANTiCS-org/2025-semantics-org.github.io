@@ -1,4 +1,4 @@
-## Semantics 2024 mappings
+## Semantics 2025 mappings
 
 This folder contains the documentation for generating the KG for Semantics 2024 conference and the corresponding web pages with the program.
 
@@ -13,8 +13,6 @@ This folder contains the documentation for generating the KG for Semantics 2024 
 - The `doc` folder contains figures used for the modeling.
 - The `data` folder contains the csvs extracted from easychair and manually curated to capture the contents of the papers
 - The `mappings` folder contains the RML mappings that are needed to create the KG
-- The `web_scripts` contains the scripts needed to load the KG and create the websites.
-- The `graph_statistics` folder contains the scripts for generating general statistics of the graph (number of papers, etc.)
 - The `rdf` file contains the RDF triples for the KG
 - The `configuration.ini` contains the configuration for the KG generation.
 
